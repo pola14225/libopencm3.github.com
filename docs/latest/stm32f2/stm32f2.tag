@@ -3303,6 +3303,90 @@
       <anchor>gaa39aaf2a26f2f640d9a5f45f2b8bd328</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_TDES_ECB</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328a70a2731a32c6ed5f36ace5fd713270b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_TDES_CBC</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328a176e9e72de75a492a66523040607755b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_DES_ECB</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328ae2c7ce83b360df93f20b60d66dcb4266</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_DES_CBC</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328ac3c228815163413920748aad30b7c883</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_AES_ECB</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328ab3f21b21bf31a441e42b4595576b12ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_AES_CBC</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328aeab9b11da0eeb71abf46c9a7bcff9966</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_AES_CTR</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328aa7dd6443776e43eb359bf118924b2f5a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_TDES_ECB</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328aca97bf106c962dda5242d2c319e569ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_TDES_CBC</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328ac69e7d907a6475050aa017deedd92db2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_DES_ECB</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328ab95884049653f2c430459316b41fb8ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_DES_CBC</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328a5b9f2a2fea59119cf52110dcaf52d424</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_AES_ECB</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328a08930cd7d42ba0e580598a8db8450012</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_AES_CBC</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328a6440e397c580b7c11b4ba53d7ff8b8d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_AES_CTR</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328aa73ec74b6510b69c419026447e416cd5</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>crypto_keysize</name>
@@ -3310,11 +3394,53 @@
       <anchor>ga81dae77142d22308329128d589fe76c8</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_KEY_128BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga81dae77142d22308329128d589fe76c8af5a92a13d570034f173968a6e41bd93a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_KEY_192BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga81dae77142d22308329128d589fe76c8acf099085bf7730e9b641e6f4a97e14d7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_KEY_256BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga81dae77142d22308329128d589fe76c8ac5008c0fe7fd0083215aa17a334c4c1e</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>crypto_datatype</name>
       <anchorfile>group__crypto__api__gen.html</anchorfile>
       <anchor>ga404aac78d513a106c28cf2d7dc43b180</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_DATA_32BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga404aac78d513a106c28cf2d7dc43b180aed745727581bfa861a649bcebf2e23a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_DATA_16BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga404aac78d513a106c28cf2d7dc43b180aa7eadc2cb1ae080ff2c21192924934a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_DATA_8BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga404aac78d513a106c28cf2d7dc43b180a8fb021a3896118ea1a8ae8e1564951d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_DATA_BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga404aac78d513a106c28cf2d7dc43b180a2ae693db3f4b449d5d680f01ca5957e5</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -4283,11 +4409,47 @@
       <anchor>gaddb2a9646f5222113db5545109cc700b</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>CHANNEL_1</name>
+      <anchorfile>group__dac__defines.html</anchorfile>
+      <anchor>ggaddb2a9646f5222113db5545109cc700badf896c664dde68aea03c05d2097af075</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CHANNEL_2</name>
+      <anchorfile>group__dac__defines.html</anchorfile>
+      <anchor>ggaddb2a9646f5222113db5545109cc700baee22a400618eb3e95f039a401ced4e91</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CHANNEL_D</name>
+      <anchorfile>group__dac__defines.html</anchorfile>
+      <anchor>ggaddb2a9646f5222113db5545109cc700bae1e491d5c05c78a45f205d2fdaec320b</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>data_align</name>
       <anchorfile>group__dac__defines.html</anchorfile>
       <anchor>ga3f15c2d8c2dcfbc06b58b09e4c2d7b3c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RIGHT8</name>
+      <anchorfile>group__dac__defines.html</anchorfile>
+      <anchor>gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca30397d5f6477c6e6281797ef363c43d9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RIGHT12</name>
+      <anchorfile>group__dac__defines.html</anchorfile>
+      <anchor>gga3f15c2d8c2dcfbc06b58b09e4c2d7b3cad408f5668e25f95a1de8445228d5c815</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>LEFT12</name>
+      <anchorfile>group__dac__defines.html</anchorfile>
+      <anchor>gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca948aa505bffa2979c605da3480876a88</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -7627,6 +7789,24 @@
       <name>exti_trigger_type</name>
       <anchorfile>group__exti__defines.html</anchorfile>
       <anchor>ga217058c9ab9a27e3f4f197ca7889623a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>EXTI_TRIGGER_RISING</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gga217058c9ab9a27e3f4f197ca7889623aa7db3c45e92eb0cccfca0fcb33485e1bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>EXTI_TRIGGER_FALLING</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gga217058c9ab9a27e3f4f197ca7889623aa93d62734fb59270daa09a14c5c040f5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>EXTI_TRIGGER_BOTH</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gga217058c9ab9a27e3f4f197ca7889623aab7646e3e5a3134431c4c58306f0d3f72</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -12956,6 +13136,24 @@
       <anchor>a763ebcf54b3996fea95742ecf772f19f</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>PWR_SCALE1</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a763ebcf54b3996fea95742ecf772f19fa6103eef86f1471f041ea7ae1138d202b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>PWR_SCALE2</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a763ebcf54b3996fea95742ecf772f19fa7210fec0c5b6d36e39a19ff4f3235cce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>PWR_SCALE3</name>
+      <anchorfile>pwr__common__l01_8h.html</anchorfile>
+      <anchor>a763ebcf54b3996fea95742ecf772f19fa8a1f79e1e14d8083b39a96146d2ba01c</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>void</type>
       <name>pwr_set_vos_scale</name>
@@ -15334,11 +15532,53 @@
       <anchor>ga959b2a203b3b1916245b1a2be3e10c78</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>RCC_CLOCK_3V3_120MHZ</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga959b2a203b3b1916245b1a2be3e10c78a12513ceb0e7543e1321f821f8ff72b77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_CLOCK_3V3_END</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga959b2a203b3b1916245b1a2be3e10c78a73499fc80bea7fbb80861c15f78ffe24</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>osc_t</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaf2418102b7993f2a6f0060e1efdca823</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_PLL</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ggaf2418102b7993f2a6f0060e1efdca823a627d71402d403a5517bd652ece1d5013</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_HSE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ggaf2418102b7993f2a6f0060e1efdca823aa72a0e027ef7492439824d675d4a2fb4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_HSI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ggaf2418102b7993f2a6f0060e1efdca823a1876e08e92a9ea07faac183d918ac1fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_LSE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ggaf2418102b7993f2a6f0060e1efdca823aa0d54244420168e28b671a94bf2c75e4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_LSI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ggaf2418102b7993f2a6f0060e1efdca823a4e5d0c838caa0e75a56ea47ef36ad782</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -15348,11 +15588,1091 @@
       <anchor>ga54c7db24941f636ee238833c481ada48</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOA</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a3679ad09af8988bc42fbb91d3f4dc680</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOB</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abe0e8ee9db293583511579bffd694b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aca99d40a98c0cccaa8dd4a5eb8422dea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOD</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ade83c8caa918ccda0766791076460d1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aecccb0767e9ec411349051aa5f055779</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOF</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ac2a10a31a77eac6a9e5ef9b59397abf4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5db55f45d23bd84c2e4b9a36c7cdb57e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOH</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a600bd6f61da0eaed2c2f8fdf49fbb9c9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad5300321d6d88bdc72964735a509c15d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_CRC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a667709fea2f55d81d0084c0ab6cd7346</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_BKPSRAM</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5194f7b94a21887b2808bdcd384b038b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_DMA1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad3c1b4bd4d4910ad45903d70ce99c546</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_DMA2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af6727266dd80b08123851bd3fc641468</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ETHMAC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ab92887f75603288e1a12139abdd36d39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ETHMACTX</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a9e811d3598fe9084d0ffd18cda24daae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ETHMACRX</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a68cdb36631234ebcd7e04bf58e2edd3b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ETHMACPTP</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a24efe51eb79b6d291437e544459596ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_OTGHS</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6c6458877da3ba2eef3bd113a1c78d60</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_OTGHSULPI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6c40059b74eb6d08c722df3970638048</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_DCMI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a8ae458222698f97c16306df50d869ae3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_CRYP</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48acc1ab87e7d754e08a626abd140fabb80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_HASH</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ab2521184db7cab118e4de674bcaac36c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_RNG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0e7b5144f7905772665cf133f501ac4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_OTGFS</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af11d38142f46991ffecaa2ca735778b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_FSMC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a14682a077f8b751228b73025036856b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4d961657b29cd6920dec7df1d6a024e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1a9a17dcecf7d72c5ed224795e4885cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM4</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7605ac255d1f7e3fd0c21907b17bba66</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM5</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aac4c56a3d869baf25b0434beed0e9ff5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM6</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48acd42061f083a2f92452b1bbdd145ec69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM7</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abeacc0ceea5fc0c26b7b44d0f7a0ddcb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM12</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa6a4aed50fc2fb9a4ecd4a6dc655652d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM13</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7e33c22a28dde91ac18e1df1b2c3e097</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM14</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6ba31ae3057d17367fd3db48eea02709</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_WWDG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1965878d5b5e1b68e85a92ad2da94514</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_SPI2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a191f2ba3eea4493bbfa449bb9e61f99c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_SPI3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad70ccc847d7804abe857efa22e0ab952</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_USART2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa4be48dd043f5d74f5e4eb9d2516b87b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_USART3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aaa823140b93403c8dd3395bc5b510155</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_UART4</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48acddaf98763a8dc6edf0b69c983becfd7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_UART5</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0d7a994107ab9af33f9bdbda74ec4685</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_I2C1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7611e5aa9f71a5ecd6f466dc090533f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_I2C2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aba410e2e71ca9f59b76176672c9b1e4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_I2C3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aead627335ffc92260faac70ef409eff7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_CAN1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a61b240aefa01d614e06844f5b5943dc9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_CAN2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a29d2eb8498d986928d42dd05ca0eefbc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_PWR</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a653354e7670b00648bd46782e60a780b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_DAC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48adbda7bdfe6f47cc2b36f5ea78d9b56d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a246489e2827e54e0c0e6d4d1296c362e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM8</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a04b8e39ee8c4a6c9e662349b1b45f0b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_USART1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6f9bc1664f1972e622f9228606caa3b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_USART6</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af5e7cede1d1b7c4b6897b58cf3d7f516</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ADC1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a81b9534841bd60ff16455a28481d7a14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ADC2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a777ad0506337d6e993f2806a9c6e6e67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ADC3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa6241e9482735ceb39aac86fcf16181a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_SDIO</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1df9684e164cf1ce919d187c0dde60d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_SPI1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aaeb70908f5c8fc2d580fa30ca100e953</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_SYSCFG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ab05a237deaa9422ce07e764f7fdafe35</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM9</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1080e5712f2404522fd82852ea3c655a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM10</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6023464e8d05064abba394b800100198</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM11</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afdfa75bcb6a2c9c90db9ec4460ebff1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_RTC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a423bed052627843253bef676da03c0b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOA</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a44f76e63809a5df30f158bb8cbfcb4af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOB</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad2438eef51dd7790d4faac2e461f61bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ab212b98035b8c1d7a52c66b8a8753ea7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOD</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1646b5369fa9b52ffe45deb801dffe53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa4f1793bd6ab343073e151f470113a98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOF</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ac2f5731fc83d86f8f850c984c769ed97</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48adb087b1ddece696b0c76a7fc03e44de7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOH</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a3869bb86c68604dc9015445cad5aa173</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ada9ed8e8f6ba782141fb5b68b2becf5e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_CRC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a003dc04b6d63c5197748e8be1cb6bbac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_FLTIF</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48acbb86aa2208e00f4b34db13da88167b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SRAM1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a2f9e584db71db7919b342d4a0a5baee4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SRAM2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a875c8c688efc053d1af23b0d18361549</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_BKPSRAM</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af2dc01d1cc12072971a5acd68b3bb8eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_DMA1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a8f015b95be3982442962991d31d45300</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_DMA2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4b94fd1c9d718c69072760fc72ceb790</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ETHMAC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a80d2e7b5b6ae88d3a861b4c480367dde</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ETHMACTX</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a25b034dbe20a169b662c468c027c887c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ETHMACRX</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a8fc78ab2492ee44bff1eecdaa56132f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ETHMACPTP</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ac8d0f3790a3282e8bdd1ac99ce1125f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_OTGHS</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ade973360ea1ea9dc8851dde855cb5667</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_OTGHSULPI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af1b6b295c8bf4a570fa75c69bd00aec1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_DCMI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7ddfcd30bcaa601e55c8c95cedce7ee1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_CRYP</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ae3e8fe2c2ae31522a738eff3c3513381</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_HASH</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abb93f05863beaac5987e7595fa8e85fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_RNG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a3d951d40e19bc5d353699a820c215035</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_OTGFS</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ac86fb113baec702b9ede6584a33af9f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_FSMC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a637b0289aaf6ceff6b5b8182fdba7761</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a543ff20a83d7d01662982e52eeef8da3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5ac6aaf0ee19343577526860fcec24b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM4</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afe14d4998b6c9aa90c026291672027ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM5</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad1c6c7d99a00fe1f34f1ed2f5af3f150</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM6</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4fd108426970cee3f77f2ce46ef6eaa5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM7</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af5a9d04a649295d00ea046c199aef838</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM12</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a18fad5f8c626c641bb3cd205b8b5633b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM13</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a43dad0061f36045e1baf55b9dc1ec560</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM14</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0237dd2bb43026e2a0ea1bf9ff056f32</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_WWDG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a712347ca1f509fa432626e85f9d2e378</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SPI2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1ab247d0e80dc6d1722de84c086353f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SPI3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0b0b503b8ee607e21a92fc1edcfdd8cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_USART2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a69135288a08516c9d69798266b3dfebc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_USART3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6cb7ae3e16c891c789095c17603dc4fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_UART4</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a27200fdd011075f80ec18eac21d811a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_UART5</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af2fdcaa5d35ac4f63fc12563ec64665d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_I2C1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aac1edecb6b1268334dd61d0be70eb8b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_I2C2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6e133432144b494871b9fc7434a91214</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_I2C3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad1c9598c70b899240aa22be7b66e4765</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_CAN1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ace6a0c67861a7f9063364e3c23996b7c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_CAN2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a153e0401eaf1a3dcc88149e5c40aa439</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_PWR</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7158c31ab3a6324ff0e6173e2f359633</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_DAC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a805d3dfb999f8d4523ce9c333f9013ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1a65c0e1c9f4b3012a9f8318984d0773</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM8</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0ac71d3d70e0011954c1daef16de3ebb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_USART1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa7e9971e52b96e141dea9897359f35a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_USART6</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4ee4da60c1d3d276dca4b7cba60af293</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ADC1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5000d6ca5e3b40a5865485dd8dac5ab8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ADC2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4a7f1d947ae8309257ee0209274e9823</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ADC3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a93737b3224bb84014525b84df996faa8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SDIO</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ae4db14af9507c0c043cbdaedc5ee0946</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SPI1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a8a414df68a0855d84002160911dd77c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SYSCFG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a731211895615288193d2a38cc4628f2d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM9</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5bd6d6787a1015d61b72678a48d9e0fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM10</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afe8ea73b7ebefab0e0c3261713cef4fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM11</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0f33a32a18a251d545b12759aaa73deb</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>rcc_periph_rst</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga4bd6185a4613aaa3ee5447c3d86ba718</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOA</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a82de36d9219d3b7a8f6e24f7b037d4c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOB</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8607fa69d38f8dd406daebb7bf9b8b26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a847595db9011d5989097e67215f3f208</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOD</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9fed32b2a96d4647ea73ba7926f1121e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab720e4e6239cb85e2736a4f022e4f64b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOF</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a61956334f17966ab11993869be4e2ebb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a3f01ba2712eceec7b7dca34c9e261a4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOH</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6ba93e7e1205c455bba73cf82e682698</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a3ac41370f8917547e81e87fd707952d2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_CRC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9d098f089cf059602501a807d6907f61</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_DMA1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a25676006774eeb3de775e3de277a4dd2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_DMA2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a19ebc40713ba511404321bf20eaef099</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_ETHMAC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a83c81184087f13efd80f2a498d4ae275</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_OTGHS</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a3cb02114ec870b6c192caf7cf81ffead</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_DCMI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7ec459c78ec2ee10ba4c7dd7bf39fb4b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_CRYP</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8f52a23ce98cd4198f17f19b36b81216</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_HASH</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab9225a4393f7a9a20c70fd5b8a23dbbc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_RNG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a5c4978b26064312e8f72d817a3d664d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_OTGFS</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af8091fb612cbbee46d5c161e23c6c93a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_FSMC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a1dc6bc101d4b71012002f61140d93bbd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9a11cf678a1931bc3f8ecd22fccf1304</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a730ba1c5bff49ab694370cd1f3d832a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM4</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aa94b0829d2505a3d916a3b7bb8e95361</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM5</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aac5933e47e7e98b7096193edfe4bf08a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM6</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a85394e9ff835d6ef6e3997a5476c429a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM7</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a95737fdc165d4b6943f9792a63457dfa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM12</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7c9f088db1db27834777eceb0592f8f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM13</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a955bf101b2ffaa7c39dfad28a8e742f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM14</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a618551caa5dd22af8f9c790284fb9247</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_WWDG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ad38183e2f4809aa13b2c149b9158cdb1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_SPI2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6a2dd34c8278fd2019d4aab6d7dd91fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_SPI3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8c3208aa283eea369bdb2697cbe6dff8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_USART2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af2ed5025a1c665196870ac061ffafd24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_USART3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a909ada79d50eabe177c087ae3db578da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_UART4</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6db8b2fc3c699ae1b93d0e7e04b16265</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_UART5</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab1495852f5070c5924815d26636035f2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_I2C1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ae083a448a99ae23e788c79d45f2f0fae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_I2C2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aba0770678558545d59794049b4ea57f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_I2C3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a2c78359f0ba01c334b9a98064996bc9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_CAN1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ac69e521b2ffa74210da31d7ea0f11b75</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_CAN2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9a35b98b94389d1e5928c882b9320eab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_PWR</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718acaed17a5e312de489708c67c9933c044</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_DAC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a90b3f78831d25a6f6291744bc0eabd45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a865f6b809c4016955e290f5c569c85bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM8</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6e18446cb73c6b9518ba4045f16e9231</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_USART1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718acd5c7eeeda3799f89bc3da7169384bf1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_USART6</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a366bea17b6ae5010739cf90bb8981d44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_ADC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a92653b0219f77f8e958a3c01020d6ba5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_SDIO</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ad0369a71f1e7c9467a4d3d15a9db4e40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_SPI1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a28ffb322497d5b858fe69ea8551458fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_SYSCFG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aaff80227bb0aa65e277e8154a183c7c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM9</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6bdfc0080866294c7abbe0a905b1c0f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM10</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7d8a4872c50c02f19764a20d6a649ec0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM11</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af8d64dfed0d3f86ac59970a1bca110ba</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -24406,11 +25726,101 @@
       <anchor>gacd988319d070e7128b530d4ac1a4f4ff</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>TIM_OC1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa7dae30b9cd1ce046d8fbaaf04fc36fc9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OC1N</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa4e28548e62af311bdcfbfd7d518dd3e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OC2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffac434465fe88f27cdbd85b10de337f823</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OC2N</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffae73a3ea34393520f8f13f33770f5065a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OC3</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffaa43ac6afb9f73078a3ef6bd46c607410</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OC3N</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa93aba37683b433c87bed24e1fa19d2fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OC4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa50c9db2fdda5e3473a3b9f94fca60906</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_oc_mode</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga9c6be6e4ccd5dcb325f1ebe499ca5216</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_FROZEN</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a08ecfc9affc04b82a83daffe6ef3d2b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_ACTIVE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a7bf8d375cd87670baa6840612527593f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_INACTIVE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a3a754a4d91a2c461917c3aa0daeec65c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_TOGGLE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a58d53d7c5f653ccdb3820cb5f4c216c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_FORCE_LOW</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a126c9eaee4fef3b15534ee47ed8153b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_FORCE_HIGH</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a4bffec6c30733e3958c5f04534f57689</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_PWM1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a77f2a04b04974a2d332803f8f7a24b42</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_PWM2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a5649585668cfa883f69de691a4399102</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -24420,11 +25830,131 @@
       <anchor>gaf76612839feedf9c605872cacb0ac5ac</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>TIM_IC1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggaf76612839feedf9c605872cacb0ac5aca4b6755792734c9dd9b1d3079cf1a0a7e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggaf76612839feedf9c605872cacb0ac5acac14df3fa4a9bca71f25c8253c18fe11a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC3</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggaf76612839feedf9c605872cacb0ac5acad93c1b280114d4cd6fb97ac683d3a311</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggaf76612839feedf9c605872cacb0ac5acae2dbed1021ec5dfc1646f185249196f3</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_ic_filter</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga8a2a8722575e6301c3e059b9ec8f50c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a76d65bc64029afa2f1ed52ee2baa9ad0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_CK_INT_N_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a5429214f18c8998abf133557978417ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_CK_INT_N_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a3fb12152c21b25dc911abb62a5e41ddd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_CK_INT_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ad35cca55366df3164c8b7bc0d5a75fab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_2_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ac06cc937da26464fc339e19bd58b25d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_2_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a3fbf62e9146b3623744663549ee561b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_4_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2acaf810ddf7effe8b2daab4ba21588165</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_4_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a71fbb46d5e57873a4e62fb8a1a840c43</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_8_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a255a1b8917936a7e885806206c2a0ef6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_8_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2adc7d8205f1b63538286047ce3304dc8c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_16_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ab974b1c6b9287cf2e3ae6478844e01de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_16_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a4a6c0026b97291c38d9d5f29c271eb58</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_16_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2aa66eb4fb91e4d5593c7f61795c09fa03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_32_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a083a020245cd85736ae395dd2ccc4561</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_32_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a0670f921d8894d381b392656c99c4726</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_32_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ae7c1b129145fb86073e8ed7d3ffc729b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -24434,6 +25964,30 @@
       <anchor>ga3231b651e821b33d1adeeb21e2a7ae62</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_PSC_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62a75a00e88015eb89ca04af2ac1c43c3db</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_PSC_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62ad275ad3ac456468fa1bb0501dea13b80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_PSC_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62a599d86695c5aa8d0e068b83ef4e952ed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_PSC_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62a210470f6dd4713b60114014c05f9b117</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_ic_input</name>
@@ -24441,11 +25995,59 @@
       <anchor>gad3d3ef84edd2180d79321bac6394bb4d</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_OUT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da5b627e609642f4621699a12c51faaa2b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_IN_TI1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggad3d3ef84edd2180d79321bac6394bb4dae04c09ee69729af2d887c6709cf1ad3b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_IN_TI2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da623054604bc26d9458a20efbb81189aa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_IN_TRC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da5e17d937da575af5b1074acee7460d06</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_IN_TI3</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da87e62cbc57b773c7fcfb91669f8993cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_IN_TI4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da9b9803faff5acc1d1d02110c30d81fbe</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_et_pol</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_ET_RISING</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea05376a2a4226fee4e7353114fd240061</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_ET_FALLING</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea97acb766b58993b7da7289aeb34c0b82</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -25106,6 +26708,24 @@
       <name>tim_ic_pol</name>
       <anchorfile>timer__common__f24_8h.html</anchorfile>
       <anchor>aa0406d9433193e18143f359076f1f468</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_RISING</name>
+      <anchorfile>timer__common__f24_8h.html</anchorfile>
+      <anchor>aa0406d9433193e18143f359076f1f468a67e9a6fc2402c359fd24a49e26a1e97f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_FALLING</name>
+      <anchorfile>timer__common__f24_8h.html</anchorfile>
+      <anchor>aa0406d9433193e18143f359076f1f468a5c6851dd77b74a5fde14a5d78ec749c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_BOTH</name>
+      <anchorfile>timer__common__f24_8h.html</anchorfile>
+      <anchor>aa0406d9433193e18143f359076f1f468ad8b9427de52eb6d1475803b85f026cd2</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -27351,11 +28971,47 @@
       <anchor>gaddb2a9646f5222113db5545109cc700b</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>CHANNEL_1</name>
+      <anchorfile>group__dac__defines.html</anchorfile>
+      <anchor>ggaddb2a9646f5222113db5545109cc700badf896c664dde68aea03c05d2097af075</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CHANNEL_2</name>
+      <anchorfile>group__dac__defines.html</anchorfile>
+      <anchor>ggaddb2a9646f5222113db5545109cc700baee22a400618eb3e95f039a401ced4e91</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CHANNEL_D</name>
+      <anchorfile>group__dac__defines.html</anchorfile>
+      <anchor>ggaddb2a9646f5222113db5545109cc700bae1e491d5c05c78a45f205d2fdaec320b</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>data_align</name>
       <anchorfile>group__dac__defines.html</anchorfile>
       <anchor>ga3f15c2d8c2dcfbc06b58b09e4c2d7b3c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RIGHT8</name>
+      <anchorfile>group__dac__defines.html</anchorfile>
+      <anchor>gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca30397d5f6477c6e6281797ef363c43d9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RIGHT12</name>
+      <anchorfile>group__dac__defines.html</anchorfile>
+      <anchor>gga3f15c2d8c2dcfbc06b58b09e4c2d7b3cad408f5668e25f95a1de8445228d5c815</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>LEFT12</name>
+      <anchorfile>group__dac__defines.html</anchorfile>
+      <anchor>gga3f15c2d8c2dcfbc06b58b09e4c2d7b3ca948aa505bffa2979c605da3480876a88</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -29974,6 +31630,24 @@
       <name>exti_trigger_type</name>
       <anchorfile>group__exti__defines.html</anchorfile>
       <anchor>ga217058c9ab9a27e3f4f197ca7889623a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>EXTI_TRIGGER_RISING</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gga217058c9ab9a27e3f4f197ca7889623aa7db3c45e92eb0cccfca0fcb33485e1bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>EXTI_TRIGGER_FALLING</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gga217058c9ab9a27e3f4f197ca7889623aa93d62734fb59270daa09a14c5c040f5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>EXTI_TRIGGER_BOTH</name>
+      <anchorfile>group__exti__defines.html</anchorfile>
+      <anchor>gga217058c9ab9a27e3f4f197ca7889623aab7646e3e5a3134431c4c58306f0d3f72</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -35003,11 +36677,53 @@
       <anchor>ga959b2a203b3b1916245b1a2be3e10c78</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>RCC_CLOCK_3V3_120MHZ</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga959b2a203b3b1916245b1a2be3e10c78a12513ceb0e7543e1321f821f8ff72b77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_CLOCK_3V3_END</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga959b2a203b3b1916245b1a2be3e10c78a73499fc80bea7fbb80861c15f78ffe24</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>osc_t</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaf2418102b7993f2a6f0060e1efdca823</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_PLL</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ggaf2418102b7993f2a6f0060e1efdca823a627d71402d403a5517bd652ece1d5013</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_HSE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ggaf2418102b7993f2a6f0060e1efdca823aa72a0e027ef7492439824d675d4a2fb4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_HSI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ggaf2418102b7993f2a6f0060e1efdca823a1876e08e92a9ea07faac183d918ac1fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_LSE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ggaf2418102b7993f2a6f0060e1efdca823aa0d54244420168e28b671a94bf2c75e4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_LSI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ggaf2418102b7993f2a6f0060e1efdca823a4e5d0c838caa0e75a56ea47ef36ad782</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -35017,11 +36733,1091 @@
       <anchor>ga54c7db24941f636ee238833c481ada48</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOA</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a3679ad09af8988bc42fbb91d3f4dc680</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOB</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abe0e8ee9db293583511579bffd694b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aca99d40a98c0cccaa8dd4a5eb8422dea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOD</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ade83c8caa918ccda0766791076460d1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aecccb0767e9ec411349051aa5f055779</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOF</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ac2a10a31a77eac6a9e5ef9b59397abf4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5db55f45d23bd84c2e4b9a36c7cdb57e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOH</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a600bd6f61da0eaed2c2f8fdf49fbb9c9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_GPIOI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad5300321d6d88bdc72964735a509c15d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_CRC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a667709fea2f55d81d0084c0ab6cd7346</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_BKPSRAM</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5194f7b94a21887b2808bdcd384b038b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_DMA1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad3c1b4bd4d4910ad45903d70ce99c546</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_DMA2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af6727266dd80b08123851bd3fc641468</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ETHMAC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ab92887f75603288e1a12139abdd36d39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ETHMACTX</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a9e811d3598fe9084d0ffd18cda24daae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ETHMACRX</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a68cdb36631234ebcd7e04bf58e2edd3b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ETHMACPTP</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a24efe51eb79b6d291437e544459596ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_OTGHS</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6c6458877da3ba2eef3bd113a1c78d60</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_OTGHSULPI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6c40059b74eb6d08c722df3970638048</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_DCMI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a8ae458222698f97c16306df50d869ae3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_CRYP</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48acc1ab87e7d754e08a626abd140fabb80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_HASH</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ab2521184db7cab118e4de674bcaac36c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_RNG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0e7b5144f7905772665cf133f501ac4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_OTGFS</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af11d38142f46991ffecaa2ca735778b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_FSMC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a14682a077f8b751228b73025036856b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4d961657b29cd6920dec7df1d6a024e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1a9a17dcecf7d72c5ed224795e4885cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM4</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7605ac255d1f7e3fd0c21907b17bba66</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM5</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aac4c56a3d869baf25b0434beed0e9ff5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM6</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48acd42061f083a2f92452b1bbdd145ec69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM7</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abeacc0ceea5fc0c26b7b44d0f7a0ddcb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM12</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa6a4aed50fc2fb9a4ecd4a6dc655652d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM13</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7e33c22a28dde91ac18e1df1b2c3e097</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM14</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6ba31ae3057d17367fd3db48eea02709</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_WWDG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1965878d5b5e1b68e85a92ad2da94514</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_SPI2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a191f2ba3eea4493bbfa449bb9e61f99c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_SPI3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad70ccc847d7804abe857efa22e0ab952</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_USART2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa4be48dd043f5d74f5e4eb9d2516b87b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_USART3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aaa823140b93403c8dd3395bc5b510155</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_UART4</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48acddaf98763a8dc6edf0b69c983becfd7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_UART5</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0d7a994107ab9af33f9bdbda74ec4685</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_I2C1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7611e5aa9f71a5ecd6f466dc090533f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_I2C2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aba410e2e71ca9f59b76176672c9b1e4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_I2C3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aead627335ffc92260faac70ef409eff7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_CAN1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a61b240aefa01d614e06844f5b5943dc9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_CAN2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a29d2eb8498d986928d42dd05ca0eefbc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_PWR</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a653354e7670b00648bd46782e60a780b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_DAC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48adbda7bdfe6f47cc2b36f5ea78d9b56d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a246489e2827e54e0c0e6d4d1296c362e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM8</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a04b8e39ee8c4a6c9e662349b1b45f0b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_USART1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6f9bc1664f1972e622f9228606caa3b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_USART6</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af5e7cede1d1b7c4b6897b58cf3d7f516</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ADC1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a81b9534841bd60ff16455a28481d7a14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ADC2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a777ad0506337d6e993f2806a9c6e6e67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_ADC3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa6241e9482735ceb39aac86fcf16181a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_SDIO</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1df9684e164cf1ce919d187c0dde60d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_SPI1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aaeb70908f5c8fc2d580fa30ca100e953</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_SYSCFG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ab05a237deaa9422ce07e764f7fdafe35</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM9</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1080e5712f2404522fd82852ea3c655a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM10</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6023464e8d05064abba394b800100198</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM11</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afdfa75bcb6a2c9c90db9ec4460ebff1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_RTC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a423bed052627843253bef676da03c0b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOA</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a44f76e63809a5df30f158bb8cbfcb4af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOB</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad2438eef51dd7790d4faac2e461f61bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ab212b98035b8c1d7a52c66b8a8753ea7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOD</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1646b5369fa9b52ffe45deb801dffe53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa4f1793bd6ab343073e151f470113a98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOF</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ac2f5731fc83d86f8f850c984c769ed97</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48adb087b1ddece696b0c76a7fc03e44de7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOH</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a3869bb86c68604dc9015445cad5aa173</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_GPIOI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ada9ed8e8f6ba782141fb5b68b2becf5e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_CRC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a003dc04b6d63c5197748e8be1cb6bbac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_FLTIF</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48acbb86aa2208e00f4b34db13da88167b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SRAM1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a2f9e584db71db7919b342d4a0a5baee4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SRAM2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a875c8c688efc053d1af23b0d18361549</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_BKPSRAM</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af2dc01d1cc12072971a5acd68b3bb8eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_DMA1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a8f015b95be3982442962991d31d45300</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_DMA2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4b94fd1c9d718c69072760fc72ceb790</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ETHMAC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a80d2e7b5b6ae88d3a861b4c480367dde</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ETHMACTX</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a25b034dbe20a169b662c468c027c887c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ETHMACRX</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a8fc78ab2492ee44bff1eecdaa56132f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ETHMACPTP</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ac8d0f3790a3282e8bdd1ac99ce1125f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_OTGHS</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ade973360ea1ea9dc8851dde855cb5667</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_OTGHSULPI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af1b6b295c8bf4a570fa75c69bd00aec1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_DCMI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7ddfcd30bcaa601e55c8c95cedce7ee1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_CRYP</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ae3e8fe2c2ae31522a738eff3c3513381</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_HASH</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abb93f05863beaac5987e7595fa8e85fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_RNG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a3d951d40e19bc5d353699a820c215035</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_OTGFS</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ac86fb113baec702b9ede6584a33af9f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_FSMC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a637b0289aaf6ceff6b5b8182fdba7761</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a543ff20a83d7d01662982e52eeef8da3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5ac6aaf0ee19343577526860fcec24b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM4</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afe14d4998b6c9aa90c026291672027ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM5</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad1c6c7d99a00fe1f34f1ed2f5af3f150</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM6</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4fd108426970cee3f77f2ce46ef6eaa5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM7</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af5a9d04a649295d00ea046c199aef838</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM12</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a18fad5f8c626c641bb3cd205b8b5633b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM13</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a43dad0061f36045e1baf55b9dc1ec560</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM14</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0237dd2bb43026e2a0ea1bf9ff056f32</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_WWDG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a712347ca1f509fa432626e85f9d2e378</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SPI2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1ab247d0e80dc6d1722de84c086353f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SPI3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0b0b503b8ee607e21a92fc1edcfdd8cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_USART2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a69135288a08516c9d69798266b3dfebc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_USART3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6cb7ae3e16c891c789095c17603dc4fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_UART4</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a27200fdd011075f80ec18eac21d811a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_UART5</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af2fdcaa5d35ac4f63fc12563ec64665d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_I2C1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aac1edecb6b1268334dd61d0be70eb8b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_I2C2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a6e133432144b494871b9fc7434a91214</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_I2C3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ad1c9598c70b899240aa22be7b66e4765</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_CAN1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ace6a0c67861a7f9063364e3c23996b7c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_CAN2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a153e0401eaf1a3dcc88149e5c40aa439</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_PWR</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a7158c31ab3a6324ff0e6173e2f359633</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_DAC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a805d3dfb999f8d4523ce9c333f9013ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1a65c0e1c9f4b3012a9f8318984d0773</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM8</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0ac71d3d70e0011954c1daef16de3ebb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_USART1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48aa7e9971e52b96e141dea9897359f35a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_USART6</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4ee4da60c1d3d276dca4b7cba60af293</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ADC1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5000d6ca5e3b40a5865485dd8dac5ab8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ADC2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a4a7f1d947ae8309257ee0209274e9823</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_ADC3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a93737b3224bb84014525b84df996faa8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SDIO</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48ae4db14af9507c0c043cbdaedc5ee0946</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SPI1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a8a414df68a0855d84002160911dd77c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_SYSCFG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a731211895615288193d2a38cc4628f2d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM9</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5bd6d6787a1015d61b72678a48d9e0fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM10</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48afe8ea73b7ebefab0e0c3261713cef4fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM11</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a0f33a32a18a251d545b12759aaa73deb</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>rcc_periph_rst</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga4bd6185a4613aaa3ee5447c3d86ba718</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOA</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a82de36d9219d3b7a8f6e24f7b037d4c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOB</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8607fa69d38f8dd406daebb7bf9b8b26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a847595db9011d5989097e67215f3f208</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOD</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9fed32b2a96d4647ea73ba7926f1121e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOE</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab720e4e6239cb85e2736a4f022e4f64b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOF</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a61956334f17966ab11993869be4e2ebb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a3f01ba2712eceec7b7dca34c9e261a4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOH</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6ba93e7e1205c455bba73cf82e682698</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_GPIOI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a3ac41370f8917547e81e87fd707952d2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_CRC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9d098f089cf059602501a807d6907f61</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_DMA1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a25676006774eeb3de775e3de277a4dd2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_DMA2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a19ebc40713ba511404321bf20eaef099</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_ETHMAC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a83c81184087f13efd80f2a498d4ae275</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_OTGHS</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a3cb02114ec870b6c192caf7cf81ffead</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_DCMI</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7ec459c78ec2ee10ba4c7dd7bf39fb4b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_CRYP</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8f52a23ce98cd4198f17f19b36b81216</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_HASH</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab9225a4393f7a9a20c70fd5b8a23dbbc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_RNG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a5c4978b26064312e8f72d817a3d664d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_OTGFS</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af8091fb612cbbee46d5c161e23c6c93a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_FSMC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a1dc6bc101d4b71012002f61140d93bbd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9a11cf678a1931bc3f8ecd22fccf1304</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a730ba1c5bff49ab694370cd1f3d832a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM4</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aa94b0829d2505a3d916a3b7bb8e95361</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM5</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aac5933e47e7e98b7096193edfe4bf08a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM6</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a85394e9ff835d6ef6e3997a5476c429a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM7</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a95737fdc165d4b6943f9792a63457dfa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM12</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7c9f088db1db27834777eceb0592f8f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM13</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a955bf101b2ffaa7c39dfad28a8e742f1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM14</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a618551caa5dd22af8f9c790284fb9247</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_WWDG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ad38183e2f4809aa13b2c149b9158cdb1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_SPI2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6a2dd34c8278fd2019d4aab6d7dd91fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_SPI3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a8c3208aa283eea369bdb2697cbe6dff8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_USART2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af2ed5025a1c665196870ac061ffafd24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_USART3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a909ada79d50eabe177c087ae3db578da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_UART4</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6db8b2fc3c699ae1b93d0e7e04b16265</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_UART5</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ab1495852f5070c5924815d26636035f2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_I2C1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ae083a448a99ae23e788c79d45f2f0fae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_I2C2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aba0770678558545d59794049b4ea57f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_I2C3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a2c78359f0ba01c334b9a98064996bc9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_CAN1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ac69e521b2ffa74210da31d7ea0f11b75</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_CAN2</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a9a35b98b94389d1e5928c882b9320eab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_PWR</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718acaed17a5e312de489708c67c9933c044</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_DAC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a90b3f78831d25a6f6291744bc0eabd45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a865f6b809c4016955e290f5c569c85bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM8</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6e18446cb73c6b9518ba4045f16e9231</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_USART1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718acd5c7eeeda3799f89bc3da7169384bf1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_USART6</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a366bea17b6ae5010739cf90bb8981d44</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_ADC</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a92653b0219f77f8e958a3c01020d6ba5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_SDIO</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718ad0369a71f1e7c9467a4d3d15a9db4e40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_SPI1</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a28ffb322497d5b858fe69ea8551458fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_SYSCFG</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718aaff80227bb0aa65e277e8154a183c7c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM9</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a6bdfc0080866294c7abbe0a905b1c0f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM10</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a7d8a4872c50c02f19764a20d6a649ec0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM11</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718af8d64dfed0d3f86ac59970a1bca110ba</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -40945,11 +43741,101 @@
       <anchor>gacd988319d070e7128b530d4ac1a4f4ff</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>TIM_OC1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa7dae30b9cd1ce046d8fbaaf04fc36fc9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OC1N</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa4e28548e62af311bdcfbfd7d518dd3e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OC2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffac434465fe88f27cdbd85b10de337f823</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OC2N</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffae73a3ea34393520f8f13f33770f5065a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OC3</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffaa43ac6afb9f73078a3ef6bd46c607410</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OC3N</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa93aba37683b433c87bed24e1fa19d2fe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OC4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggacd988319d070e7128b530d4ac1a4f4ffa50c9db2fdda5e3473a3b9f94fca60906</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_oc_mode</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga9c6be6e4ccd5dcb325f1ebe499ca5216</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_FROZEN</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a08ecfc9affc04b82a83daffe6ef3d2b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_ACTIVE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a7bf8d375cd87670baa6840612527593f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_INACTIVE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a3a754a4d91a2c461917c3aa0daeec65c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_TOGGLE</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a58d53d7c5f653ccdb3820cb5f4c216c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_FORCE_LOW</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a126c9eaee4fef3b15534ee47ed8153b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_FORCE_HIGH</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a4bffec6c30733e3958c5f04534f57689</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_PWM1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a77f2a04b04974a2d332803f8f7a24b42</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_OCM_PWM2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga9c6be6e4ccd5dcb325f1ebe499ca5216a5649585668cfa883f69de691a4399102</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -40959,11 +43845,131 @@
       <anchor>gaf76612839feedf9c605872cacb0ac5ac</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>TIM_IC1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggaf76612839feedf9c605872cacb0ac5aca4b6755792734c9dd9b1d3079cf1a0a7e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggaf76612839feedf9c605872cacb0ac5acac14df3fa4a9bca71f25c8253c18fe11a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC3</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggaf76612839feedf9c605872cacb0ac5acad93c1b280114d4cd6fb97ac683d3a311</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggaf76612839feedf9c605872cacb0ac5acae2dbed1021ec5dfc1646f185249196f3</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_ic_filter</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga8a2a8722575e6301c3e059b9ec8f50c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a76d65bc64029afa2f1ed52ee2baa9ad0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_CK_INT_N_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a5429214f18c8998abf133557978417ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_CK_INT_N_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a3fb12152c21b25dc911abb62a5e41ddd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_CK_INT_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ad35cca55366df3164c8b7bc0d5a75fab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_2_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ac06cc937da26464fc339e19bd58b25d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_2_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a3fbf62e9146b3623744663549ee561b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_4_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2acaf810ddf7effe8b2daab4ba21588165</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_4_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a71fbb46d5e57873a4e62fb8a1a840c43</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_8_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a255a1b8917936a7e885806206c2a0ef6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_8_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2adc7d8205f1b63538286047ce3304dc8c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_16_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ab974b1c6b9287cf2e3ae6478844e01de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_16_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a4a6c0026b97291c38d9d5f29c271eb58</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_16_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2aa66eb4fb91e4d5593c7f61795c09fa03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_32_N_5</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a083a020245cd85736ae395dd2ccc4561</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_32_N_6</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2a0670f921d8894d381b392656c99c4726</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_DTF_DIV_32_N_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga8a2a8722575e6301c3e059b9ec8f50c2ae7c1b129145fb86073e8ed7d3ffc729b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -40973,6 +43979,30 @@
       <anchor>ga3231b651e821b33d1adeeb21e2a7ae62</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_PSC_OFF</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62a75a00e88015eb89ca04af2ac1c43c3db</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_PSC_2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62ad275ad3ac456468fa1bb0501dea13b80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_PSC_4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62a599d86695c5aa8d0e068b83ef4e952ed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_PSC_8</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>gga3231b651e821b33d1adeeb21e2a7ae62a210470f6dd4713b60114014c05f9b117</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_ic_input</name>
@@ -40980,11 +44010,59 @@
       <anchor>gad3d3ef84edd2180d79321bac6394bb4d</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_OUT</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da5b627e609642f4621699a12c51faaa2b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_IN_TI1</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggad3d3ef84edd2180d79321bac6394bb4dae04c09ee69729af2d887c6709cf1ad3b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_IN_TI2</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da623054604bc26d9458a20efbb81189aa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_IN_TRC</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da5e17d937da575af5b1074acee7460d06</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_IN_TI3</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da87e62cbc57b773c7fcfb91669f8993cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_IC_IN_TI4</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggad3d3ef84edd2180d79321bac6394bb4da9b9803faff5acc1d1d02110c30d81fbe</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>tim_et_pol</name>
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>gaa370fe6c8fbc5d6d3b2b7e1b08d3e9be</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_ET_RISING</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea05376a2a4226fee4e7353114fd240061</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>TIM_ET_FALLING</name>
+      <anchorfile>group__timer__defines.html</anchorfile>
+      <anchor>ggaa370fe6c8fbc5d6d3b2b7e1b08d3e9bea97acb766b58993b7da7289aeb34c0b82</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -43696,6 +46774,90 @@
       <anchor>gaa39aaf2a26f2f640d9a5f45f2b8bd328</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_TDES_ECB</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328a70a2731a32c6ed5f36ace5fd713270b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_TDES_CBC</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328a176e9e72de75a492a66523040607755b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_DES_ECB</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328ae2c7ce83b360df93f20b60d66dcb4266</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_DES_CBC</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328ac3c228815163413920748aad30b7c883</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_AES_ECB</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328ab3f21b21bf31a441e42b4595576b12ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_AES_CBC</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328aeab9b11da0eeb71abf46c9a7bcff9966</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>ENCRYPT_AES_CTR</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328aa7dd6443776e43eb359bf118924b2f5a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_TDES_ECB</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328aca97bf106c962dda5242d2c319e569ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_TDES_CBC</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328ac69e7d907a6475050aa017deedd92db2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_DES_ECB</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328ab95884049653f2c430459316b41fb8ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_DES_CBC</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328a5b9f2a2fea59119cf52110dcaf52d424</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_AES_ECB</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328a08930cd7d42ba0e580598a8db8450012</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_AES_CBC</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328a6440e397c580b7c11b4ba53d7ff8b8d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DECRYPT_AES_CTR</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>ggaa39aaf2a26f2f640d9a5f45f2b8bd328aa73ec74b6510b69c419026447e416cd5</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>crypto_keysize</name>
@@ -43703,11 +46865,53 @@
       <anchor>ga81dae77142d22308329128d589fe76c8</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_KEY_128BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga81dae77142d22308329128d589fe76c8af5a92a13d570034f173968a6e41bd93a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_KEY_192BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga81dae77142d22308329128d589fe76c8acf099085bf7730e9b641e6f4a97e14d7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_KEY_256BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga81dae77142d22308329128d589fe76c8ac5008c0fe7fd0083215aa17a334c4c1e</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>crypto_datatype</name>
       <anchorfile>group__crypto__api__gen.html</anchorfile>
       <anchor>ga404aac78d513a106c28cf2d7dc43b180</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_DATA_32BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga404aac78d513a106c28cf2d7dc43b180aed745727581bfa861a649bcebf2e23a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_DATA_16BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga404aac78d513a106c28cf2d7dc43b180aa7eadc2cb1ae080ff2c21192924934a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_DATA_8BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga404aac78d513a106c28cf2d7dc43b180a8fb021a3896118ea1a8ae8e1564951d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>CRYPTO_DATA_BIT</name>
+      <anchorfile>group__crypto__api__gen.html</anchorfile>
+      <anchor>gga404aac78d513a106c28cf2d7dc43b180a2ae693db3f4b449d5d680f01ca5957e5</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">

@@ -18,7 +18,7 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:164: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:223: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:244: warning: argument 'uint32_t' of command @param is not found in the argument list of rtc_set_counter_val(uint32_t counter_val)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:244: warning: The following parameters of rtc_set_counter_val(uint32_t counter_val) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f1/rtc.h:165: warning: The following parameters of rtc_set_counter_val(uint32_t counter_val) are not documented:
   parameter 'counter_val'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:400: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:367: warning: explicit link request to 'osc_t' could not be resolved
@@ -30,5 +30,5 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:164: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:223: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:244: warning: argument 'uint32_t' of command @param is not found in the argument list of rtc_set_counter_val(uint32_t counter_val)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:244: warning: The following parameters of rtc_set_counter_val(uint32_t counter_val) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:249: warning: The following parameters of rtc_set_counter_val(uint32_t counter_val) are not documented:
   parameter 'counter_val'

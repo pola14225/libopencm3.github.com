@@ -80,11 +80,59 @@
       <anchor>ga7edb29528e9dcced43aaca511dbd9bc2</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_1_STOP_BITS</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga7edb29528e9dcced43aaca511dbd9bc2a20790d5ae5573b13e38a5848ed4f8437</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_1_5_STOP_BITS</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga7edb29528e9dcced43aaca511dbd9bc2a528bc870457b07f3e1df4f54b89aef77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_2_STOP_BITS</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga7edb29528e9dcced43aaca511dbd9bc2a88105b55058eb7b4e1a22f0e442801b9</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>usb_cdc_line_coding_bParityType</name>
       <anchorfile>group__usb__cdc__defines.html</anchorfile>
       <anchor>ga0cabe0e00dd7200ff5e90f0119fbf66f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_NO_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa84dcd5abce5bd2c699749b70511bf95a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_ODD_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa2c2ea42ec25ac66d613f57416fa4b35d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_EVEN_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa1a69931078ca04ed352f2a850f42ba63</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_MARK_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa3ce606e8526fd03fef527027bb28b160</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_SPACE_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa4ff36fa9da45d9cbcbc10638e23a32dc</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -233,6 +281,48 @@
       <anchor>ga1eb1afd96bccc953e4c19022df7d2171</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>DFU_DETACH</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171ab8e18a7fd7b5b1899c5b57fa69faac69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_DNLOAD</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171aa3d14f787e4880e7c6b931f05070330f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_UPLOAD</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171af7427780a3977ec43a36b102c639289c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_GETSTATUS</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171a29e1b58118f9b9e096b293b365bdc91b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_CLRSTATUS</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171a8adc62cb245219266a0a567053633a1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_GETSTATE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171a07c028e3b420dac6bf986ffbe971d2f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_ABORT</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171ac4cdec2bd3bc05311e89fc989ca0c61d</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>dfu_status</name>
@@ -240,11 +330,173 @@
       <anchor>gabcf2757cf1c6281a06a8a6f25ff2aa31</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_OK</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a3a550674419538042b365d365595dc40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_TARGET</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a9a7a7639b542fa571c5bf230e811afa5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_FILE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a507bb0dd505ecf8e1ad31f3ad59ca595</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_WRITE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a714bc30afe28582ddb38e90702beb1d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_ERASE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a69f5911f3539cf83984e2220e069d9d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_CHECK_ERASED</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a1b79f547824d24336bd32c4facf90e35</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_PROG</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a334d3e00203a36c177a36c4f20ca4cd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_VERIFY</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31ab209da0e18d2bdac90cce75446f5e284</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_ADDRESS</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31ab7abfa9c48bb721cdbc63a220e0a34a2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_NOTDONE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a9f0b8e1bdb57da25a84e499db614fa38</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_FIRMWARE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31aaebd82c354d409a6a918f103bbfe6c26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_VENDOR</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31ad5c270162ee2af751292540632a538c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_USBR</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31abc69336005f3df189e7df6d0f0ad69b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_POR</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a4b8d062347f43c1d75a58ed4e74d63bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_UNKNOWN</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31afeee9594f62632238db9053c37a99465</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_STALLEDPKT</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a8d963dfec7ec03c538c5a38944f63fe3</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>dfu_state</name>
       <anchorfile>group__usb__dfu__defines.html</anchorfile>
       <anchor>ga3f025bde53c777c5e0493ef54bbeb143</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_APP_IDLE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a2071f71d4f5fb2435f161d1a70167ec1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_APP_DETACH</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a1cae6396e56ba1edfd3bc7bf4b9b6dd4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_IDLE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a72332acd446920c416a5b4da079b33d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_DNLOAD_SYNC</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a2c74cfc90fa6f9e9df8bce3fca9d3ed4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_DNBUSY</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a262a372a18004a540f3486c9d6eb77de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_DNLOAD_IDLE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a5658b351cf06fcd7af8f11f911444dab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_MANIFEST_SYNC</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a779788d8fec7d6397b6a352ce62940b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_MANIFEST</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143acd82927685281eb302cf3b33330cb4ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_MANIFEST_WAIT_RESET</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a15938a3a729a93ff2003e7c247be8371</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_UPLOAD_IDLE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a86181ad59e744acb655eaa940cdf42d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_ERROR</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143ac2c6d30505ea22bcc31222a41cb4815b</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -1106,11 +1358,161 @@
       <anchor>af26abd40ddc343bd44bf4c12c93cb20c</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_NO_SENSE</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20caaa74b9a274f2fbbf372235e2d9364f9e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_RECOVERED_ERROR</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20caa312059808dae88e8ade4cd46a475ef8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_NOT_READY</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20cae8940c3371f429869cb5bbc8febee89e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_MEDIUM_ERROR</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20cad200d8d5ef1c6d93749294ce66e495b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_HARDWARE_ERROR</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20ca3d5a1b0b01fa2769c349eef7a6150083</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_ILLEGAL_REQUEST</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20cab6292ba727cf98e82a5530f40bca23a8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_UNIT_ATTENTION</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20caa2d1609b26c17accb683ff05e2af2c9c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_DATA_PROTECT</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20cadad2cee9d79bdc561e213cd89cfc5c4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_BLANK_CHECK</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20ca55a9626569077335b38b3df37801f412</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_VENDOR_SPECIFIC</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20caba4d8fab974ef4229b2ed5574474cffb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_COPY_ABORTED</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20cafd62f8485d702d4475aa6752372ca3ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_ABORTED_COMMAND</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20ca30d0d91530fd75fb9e913328dfb3bca9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_VOLUME_OVERFLOW</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20cab074a7fc1941f268a56266fa803f6363</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_SENSE_KEY_MISCOMPARE</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>af26abd40ddc343bd44bf4c12c93cb20ca6a8b413783e99c610987a893f8710d36</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>sbc_asc</name>
       <anchorfile>usb__msc_8c.html</anchorfile>
       <anchor>a77f0039858eb3e65043ab38cee89b958</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASC_NO_ADDITIONAL_SENSE_INFORMATION</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958ad6892f4955361f9b8ea37ab7dec24adf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASC_PERIPHERAL_DEVICE_WRITE_FAULT</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958a41bdc2d78f61526d1a435390466f5bea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASC_LOGICAL_UNIT_NOT_READY</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958afc7b9ee0d5c63434a065893f12bf2509</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASC_UNRECOVERED_READ_ERROR</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958af94805113caba66e7f69d0d0efcdd90a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASC_INVALID_COMMAND_OPERATION_CODE</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958a4ac550ebdaa7d2d2b2e874845dde9bf2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASC_LBA_OUT_OF_RANGE</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958a94670e961a4b34f918694211799fa085</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASC_INVALID_FIELD_IN_CDB</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958ae671358697a0f3fc7ae869afe3765281</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASC_WRITE_PROTECTED</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958af6d3b29c303410899fa552f3d5ab6413</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASC_NOT_READY_TO_READY_CHANGE</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958a3aa858eb504fe4cac3aa93921749b270</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASC_FORMAT_ERROR</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958a0eba7d6a516888c49d2c0379dd4f655e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASC_MEDIUM_NOT_PRESENT</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>a77f0039858eb3e65043ab38cee89b958a6122693543dfa6a6793fdc835050fbb2</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumeration">
@@ -1120,11 +1522,47 @@
       <anchor>ab27651977836aae95470be25085abb23</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>SBC_ASCQ_NA</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>ab27651977836aae95470be25085abb23affc75b07e3e5040bea2fe3ca1c418716</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASCQ_FORMAT_COMMAND_FAILED</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>ab27651977836aae95470be25085abb23aa7e184eb37b0909faa4a2fd302ad928a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASCQ_INITIALIZING_COMMAND_REQUIRED</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>ab27651977836aae95470be25085abb23a577b28cd3a92592b4abd7bb4ffd057bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SBC_ASCQ_OPERATION_IN_PROGRESS</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>ab27651977836aae95470be25085abb23ac56f5655000705ee5d5578d1c82c3025</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>trans_event</name>
       <anchorfile>usb__msc_8c.html</anchorfile>
       <anchor>adabc5b9359b701c26304af43ea9e6954</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>EVENT_CBW_VALID</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>adabc5b9359b701c26304af43ea9e6954a439faeac7135a05e3efa6870939895fb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>EVENT_NEED_STATUS</name>
+      <anchorfile>usb__msc_8c.html</anchorfile>
+      <anchor>adabc5b9359b701c26304af43ea9e6954a2cbd45952a590a6297e91cfa52aebd9f</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -1379,6 +1817,24 @@
       <name>_usbd_transaction</name>
       <anchorfile>group__usb__private__defines.html</anchorfile>
       <anchor>ga1cf959928954ac5fe754b82f75ce4994</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_TRANSACTION_IN</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_TRANSACTION_OUT</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga1cf959928954ac5fe754b82f75ce4994ab016c2caf10af8d5cd6adbb926a18c90</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_TRANSACTION_SETUP</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga1cf959928954ac5fe754b82f75ce4994a7439308c92f9f23a0e750befc7f94018</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -1643,6 +2099,24 @@
       <anchor>gae09dc4bce47d0848ddacbd8b08ef76a7</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>USBD_REQ_NOTSUPP</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>ggae09dc4bce47d0848ddacbd8b08ef76a7ae6fb6de05148b303504d1f2855534495</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USBD_REQ_HANDLED</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>ggae09dc4bce47d0848ddacbd8b08ef76a7ae44b9555863f8ecd5415bef01cb5779f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USBD_REQ_NEXT_CALLBACK</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>ggae09dc4bce47d0848ddacbd8b08ef76a7a2de82a2c4708a6cd78384a3362e86d7f</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="function">
       <type>usbd_device *</type>
       <name>usbd_init</name>
@@ -1817,6 +2291,12 @@
       <name>usb_language_id</name>
       <anchorfile>group__usb__type__defines.html</anchorfile>
       <anchor>gaca86007d66ae94421fd4f93c0b96b04a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_LANGID_ENGLISH_US</name>
+      <anchorfile>group__usb__type__defines.html</anchorfile>
+      <anchor>ggaca86007d66ae94421fd4f93c0b96b04aa069b825fab4882505aca430300ecc9a8</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -2916,50 +3396,98 @@
     <filename>struct__usbd__device_1_1usb__control__state.html</filename>
     <member kind="enumvalue">
       <name>IDLE</name>
-      <anchorfile>group__usb__private__defines.html</anchorfile>
-      <anchor>gga62bcb381cd430830ed90561033b84f56aa9114b048bdf93917cd2e2499e0232e1</anchor>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56aa9114b048bdf93917cd2e2499e0232e1</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>STALLED</name>
-      <anchorfile>group__usb__private__defines.html</anchorfile>
-      <anchor>gga62bcb381cd430830ed90561033b84f56adbdd8c4000539bee13614e666ce87819</anchor>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56adbdd8c4000539bee13614e666ce87819</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>DATA_IN</name>
-      <anchorfile>group__usb__private__defines.html</anchorfile>
-      <anchor>gga62bcb381cd430830ed90561033b84f56a6d10e42fd61e631bfc28dc000945a68b</anchor>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56a6d10e42fd61e631bfc28dc000945a68b</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>LAST_DATA_IN</name>
-      <anchorfile>group__usb__private__defines.html</anchorfile>
-      <anchor>gga62bcb381cd430830ed90561033b84f56ad46e499dfabd69eeb4951d6f37350f78</anchor>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56ad46e499dfabd69eeb4951d6f37350f78</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>STATUS_IN</name>
-      <anchorfile>group__usb__private__defines.html</anchorfile>
-      <anchor>gga62bcb381cd430830ed90561033b84f56a2b8f315a1c77155a8eb55bb2920c387f</anchor>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56a2b8f315a1c77155a8eb55bb2920c387f</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>DATA_OUT</name>
-      <anchorfile>group__usb__private__defines.html</anchorfile>
-      <anchor>gga62bcb381cd430830ed90561033b84f56aab55ae38c1bd603e61945595ee71dd27</anchor>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56aab55ae38c1bd603e61945595ee71dd27</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>LAST_DATA_OUT</name>
-      <anchorfile>group__usb__private__defines.html</anchorfile>
-      <anchor>gga62bcb381cd430830ed90561033b84f56ac4102e7aece07c0cd5679b2b3ff2f953</anchor>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56ac4102e7aece07c0cd5679b2b3ff2f953</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
       <name>STATUS_OUT</name>
-      <anchorfile>group__usb__private__defines.html</anchorfile>
-      <anchor>gga62bcb381cd430830ed90561033b84f56a60e953b1e72ce2e6aa3fe204dabfdae3</anchor>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56a60e953b1e72ce2e6aa3fe204dabfdae3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>IDLE</name>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56aa9114b048bdf93917cd2e2499e0232e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STALLED</name>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56adbdd8c4000539bee13614e666ce87819</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DATA_IN</name>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56a6d10e42fd61e631bfc28dc000945a68b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>LAST_DATA_IN</name>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56ad46e499dfabd69eeb4951d6f37350f78</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATUS_IN</name>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56a2b8f315a1c77155a8eb55bb2920c387f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DATA_OUT</name>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56aab55ae38c1bd603e61945595ee71dd27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>LAST_DATA_OUT</name>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56ac4102e7aece07c0cd5679b2b3ff2f953</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATUS_OUT</name>
+      <anchorfile>struct__usbd__device_1_1usb__control__state.html</anchorfile>
+      <anchor>a62bcb381cd430830ed90561033b84f56a60e953b1e72ce2e6aa3fe204dabfdae3</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -4232,11 +4760,59 @@
       <anchor>ga7edb29528e9dcced43aaca511dbd9bc2</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_1_STOP_BITS</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga7edb29528e9dcced43aaca511dbd9bc2a20790d5ae5573b13e38a5848ed4f8437</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_1_5_STOP_BITS</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga7edb29528e9dcced43aaca511dbd9bc2a528bc870457b07f3e1df4f54b89aef77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_2_STOP_BITS</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga7edb29528e9dcced43aaca511dbd9bc2a88105b55058eb7b4e1a22f0e442801b9</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>usb_cdc_line_coding_bParityType</name>
       <anchorfile>group__usb__cdc__defines.html</anchorfile>
       <anchor>ga0cabe0e00dd7200ff5e90f0119fbf66f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_NO_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa84dcd5abce5bd2c699749b70511bf95a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_ODD_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa2c2ea42ec25ac66d613f57416fa4b35d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_EVEN_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa1a69931078ca04ed352f2a850f42ba63</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_MARK_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa3ce606e8526fd03fef527027bb28b160</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_CDC_SPACE_PARITY</name>
+      <anchorfile>group__usb__cdc__defines.html</anchorfile>
+      <anchor>gga0cabe0e00dd7200ff5e90f0119fbf66fa4ff36fa9da45d9cbcbc10638e23a32dc</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -4266,6 +4842,48 @@
       <anchor>ga1eb1afd96bccc953e4c19022df7d2171</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>DFU_DETACH</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171ab8e18a7fd7b5b1899c5b57fa69faac69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_DNLOAD</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171aa3d14f787e4880e7c6b931f05070330f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_UPLOAD</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171af7427780a3977ec43a36b102c639289c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_GETSTATUS</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171a29e1b58118f9b9e096b293b365bdc91b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_CLRSTATUS</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171a8adc62cb245219266a0a567053633a1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_GETSTATE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171a07c028e3b420dac6bf986ffbe971d2f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_ABORT</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga1eb1afd96bccc953e4c19022df7d2171ac4cdec2bd3bc05311e89fc989ca0c61d</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>dfu_status</name>
@@ -4273,11 +4891,173 @@
       <anchor>gabcf2757cf1c6281a06a8a6f25ff2aa31</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_OK</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a3a550674419538042b365d365595dc40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_TARGET</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a9a7a7639b542fa571c5bf230e811afa5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_FILE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a507bb0dd505ecf8e1ad31f3ad59ca595</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_WRITE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a714bc30afe28582ddb38e90702beb1d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_ERASE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a69f5911f3539cf83984e2220e069d9d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_CHECK_ERASED</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a1b79f547824d24336bd32c4facf90e35</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_PROG</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a334d3e00203a36c177a36c4f20ca4cd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_VERIFY</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31ab209da0e18d2bdac90cce75446f5e284</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_ADDRESS</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31ab7abfa9c48bb721cdbc63a220e0a34a2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_NOTDONE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a9f0b8e1bdb57da25a84e499db614fa38</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_FIRMWARE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31aaebd82c354d409a6a918f103bbfe6c26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_VENDOR</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31ad5c270162ee2af751292540632a538c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_USBR</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31abc69336005f3df189e7df6d0f0ad69b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_POR</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a4b8d062347f43c1d75a58ed4e74d63bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_UNKNOWN</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31afeee9594f62632238db9053c37a99465</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>DFU_STATUS_ERR_STALLEDPKT</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>ggabcf2757cf1c6281a06a8a6f25ff2aa31a8d963dfec7ec03c538c5a38944f63fe3</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>dfu_state</name>
       <anchorfile>group__usb__dfu__defines.html</anchorfile>
       <anchor>ga3f025bde53c777c5e0493ef54bbeb143</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_APP_IDLE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a2071f71d4f5fb2435f161d1a70167ec1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_APP_DETACH</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a1cae6396e56ba1edfd3bc7bf4b9b6dd4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_IDLE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a72332acd446920c416a5b4da079b33d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_DNLOAD_SYNC</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a2c74cfc90fa6f9e9df8bce3fca9d3ed4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_DNBUSY</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a262a372a18004a540f3486c9d6eb77de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_DNLOAD_IDLE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a5658b351cf06fcd7af8f11f911444dab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_MANIFEST_SYNC</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a779788d8fec7d6397b6a352ce62940b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_MANIFEST</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143acd82927685281eb302cf3b33330cb4ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_MANIFEST_WAIT_RESET</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a15938a3a729a93ff2003e7c247be8371</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_UPLOAD_IDLE</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143a86181ad59e744acb655eaa940cdf42d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>STATE_DFU_ERROR</name>
+      <anchorfile>group__usb__dfu__defines.html</anchorfile>
+      <anchor>gga3f025bde53c777c5e0493ef54bbeb143ac2c6d30505ea22bcc31222a41cb4815b</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -4406,6 +5186,24 @@
       <name>usbd_request_return_codes</name>
       <anchorfile>group__usb__driver__defines.html</anchorfile>
       <anchor>gae09dc4bce47d0848ddacbd8b08ef76a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USBD_REQ_NOTSUPP</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>ggae09dc4bce47d0848ddacbd8b08ef76a7ae6fb6de05148b303504d1f2855534495</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USBD_REQ_HANDLED</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>ggae09dc4bce47d0848ddacbd8b08ef76a7ae44b9555863f8ecd5415bef01cb5779f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USBD_REQ_NEXT_CALLBACK</name>
+      <anchorfile>group__usb__driver__defines.html</anchorfile>
+      <anchor>ggae09dc4bce47d0848ddacbd8b08ef76a7a2de82a2c4708a6cd78384a3362e86d7f</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -4571,8 +5369,6 @@
     <class kind="struct">usb_device_descriptor</class>
     <class kind="struct">usb_device_qualifier_descriptor</class>
     <class kind="struct">usb_config_descriptor</class>
-    <class kind="struct">usb_config_descriptor::usb_interface</class>
-    <class kind="struct">usb_interface</class>
     <class kind="struct">usb_interface_descriptor</class>
     <class kind="struct">usb_endpoint_descriptor</class>
     <class kind="struct">usb_string_descriptor</class>
@@ -4582,6 +5378,12 @@
       <name>usb_language_id</name>
       <anchorfile>group__usb__type__defines.html</anchorfile>
       <anchor>gaca86007d66ae94421fd4f93c0b96b04a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_LANGID_ENGLISH_US</name>
+      <anchorfile>group__usb__type__defines.html</anchorfile>
+      <anchor>ggaca86007d66ae94421fd4f93c0b96b04aa069b825fab4882505aca430300ecc9a8</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -4794,13 +5596,29 @@
     <title>USB Private Structures</title>
     <filename>group__usb__private__defines.html</filename>
     <class kind="struct">_usbd_device</class>
-    <class kind="struct">_usbd_device::user_control_callback</class>
-    <class kind="struct">_usbd_device::usb_control_state</class>
     <member kind="enumeration">
       <type></type>
       <name>_usbd_transaction</name>
       <anchorfile>group__usb__private__defines.html</anchorfile>
       <anchor>ga1cf959928954ac5fe754b82f75ce4994</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_TRANSACTION_IN</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_TRANSACTION_OUT</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga1cf959928954ac5fe754b82f75ce4994ab016c2caf10af8d5cd6adbb926a18c90</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>USB_TRANSACTION_SETUP</name>
+      <anchorfile>group__usb__private__defines.html</anchorfile>
+      <anchor>gga1cf959928954ac5fe754b82f75ce4994a7439308c92f9f23a0e750befc7f94018</anchor>
       <arglist></arglist>
     </member>
   </compound>

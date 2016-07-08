@@ -1,5 +1,7 @@
 var usb__private_8h =
 [
+    [ "usb_control_state", "struct__usbd__device_1_1usb__control__state.html", "struct__usbd__device_1_1usb__control__state" ],
+    [ "user_control_callback", "struct__usbd__device_1_1user__control__callback.html", "struct__usbd__device_1_1user__control__callback" ],
     [ "_usbd_driver", "struct__usbd__driver.html", "struct__usbd__driver" ],
     [ "_usbd_transaction", "group__usb__private__defines.html#ga1cf959928954ac5fe754b82f75ce4994", [
       [ "USB_TRANSACTION_IN", "group__usb__private__defines.html#gga1cf959928954ac5fe754b82f75ce4994a9d186519ca162685e9cb4d3c17b8fdff", null ],

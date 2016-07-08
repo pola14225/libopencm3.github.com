@@ -29,8 +29,8 @@ var NAVTREE =
     [ "SAM3U", "../../sam3u/html/modules.html", null ],
     [ "SAM3X", "../../sam3x/html/modules.html", null ],
     [ "VF6XX", "../../vf6xx/html/modules.html", null ],
-    [ "Data Structures", null, [
-      [ "Data Structures", "annotated.html", "annotated" ],
+    [ "Data Structures", "annotated.html", [
+      [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
       [ "Data Fields", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
@@ -57,8 +57,8 @@ var NAVTREEINDEX =
 [
 "../../cm3/html/modules.html",
 "group__usb__dfu__defines.html#ggabcf2757cf1c6281a06a8a6f25ff2aa31ab209da0e18d2bdac90cce75446f5e284",
-"struct__usbd__device.html#a76f748749894cc0316e3e95ea7a8be27",
-"structusb__msc__cbw.html#a3b3a4d72d95d8ed9fdfb66d06250e546"
+"struct__usbd__device_1_1usb__control__state.html#a62bcb381cd430830ed90561033b84f56a60e953b1e72ce2e6aa3fe204dabfdae3",
+"structusb__msc__csw.html#aebc2d944ccc8284dbd9e836d30089aad"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

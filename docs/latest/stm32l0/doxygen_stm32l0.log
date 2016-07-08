@@ -42,9 +42,9 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1910: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/dma_common_l1f013.h:147: warning: group dma_if_offset: ignoring title "DMA Interrupt Flag Offsets within channel flag" that does not match old title "DMA Interrupt Flag Offsets within stream flag group."
 
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:42: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:46: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
   parameter 'dev'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:42: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.h:36: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
   parameter 'dev'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2.c:174: warning: unable to resolve reference to `adc_api_res' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2_multi.c:42: warning: unable to resolve reference to `adc_sample' for \ref command
@@ -69,19 +69,19 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:189: warning: Found unknown command `\parame'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:357: warning: argument 'mul' of command @param is not found in the argument list of rcc_set_pll_divider(uint32_t factor)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:359: warning: unable to resolve reference to `rcc_cfgr_pdf' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:357: warning: The following parameters of rcc_set_pll_divider(uint32_t factor) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l0/rcc.h:629: warning: The following parameters of rcc_set_pll_divider(uint32_t factor) are not documented:
   parameter 'factor'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:341: warning: argument 'mul' of command @param is not found in the argument list of rcc_set_pll_multiplier(uint32_t factor)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:343: warning: unable to resolve reference to `rcc_cfgr_pmf' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:341: warning: The following parameters of rcc_set_pll_multiplier(uint32_t factor) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l0/rcc.h:628: warning: The following parameters of rcc_set_pll_multiplier(uint32_t factor) are not documented:
   parameter 'factor'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:372: warning: argument 'ppre1' of command @param is not found in the argument list of rcc_set_ppre1(uint32_t ppre)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:374: warning: unable to resolve reference to `rcc_cfgr_apb1pre' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:372: warning: The following parameters of rcc_set_ppre1(uint32_t ppre) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l0/rcc.h:631: warning: The following parameters of rcc_set_ppre1(uint32_t ppre) are not documented:
   parameter 'ppre'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:387: warning: argument 'ppre1' of command @param is not found in the argument list of rcc_set_ppre2(uint32_t ppre)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:389: warning: unable to resolve reference to `rcc_cfgr_apb2pre' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:387: warning: The following parameters of rcc_set_ppre2(uint32_t ppre) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l0/rcc.h:630: warning: The following parameters of rcc_set_ppre2(uint32_t ppre) are not documented:
   parameter 'ppre'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:312: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:264: warning: explicit link request to 'osc_t' could not be resolved
@@ -96,19 +96,19 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:402: warning: unable to resolve reference to `rcc_cfgr_ahbpre' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:357: warning: argument 'mul' of command @param is not found in the argument list of rcc_set_pll_divider(uint32_t factor)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:359: warning: unable to resolve reference to `rcc_cfgr_pdf' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:357: warning: The following parameters of rcc_set_pll_divider(uint32_t factor) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:362: warning: The following parameters of rcc_set_pll_divider(uint32_t factor) are not documented:
   parameter 'factor'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:341: warning: argument 'mul' of command @param is not found in the argument list of rcc_set_pll_multiplier(uint32_t factor)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:343: warning: unable to resolve reference to `rcc_cfgr_pmf' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:341: warning: The following parameters of rcc_set_pll_multiplier(uint32_t factor) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:346: warning: The following parameters of rcc_set_pll_multiplier(uint32_t factor) are not documented:
   parameter 'factor'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:372: warning: argument 'ppre1' of command @param is not found in the argument list of rcc_set_ppre1(uint32_t ppre)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:374: warning: unable to resolve reference to `rcc_cfgr_apb1pre' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:372: warning: The following parameters of rcc_set_ppre1(uint32_t ppre) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:377: warning: The following parameters of rcc_set_ppre1(uint32_t ppre) are not documented:
   parameter 'ppre'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:387: warning: argument 'ppre1' of command @param is not found in the argument list of rcc_set_ppre2(uint32_t ppre)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:389: warning: unable to resolve reference to `rcc_cfgr_apb2pre' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:387: warning: The following parameters of rcc_set_ppre2(uint32_t ppre) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:392: warning: The following parameters of rcc_set_ppre2(uint32_t ppre) are not documented:
   parameter 'ppre'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:312: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l0/rcc.c:264: warning: explicit link request to 'osc_t' could not be resolved
@@ -140,7 +140,7 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:42: warning: unable to resolve reference to `flash_latency' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_l1f124.c:75: warning: argument 'crcl' of command @param is not found in the argument list of spi_init_master(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_l1f124.c:86: warning: unable to resolve reference to `spi_crcl' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f24.c:30: warning: The following parameters of timer_set_option(uint32_t timer_peripheral, uint32_t option) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f24.c:40: warning: The following parameters of timer_set_option(uint32_t timer_peripheral, uint32_t option) are not documented:
   parameter 'option'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:140: warning: Found unknown command `\This'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:105: warning: Found unknown command `\This'

@@ -1,0 +1,4 @@
+<map id="usb_disable_interrupts" name="usb_disable_interrupts">
+<area shape="rect" id="node2" href="$group__usb__drivers__file.html#ga3bc8dd33500621a1e900c78a42dcaf27" title="_usbd_reset" alt="" coords="205,5,299,32"/>
+<area shape="rect" id="node3" href="$group__usb__drivers__file.html#gaadc222d45c63e01811952f8478ac7943" title="Setup an endpoint. " alt="" coords="347,5,457,32"/>
+</map>

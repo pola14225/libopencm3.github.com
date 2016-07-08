@@ -35,6 +35,12 @@ var group__usb__type__defines =
       [ "bReserved", "structusb__device__qualifier__descriptor.html#aa1557859c9220ae5fda7d32833845444", null ]
     ] ],
     [ "usb_config_descriptor", "structusb__config__descriptor.html", [
+      [ "usb_interface", "structusb__config__descriptor_1_1usb__interface.html", [
+        [ "altsetting", "structusb__config__descriptor_1_1usb__interface.html#a44285d1e29ac0dad6d8fd41afe1b2d8a", null ],
+        [ "cur_altsetting", "structusb__config__descriptor_1_1usb__interface.html#a06451de61afb655e5e0fb756309248c4", null ],
+        [ "iface_assoc", "structusb__config__descriptor_1_1usb__interface.html#ae868a8420fe236b5ee4c5dbd554a5b36", null ],
+        [ "num_altsetting", "structusb__config__descriptor_1_1usb__interface.html#aeeb7e4ed8d6a6ad1ec1eb0c18ee0f9e3", null ]
+      ] ],
       [ "bConfigurationValue", "structusb__config__descriptor.html#af50d14a1e97dab1a4483f03b969ca431", null ],
       [ "bDescriptorType", "structusb__config__descriptor.html#a69b0a0fe8f2f9152f299a333f352982e", null ],
       [ "bLength", "structusb__config__descriptor.html#aaa38eade89cca96312968258eaeade9d", null ],
@@ -44,18 +50,6 @@ var group__usb__type__defines =
       [ "iConfiguration", "structusb__config__descriptor.html#ace6c0975162873b87744269bd188d297", null ],
       [ "interface", "structusb__config__descriptor.html#a93d0c4e3b6c5a9d6d84e6b769dbe1d2a", null ],
       [ "wTotalLength", "structusb__config__descriptor.html#a09fb7940f26366f7f0aedb496a18b97c", null ]
-    ] ],
-    [ "usb_interface", "structusb__config__descriptor_1_1usb__interface.html", [
-      [ "altsetting", "structusb__config__descriptor_1_1usb__interface.html#a44285d1e29ac0dad6d8fd41afe1b2d8a", null ],
-      [ "cur_altsetting", "structusb__config__descriptor_1_1usb__interface.html#a06451de61afb655e5e0fb756309248c4", null ],
-      [ "iface_assoc", "structusb__config__descriptor_1_1usb__interface.html#ae868a8420fe236b5ee4c5dbd554a5b36", null ],
-      [ "num_altsetting", "structusb__config__descriptor_1_1usb__interface.html#aeeb7e4ed8d6a6ad1ec1eb0c18ee0f9e3", null ]
-    ] ],
-    [ "usb_interface", "structusb__interface.html", [
-      [ "altsetting", "structusb__interface.html#a5fb4da13363349c7fa027c673ede9812", null ],
-      [ "cur_altsetting", "structusb__interface.html#aa39c5be41340ee8c3fa71b7a0f7ba240", null ],
-      [ "iface_assoc", "structusb__interface.html#a52cfc78c2536053de0c4f1615a057f79", null ],
-      [ "num_altsetting", "structusb__interface.html#a9c5a9b0ae7b56dbad13ac3badc546661", null ]
     ] ],
     [ "usb_interface_descriptor", "structusb__interface__descriptor.html", [
       [ "bAlternateSetting", "structusb__interface__descriptor.html#aacc6f1a4e77883f97ffb0453e41c5b10", null ],

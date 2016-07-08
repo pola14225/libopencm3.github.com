@@ -42,9 +42,9 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1853: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1878: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:1910: warning: preprocessing issue while doing constant expression evaluation: syntax error
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:42: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:46: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
   parameter 'dev'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.c:42: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.h:36: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
   parameter 'dev'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2.c:174: warning: unable to resolve reference to `adc_api_res' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v1.c:342: warning: unable to resolve reference to `adc_reg_baseADC' for \ref command
@@ -81,10 +81,10 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:661: warning: unable to resolve reference to `adc_trigger_regular' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:663: warning: unable to resolve reference to `adc_trigger_polarity_regular' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:625: warning: unable to resolve reference to `adc_ccr_adcpre' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:622: warning: The following parameters of adc_set_clk_prescale(uint32_t adc, uint32_t prescale) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:630: warning: The following parameters of adc_set_clk_prescale(uint32_t adc, uint32_t prescale) are not documented:
   parameter 'adc'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:643: warning: unable to resolve reference to `adc_multi_mode' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:637: warning: The following parameters of adc_set_multi_mode(uint32_t adc, uint32_t mode) are not documented:
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f3/adc.c:648: warning: The following parameters of adc_set_multi_mode(uint32_t adc, uint32_t mode) are not documented:
   parameter 'adc'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2.c:174: warning: unable to resolve reference to `adc_api_res' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:35: warning: unable to resolve reference to `flash_latency' for \ref command
