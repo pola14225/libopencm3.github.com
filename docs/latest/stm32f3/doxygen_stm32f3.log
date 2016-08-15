@@ -89,7 +89,7 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2.c:174: warning: unable to resolve reference to `adc_api_res' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f234.c:35: warning: unable to resolve reference to `flash_latency' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_f03.c:86: warning: unable to resolve reference to `spi_crcl' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f234.c:34: warning: explicit link request to 'tim_ic_pol' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f0234.c:34: warning: explicit link request to 'tim_ic_pol' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:140: warning: Found unknown command `\This'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:105: warning: Found unknown command `\This'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:128: warning: Found unknown command `\This'

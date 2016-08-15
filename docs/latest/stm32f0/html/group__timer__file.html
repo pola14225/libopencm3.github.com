@@ -381,6 +381,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga07c712d9ab62bbcea1de4f865a077a5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga07c712d9ab62bbcea1de4f865a077a5c">timer_slave_set_trigger</a> (uint32_t timer_peripheral, uint8_t trigger)</td></tr>
 <tr class="memdesc:ga07c712d9ab62bbcea1de4f865a077a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Slave Trigger Source.  <a href="#ga07c712d9ab62bbcea1de4f865a077a5c">More...</a><br /></td></tr>
 <tr class="separator:ga07c712d9ab62bbcea1de4f865a077a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5cc4c3f615f4b661a7ba3be837bfb424"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__timer__file.html#ga5cc4c3f615f4b661a7ba3be837bfb424">timer_ic_set_polarity</a> (uint32_t timer_peripheral, enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a> ic, enum tim_ic_pol pol)</td></tr>
+<tr class="memdesc:ga5cc4c3f615f4b661a7ba3be837bfb424"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Input Polarity.  <a href="#ga5cc4c3f615f4b661a7ba3be837bfb424">More...</a><br /></td></tr>
+<tr class="separator:ga5cc4c3f615f4b661a7ba3be837bfb424"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><b>libopencm3 STM32F0xx Timers</b> </p>
@@ -1641,6 +1644,53 @@ these parameters are writable only when the channel is off.</dd></dl>
 <p>Definition at line <a class="el" href="timer__common__all_8c_source.html#l02057">2057</a> of file <a class="el" href="timer__common__all_8c_source.html">timer_common_all.c</a>.</p>
 
 <p>References <a class="el" href="timer__common__all_8h_source.html#l00195">TIM_CCMR1</a>, <a class="el" href="timer__common__all_8h_source.html#l00782">TIM_CCMR1_CC1S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00753">TIM_CCMR1_CC2S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00213">TIM_CCMR2</a>, <a class="el" href="timer__common__all_8h_source.html#l00898">TIM_CCMR2_CC3S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l00869">TIM_CCMR2_CC4S_MASK</a>, <a class="el" href="timer__common__all_8h_source.html#l01105">TIM_IC1</a>, <a class="el" href="timer__common__all_8h_source.html#l01106">TIM_IC2</a>, <a class="el" href="timer__common__all_8h_source.html#l01107">TIM_IC3</a>, <a class="el" href="timer__common__all_8h_source.html#l01108">TIM_IC4</a>, <a class="el" href="timer__common__all_8h_source.html#l01153">TIM_IC_IN_TI1</a>, and <a class="el" href="timer__common__all_8h_source.html#l01154">TIM_IC_IN_TI2</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga5cc4c3f615f4b661a7ba3be837bfb424"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void timer_ic_set_polarity </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timer_peripheral</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum <a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac">tim_ic_id</a>&#160;</td>
+          <td class="paramname"><em>ic</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">enum tim_ic_pol&#160;</td>
+          <td class="paramname"><em>pol</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set Input Polarity. </p>
+<p>The timer channel must be set to input capture mode.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">timer_peripheral</td><td>Unsigned int32. Timer register address base </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ic</td><td><a class="el" href="group__timer__defines.html#gaf76612839feedf9c605872cacb0ac5ac" title="Input Capture channel designators. ">tim_ic_id</a>. Input Capture channel designator. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pol</td><td>::tim_ic_pol. Input Capture polarity control. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="timer__common__f0234_8c_source.html#l00039">39</a> of file <a class="el" href="timer__common__f0234_8c_source.html">timer_common_f0234.c</a>.</p>
+
+<p>References <a class="el" href="timer__common__all_8h_source.html#l00222">TIM_CCER</a>.</p>
 
 </div>
 </div>
@@ -3221,7 +3271,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 9 2016 01:21:28 for libopencm3 by
+    <li class="footer">Generated on Tue Aug 16 2016 01:21:29 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -88,7 +88,7 @@ var files =
     [ "timer.h", "timer_8h.html", null ],
     [ "timer_common_all.c", "timer__common__all_8c.html", "timer__common__all_8c" ],
     [ "timer_common_all.h", "timer__common__all_8h.html", "timer__common__all_8h" ],
-    [ "timer_common_f234.c", "timer__common__f234_8c.html", "timer__common__f234_8c" ],
+    [ "timer_common_f0234.c", "timer__common__f0234_8c.html", "timer__common__f0234_8c" ],
     [ "timer_common_f24.c", "timer__common__f24_8c.html", "timer__common__f24_8c" ],
     [ "timer_common_f24.h", "timer__common__f24_8h.html", "timer__common__f24_8h" ],
     [ "usart.c", "usart_8c.html", null ],

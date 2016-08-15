@@ -153,6 +153,7 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:522: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f0/rcc.c:208: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_f03.c:86: warning: unable to resolve reference to `spi_crcl' for \ref command
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f0234.c:34: warning: explicit link request to 'tim_ic_pol' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:140: warning: Found unknown command `\This'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:105: warning: Found unknown command `\This'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:128: warning: Found unknown command `\This'

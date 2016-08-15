@@ -37,6 +37,7 @@ var group__timer__file =
     [ "timer_ic_enable", "group__timer__file.html#gade3715490b612154cf66018ab53a497d", null ],
     [ "timer_ic_set_filter", "group__timer__file.html#ga93008db9bfd48c1a8f93e90aacf0bc96", null ],
     [ "timer_ic_set_input", "group__timer__file.html#gadc5738856e9b3d8776950176b468a738", null ],
+    [ "timer_ic_set_polarity", "group__timer__file.html#ga5cc4c3f615f4b661a7ba3be837bfb424", null ],
     [ "timer_ic_set_prescaler", "group__timer__file.html#ga8dfef123f54719260da6841c6ac91958", null ],
     [ "timer_interrupt_source", "group__timer__file.html#ga5ac041bc0363fbb857b2c783e675fc69", null ],
     [ "timer_one_shot_mode", "group__timer__file.html#ga1697ca3e864a9cfd07ce47bef8313525", null ],

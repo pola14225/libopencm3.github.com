@@ -248,6 +248,7 @@ var rcc_8h =
     [ "RCC_CFGR_SW_SHIFT", "group__rcc__defines.html#gac1ff0e57acf7fa261817c5ee5cb714c7", null ],
     [ "RCC_CFGR_SWS_HSE", "group__rcc__defines.html#gae09a0202f441c1a43e69c62331d50a08", null ],
     [ "RCC_CFGR_SWS_HSI", "group__rcc__defines.html#ga6764639cf221e1ebc0b5448dcaed590a", null ],
+    [ "RCC_CFGR_SWS_MASK", "group__rcc__defines.html#ga451045d952eb1caaa0090c9e8dc75082", null ],
     [ "RCC_CFGR_SWS_PLL", "group__rcc__defines.html#ga2c67e2279804a83ef24438267d9d4a6c", null ],
     [ "RCC_CFGR_SWS_SHIFT", "group__rcc__defines.html#gaaee06473ada7ed1bf2cae8e52ce2e9ab", null ],
     [ "RCC_CIR", "group__rcc__defines.html#ga10536e1ad45c689f571d5de3d7b3de55", null ],

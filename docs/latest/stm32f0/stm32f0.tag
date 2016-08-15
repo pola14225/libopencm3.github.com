@@ -20429,7 +20429,6 @@
     <name>timer.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f0/</path>
     <filename>timer_8h</filename>
-    <includes id="timer__common__all_8h" name="timer_common_all.h" local="no" imported="no">libopencm3/stm32/common/timer_common_all.h</includes>
   </compound>
   <compound kind="file">
     <name>timer_common_all.c</name>
@@ -25796,6 +25795,18 @@
       <anchorfile>group__timer__defines.html</anchorfile>
       <anchor>ga4dd4ddde0168f7213126e1b9bca63077</anchor>
       <arglist>(uint32_t timer, uint8_t trigger)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>timer_common_f0234.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
+    <filename>timer__common__f0234_8c</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_ic_set_polarity</name>
+      <anchorfile>group__timer__file.html</anchorfile>
+      <anchor>ga5cc4c3f615f4b661a7ba3be837bfb424</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -52626,6 +52637,13 @@
       <anchorfile>group__timer__file.html</anchorfile>
       <anchor>ga07c712d9ab62bbcea1de4f865a077a5c</anchor>
       <arglist>(uint32_t timer_peripheral, uint8_t trigger)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>timer_ic_set_polarity</name>
+      <anchorfile>group__timer__file.html</anchorfile>
+      <anchor>ga5cc4c3f615f4b661a7ba3be837bfb424</anchor>
+      <arglist>(uint32_t timer_peripheral, enum tim_ic_id ic, enum tim_ic_pol pol)</arglist>
     </member>
     <docanchor file="group__timer__file" title="Notes for All Timers">tim_common</docanchor>
     <docanchor file="group__timer__file" title="Basic TIMER handling API.">tim_api_ex</docanchor>

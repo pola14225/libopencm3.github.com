@@ -17943,6 +17943,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_PPRE2_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga41aef118b0611444caa87df8ea302dc2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_PPRE2_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga15a0cbdc8e97c9b49262611b4a999f0e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_PPRE1_HCLK_NODIV</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2f566d03233f7da450d0e3575694cfb1</anchor>
@@ -17974,6 +17988,20 @@
       <name>RCC_CFGR_PPRE1_HCLK_DIV16</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1c08b15bfcdddd7cd1fcfe0088ff5632</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_PPRE1_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga1220a63e00de9ff4a2a45474ead3662d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_PPRE1_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gafb5d3be2370b0ec48507ffdac9745c8b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -18041,6 +18069,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_HPRE_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga437d3c7d4232b6563cda9b2789d2b7e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_HPRE_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gabe81fd6d8e84f74aa4f2e31f26aa2819</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_SWS_SYSCLKSEL_MSICLK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gabe5aa19975462aec49f2163e975311cf</anchor>
@@ -18069,6 +18111,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_SWS_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga451045d952eb1caaa0090c9e8dc75082</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SWS_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaaee06473ada7ed1bf2cae8e52ce2e9ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_SW_SYSCLKSEL_MSICLK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga6d265ba683e52e5b471b71b1669e82f3</anchor>
@@ -18093,6 +18149,20 @@
       <name>RCC_CFGR_SW_SYSCLKSEL_PLLCLK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga81ce757b20164fa21501b15fd91c9691</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga7e5e28699fe923870e15fef3651ff3ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gac1ff0e57acf7fa261817c5ee5cb714c7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -30331,9 +30401,9 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>timer_common_f234.c</name>
+    <name>timer_common_f0234.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>timer__common__f234_8c</filename>
+    <filename>timer__common__f0234_8c</filename>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_set_polarity</name>
@@ -44399,6 +44469,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_PPRE2_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga41aef118b0611444caa87df8ea302dc2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_PPRE2_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga15a0cbdc8e97c9b49262611b4a999f0e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_PPRE1_HCLK_NODIV</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga2f566d03233f7da450d0e3575694cfb1</anchor>
@@ -44430,6 +44514,20 @@
       <name>RCC_CFGR_PPRE1_HCLK_DIV16</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1c08b15bfcdddd7cd1fcfe0088ff5632</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_PPRE1_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga1220a63e00de9ff4a2a45474ead3662d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_PPRE1_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gafb5d3be2370b0ec48507ffdac9745c8b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -44497,6 +44595,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_HPRE_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga437d3c7d4232b6563cda9b2789d2b7e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_HPRE_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gabe81fd6d8e84f74aa4f2e31f26aa2819</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_SWS_SYSCLKSEL_MSICLK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gabe5aa19975462aec49f2163e975311cf</anchor>
@@ -44525,6 +44637,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_SWS_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga451045d952eb1caaa0090c9e8dc75082</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SWS_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gaaee06473ada7ed1bf2cae8e52ce2e9ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_SW_SYSCLKSEL_MSICLK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga6d265ba683e52e5b471b71b1669e82f3</anchor>
@@ -44549,6 +44675,20 @@
       <name>RCC_CFGR_SW_SYSCLKSEL_PLLCLK</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga81ce757b20164fa21501b15fd91c9691</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_MASK</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga7e5e28699fe923870e15fef3651ff3ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_SW_SHIFT</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gac1ff0e57acf7fa261817c5ee5cb714c7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">

@@ -7269,6 +7269,18 @@
       <arglist>(enum usb_interrupt ints, enum usb_ep_interrupt rx_ints, enum usb_ep_interrupt tx_ints)</arglist>
     </member>
   </compound>
+  <compound kind="file">
+    <name>vector_chipset.c</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/lm4f/</path>
+    <filename>vector__chipset_8c</filename>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>pre_main</name>
+      <anchorfile>vector__chipset_8c.html</anchorfile>
+      <anchor>a0d71b6c9f6dfd739865d6f0f81fb147d</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
   <compound kind="group">
     <name>LM4Fxx</name>
     <title>LM4F</title>

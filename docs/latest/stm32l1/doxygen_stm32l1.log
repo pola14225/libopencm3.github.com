@@ -96,7 +96,7 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:214: warning: unable to resolve reference to `flash_options' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_l1f124.c:75: warning: argument 'crcl' of command @param is not found in the argument list of spi_init_master(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_l1f124.c:86: warning: unable to resolve reference to `spi_crcl' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f234.c:34: warning: explicit link request to 'tim_ic_pol' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f0234.c:34: warning: explicit link request to 'tim_ic_pol' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/timer.c:47: warning: The following parameters of timer_set_option(uint32_t timer_peripheral, uint32_t option) are not documented:
   parameter 'option'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:140: warning: Found unknown command `\This'

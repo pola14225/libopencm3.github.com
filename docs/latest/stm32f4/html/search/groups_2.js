@@ -18,5 +18,6 @@ var searchData=
   ['dma_20stream_20memory_20word_20width',['DMA Stream Memory Word Width',['../group__dma__st__memwidth.html',1,'']]],
   ['dma_20stream_20number',['DMA Stream Number',['../group__dma__st__number.html',1,'']]],
   ['dma_20stream_20peripheral_20word_20width',['DMA Stream Peripheral Word Width',['../group__dma__st__perwidth.html',1,'']]],
-  ['dma_20stream_20priority_20levels',['DMA Stream Priority Levels',['../group__dma__st__pri.html',1,'']]]
+  ['dma_20stream_20priority_20levels',['DMA Stream Priority Levels',['../group__dma__st__pri.html',1,'']]],
+  ['dsi_20defines',['DSI Defines',['../group__dsi__defines.html',1,'']]]
 ];

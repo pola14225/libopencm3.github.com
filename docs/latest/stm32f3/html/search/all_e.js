@@ -241,6 +241,7 @@ var searchData=
   ['rcc_5fcfgr_5fsw_5fshift',['RCC_CFGR_SW_SHIFT',['../rcc_8h.html#ac1ff0e57acf7fa261817c5ee5cb714c7',1,'rcc.h']]],
   ['rcc_5fcfgr_5fsws_5fhse',['RCC_CFGR_SWS_HSE',['../rcc_8h.html#ae09a0202f441c1a43e69c62331d50a08',1,'rcc.h']]],
   ['rcc_5fcfgr_5fsws_5fhsi',['RCC_CFGR_SWS_HSI',['../rcc_8h.html#a6764639cf221e1ebc0b5448dcaed590a',1,'rcc.h']]],
+  ['rcc_5fcfgr_5fsws_5fmask',['RCC_CFGR_SWS_MASK',['../rcc_8h.html#a451045d952eb1caaa0090c9e8dc75082',1,'rcc.h']]],
   ['rcc_5fcfgr_5fsws_5fpll',['RCC_CFGR_SWS_PLL',['../rcc_8h.html#a2c67e2279804a83ef24438267d9d4a6c',1,'rcc.h']]],
   ['rcc_5fcfgr_5fsws_5fshift',['RCC_CFGR_SWS_SHIFT',['../rcc_8h.html#aaee06473ada7ed1bf2cae8e52ce2e9ab',1,'rcc.h']]],
   ['rcc_5fcfgr_5fusbpres',['RCC_CFGR_USBPRES',['../rcc_8h.html#ad656b40fa309486a451b2e05463c638d',1,'rcc.h']]],

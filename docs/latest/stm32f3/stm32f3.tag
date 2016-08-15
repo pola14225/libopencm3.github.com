@@ -14739,6 +14739,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_SWS_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a451045d952eb1caaa0090c9e8dc75082</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_SWS_HSI</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a6764639cf221e1ebc0b5448dcaed590a</anchor>
@@ -25634,9 +25641,9 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>timer_common_f234.c</name>
+    <name>timer_common_f0234.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>timer__common__f234_8c</filename>
+    <filename>timer__common__f0234_8c</filename>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_set_polarity</name>

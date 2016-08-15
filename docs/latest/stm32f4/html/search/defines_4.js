@@ -9,5 +9,6 @@ var searchData=
   ['desig_5funique_5fid2',['DESIG_UNIQUE_ID2',['../memorymap_8h.html#a58267039858b45fc2b5948a79d8a038e',1,'memorymap.h']]],
   ['desig_5funique_5fid_5fbase',['DESIG_UNIQUE_ID_BASE',['../memorymap_8h.html#a567ddeef232a71aa2a11c556a9d7e17b',1,'memorymap.h']]],
   ['dma1_5fbase',['DMA1_BASE',['../memorymap_8h.html#ab2d8a917a0e4ea99a22ac6ebf279bc72',1,'memorymap.h']]],
-  ['dma2_5fbase',['DMA2_BASE',['../memorymap_8h.html#ab72a9ae145053ee13d1d491fb5c1df64',1,'memorymap.h']]]
+  ['dma2_5fbase',['DMA2_BASE',['../memorymap_8h.html#ab72a9ae145053ee13d1d491fb5c1df64',1,'memorymap.h']]],
+  ['dsi_5fbase',['DSI_BASE',['../memorymap_8h.html#ac094188b138a77bbac13d9361609b617',1,'memorymap.h']]]
 ];

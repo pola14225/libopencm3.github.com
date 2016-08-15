@@ -9464,6 +9464,3329 @@
     <filename>doc-stm32f4_8h</filename>
   </compound>
   <compound kind="file">
+    <name>dsi.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/</path>
+    <filename>dsi_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaecd0c2da63b076f34da0d277b5d04c27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4e3204194cd32776b4efb2afce9f088a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CR_EN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac68ad8c3542ffce9e90f7c4d0200f08c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad5065ce137da48b5f0a07a557391c8f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CCR_TOCKDIV_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3e47ebf1cb9787bfd9d4b7ec339388c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CCR_TOCKDIV_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga209f45444ab4c3438c3fce211059093b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CCR_TXECKDIV_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1c8342a900ccbcc17b40670f18e40dce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CCR_TXECKDIV_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaaa40282f2acc6fc2eda51c73eb97e690</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LVCIDR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa89b089c486bbf8cbc5bf2c8ea886889</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LVCIDR_VCID_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9078969a6445bbcd07268acde0af67c9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LVCIDR_VCID_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadccc5e82c670ec03a640bae9aaf31aee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCOLCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0dad6a31bd67fe5b552e14f20367adbe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCOLCR_LPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga49bdbd63ebaf7995f7b0978b2c76d4fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCOLCR_COLC_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac9a0f8d13a8487df565c6b9481cb465d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCOLCR_COLC_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaaf74dc18a9e1f56573b4d5d58df1b636</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga87db604a5805196941b573415650c554</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPCR_HSP</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7707e575e587e64192cb6ca28607f8ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPCR_VSP</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga127369d58058244ea3d016c3abd43836</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPCR_DEP</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3027390fb854b893c6bb6754a892781f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga69a445b19bd6f5c5d2da34a58e11e41b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCR_LPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga434d312224132278d96ce96a4e06754c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCR_LPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga26de9d72b4180b703a6b023545b6312d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCR_VLPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0d55cf2d7621c6f481fef3e61a89db1b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCR_VLPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae5be4b9ad8e6e9fa6939238ea63b6769</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadb78b3aae214a2d67f6ce94e4910dd48</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCR_CRCRXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga32ec2c9fcb4c6f81b7c4f3ae407d51fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCR_ECCRXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7bbf08fa558692ff2b95dc46d68e2bee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCR_BTAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab84237e059071fea54ad39e86ee273ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCR_ETRXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabb7ba4a8879877d5bf8506dfe747cdfa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCR_ETTXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2fda7155667fc35420e26d7ab723c4a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GVCIDR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga14b2f9ff4310815409f37195aa714c68</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GVCIDR_VCID_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaad3abfcab6bc41374b1414c08d2b853e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GVCIDR_VCID_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf8ab011bf59b488b2597e2a80b312758</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_MCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad5b23e9c401acf6fe39f03423693aab1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_MCR_CMDM</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8e4112f3c3602dd72b83484ce4bae612</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6b641bb688cfbaefcf6553e99ee5609e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_PGO</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1a6da0811a0de5e0a5cfc6c0d89cef74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_PGM</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3a5a0902d6466d938a31dd8e2b8b50a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_PGE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae92bce25052824488fdc774d2db18143</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPCE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9c1242ea18fcfc34ec05152ff9e1db9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_FBTAAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaedcc80d8adf4febf242270f170e4a033</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPHFE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab8f6c6e31cf780d08240e35ca666c597</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPHBPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab3da6d0ac36b043661ae8bd095ee104f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPVAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf37cc4e193fc0fa2e8b8284c8f116119</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPVFPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad5855d38dabf3d7fb5201493088779cb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPVBPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga494200eb86450d27da438512391b66c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPVSAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4b5e0f67eb2a8aaaf54d5493969f6cae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_VMT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabb21a13f9d9e8ca16f18eb167bcd363c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_VMT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0722f9cfca6afbb4a177aae2191c5ab2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_VMT_NON_BURST_PULSE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8b351fc3102fe897c2e044b566321599</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_VMT_NON_BURSE_EVENT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf272a94f7a3a859bb233897ed65de765</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_VMT_BURST</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabc4ab8258017e7106b95f5f7507ccd9b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga41e9279eba79743a54518a8b42db66c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VPCR_VPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga24ad8cac8a67a0ba82a0cfeab01a1947</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VPCR_VPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga52f63f0ff9c3fb9ce1bfaae07445f7b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6e3b85e66074e5d6b23009224b402aa9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VCCR_NUMC_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga95d18d46e5d270060e5118dd4363bbe5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VCCR_NUMC_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga235d2eead47782c14e0fbe84383f5eed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VNPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6ad7769d494640c88d35a6e4d422633c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VNPCR_NPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2dfe759a2ef72736d6e6f2caaa64ea51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VNPCR_NPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga591275b4d5d21559ea1e5cc35f7c3178</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHSACR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga52da6873192d03ff2b4725cd4cd1f6d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHSACR_HSA_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab900d34dcf37ad2a2c376674ad180c54</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHSACR_HSA_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga289783f98765488c4e249ff009c9467f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHBPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadf2ebb4629a427226c76ad25fb912522</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHBPCR_HBP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga173a76c76d94c989d12e9b7c61c7b2f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHBPCR_HBP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac595d3af5358c1ec94b7a1526805e7dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VLCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5afd04cfc6d2191afe43704b0d1ea70e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VLCR_HLINE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacd55282af6bd1d49bfbd99c85de1df76</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VLCR_HLINE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga191f0034a91239948597e29ca50cf99d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVSACR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabf3c3524877f5bfa443401bf7225b606</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVSACR_VSA_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae523d1fa45fbec6f0b661f2ad2ef2fcd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVSACR_VSA_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaba661b23009ae507db3d0888785fa010</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVBPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf47a47e3bb7eb415e8fb1436efeb185f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVBPCR_VBP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga042bc54cf8cb60588df87cb5a802c2d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVBPCR_VBP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8193b44974231782cbfc3231703b8b8d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVFPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab574b1c52280469bb7d901971c079c79</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVFPCR_VFP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab1d616a8200e43eb67a979856f12c44f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVFPCR_VFP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacc7da4469803fc3754f384a9b9d4027e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVACR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadfd274cefb2c80869f9081d2050d5e81</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVACR_VA_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa5deb51f83a80d37018b9d541b9f56f7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVACR_VA_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab914d05cd58152c2759b5eb2ec95eade</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad30e78734567c2d1bf33c17077304bdf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCR_CMDSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7131d1f39584e57dd9abe73ee44ca6e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCR_CMDSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga50ec68c262d3463f1e104e79ec1c1e95</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8c7f50f68958dbd580c322a62c678767</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_MRDPS</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad10d9dcd4fe554899f9193e981dc5023</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_DLWTX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga50cfd6e793d5c91d8116482fabd780af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_DSR0TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaaef15fba26b09dd5a2ec30c11aa37e85</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_DSW1TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4477c9a908c076ab54faa81d50b9bf2a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_DSW0TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga82286c89793e7d5744965e96823f44eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GLWTX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7b26f5a7d0f486c7016e908731659da4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GSR2TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3e9e8011027f5265cb62aaf9cf4d0cd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GSR1TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac4ae55af5054595b961da557b63c04f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GSR0TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa903db3e77077ef3de1bc8582a28ade5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GSW2TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga584660cee46362755734bd0e9883284d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GSW1TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafa1f337a1e7ac088be31a9f2a61f4ad2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GSW0TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga042e16d076d9c62da41ee6d4906ca20d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_ARE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4fc32c8658625982e9d98508a35e66d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_TEARE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae165e8743a68833d00260b094eba86f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8ea9e833717bb84acb2d42555385eb2b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_WCMSB_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabf67bb4f895b1cdde5633659aec50b8a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_WCMSB_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6886a377bf1f390e0662076ca03d0f03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_WCLSB_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga65942620a985c853111e6ce24b827544</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_WCLSB_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafbc83efc116a5a2c5b08a0140570483c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_DATA1_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8f15e0d6dab97113586250f9738817a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_DATA1_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga69f85a53082eb0da790e2a104af2b5ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_DATA0_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaacf486a9173ccc83cf0d35049f33f223</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_DATA0_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabf3ceb100fc6d7bf898a33a07420b5cc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_VCID_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga27823ae3424124a887ea1b659c7494f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_VCID_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf583df00968188d6f92a687e4ffb0ee1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_DT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac4ed8f253c601b829a626a482933ad50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_DT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga292e25344e95bb0e9d1e42dfd10524b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9a71a6aecd08aa768cd2357fcd88f666</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE4_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac7b3765635c48fd1c2199218e49843c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE4_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga38edef730728d525f682e36ea6037813</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE3_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1597f3b9ee8374e95507b1c04644f8a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE3_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga10c0f234c1d9c903ef26a73ae3d9b84d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE2_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1f1d7084fb727f19b52eba0bade09b39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE2_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafe47212f9d4457376e84659aef0ab0ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE1_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga99376dac85dda88e2d68e1c8a4f9193b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE1_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabad77af9c06a6c83abae774031afaece</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1f0454571115d4561a957563b27003c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_RCB</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga088901669e97de93f6b2d18434c56bf7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_PRDFF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6972ca8edca438fb9535d0983b02a8de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_PRDFE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa57a8d5f638716c983a94eb05eefc0e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_PWRFF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf71660dc0ba37b59ea97f74c83871fa2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_PWRFE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5148df68ebe562b8583656d60d3b3906</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_CMDFF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga17826ffd99b3be6acc8a3154828dbe85</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_CMDFE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa9921b82e80f4c9524d5145d58c76d41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0839e8fff9a837b0c97aa91950c7c14c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR0_HSTX_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga00952e63eca4372ac9203cd11e75379f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR0_HSTX_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2ab6ed49f9845a3e9ab7806b729e3b3b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR0_LPRX_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1144538559578062ff8ba92846c4f31f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR0_LPRX_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3d96e56563470d9d8d752c84abf0dcfe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab13c195c134bd7467bbc6a0842f681a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR1_HSRD_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad100d5b8dcd3ceda394c7f49aad2425d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR1_HSRD_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga887e29d5aed560eebb3090d14b6dabbd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaedee745c896cfd0af1bccfaef6dc6660</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR2_LPRD_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad6c30b855cfe98047ef6d842e35e3794</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR2_LPRD_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafa6ee17925572e15e5d01c4d319a6c1f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaac39a42bffb5d1cc29aff306bc725bba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR3_PM</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa64af365e4364b09faa9a0bd764e28d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR3_HSWR_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae772760ab714021788e64ee7d3215fec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR3_HSWR_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga51912a21399e5c775d53a9263c8fdee3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gade4cf6f8e816fb208ffafed3afcfb15c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR4_LSWR_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5b871bb64290fd3ad537313e5d73aeff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR4_LSWR_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae4d7bb93ccb75830cfe1e1575d9f1877</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR5</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga71c7edad391bef114a24dbea385debce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR5_BTA_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga002ecccce9bac150979583f20b8fc486</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR5_BTA_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga74f41f995827df52dbb851c62bf699b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1ee738e8698cb7edbc9a5a22f2f271e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLCR_ACR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf26ff73875d53c3ac72854c71864e67c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLCR_DPCC</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa9072ddf9cb2ab01a5769a0f6bbe7664</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLTCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga95635b8ef572051e696c087ce05c3e7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLTCR_HS2LP_TIME_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga63887be0605eb977adc9f9977bc0862a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLTCR_HS2LP_TIME_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga54756a145f9b0bb68abc91923783eddc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLTCR_LP2HS_TIME_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafd955ae6143179de2a767d145d83dfa3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLTCR_LP2HS_TIME_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab3639fdee38526021496c2db0b889346</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga584de061a9311ab1838ddbfe83dc14dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR_HS2LP_TIME_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae632f56b7edf58557aefa02fadf02942</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR_HS2LP_TIME_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac2ded1bf0e888c1a3494c2994cbff827</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR_LP2HS_TIME_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga46aef2073b1b7ec3c0d262d006b47441</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR_LP2HS_TIME_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6a773a8b2da7d22c40092956de07195c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR_MRD_TIME_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa877958715a66fb1b6190b96d7e52077</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR_MRD_TIME_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4e2d9d0e00a2f39aecb684418d337c9a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCTLR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1e47d1e4da0257e393797f75b76f503a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCTLR_CKE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga68b6e369058fd1a2759aee05ea39e529</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCTLR_DEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga18ce6e77e682454528715f30c6739a8a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga14cdc929c343b7e57ad2124add12aa58</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR_SW_TIME_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9db02f9bbff0f671e35d33f285ea807d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR_SW_TIME_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3dbc6368cd1f8e4b228daf49a89f1cce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR_NL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga91a277f4095d4fdfd8e381d8c27f3ae0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR_NL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab687b6235e473ddb5ea6cf8c3d260285</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR_NL_1LANE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga911ecaa07205bfd5e493dcadc653a6ed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR_NL_2LANE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0fdc231613ed87593bdc4f07f58e6a12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PUCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6e3fb30f384ddd4198e3bb33a1ae3144</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PUCR_UEDL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7058d1e9cdfe8cc63917cc11661c1883</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PUCR_URDL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabdb450bdcdb9b9c7e5ddd102965b57c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PUCR_UECL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac78e91f54493ad9678982a970c4d23a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PUCR_URCL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab8c318bf495a57c38035b1b8cbbbf8a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa072dc85da6e6395a7e2ca2f4d9587f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR_TX_TRIG_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6a01724c6477abb91690d8e66823e481</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR_TX_TRIG_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad76d7dee25705ce4881de1e22a694e7d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR_TX_TRIG_1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1c4add6508333cd1fc79583e59308b1a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR_TX_TRIG_2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga45b9eaf2abe2981ddd49f4dc0acd145f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR_TX_TRIG_3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaeb87a78b1860b06b521f00f593d76c51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR_TX_TRIG_4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2f878e0a73cc393ac8682dc5058486e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga57e91a1b2074f4ab913ca879ea819ec3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_UAN1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga23fc01aa8ecabc3c002d559feafea539</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_PSS1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5a1e314338c7d2f4208fa8394333741d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_RUE0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3f78b848bd75cc9da361c75e2dce6d7f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_UAN0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4914b37b53afdd69a29250aff50b5fd5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_PSS0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga179457f56eff305ff4790de4e426a9c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_UANC</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8186e958c617b039c1022c052e27adea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_PSSC</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga049c17fdfbfb626332649f1ff4772cf2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_PD</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7f118d2dd8be8bc13bfbc6faf22530e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad8fc2592986c443d5b89cc0c227aca01</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_PE4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadb3b6a7200b0de24fa65512d6c48305c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_PE3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafa46c359e93843090c645c8d24a9930a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_PE2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5d57e3866251cb5cfa391a8ef2319d25</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_PE1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabf2061678662f4035a8077cc47a091a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_PE0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga717365ce3767e0d073cd24c84bc6bd16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE15</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga182d0754c07272185496e567d7d8b22f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE14</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9a75cb8065e2aa86c6dd0a76ee6baa3f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE13</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5539aa6b9f40b39e2025096cb6d54073</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE12</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac28ce5da248776335981a0959395060c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE11</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafbb3a86843f0274ac032db8a7deb05dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE10</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6fdfddc9e83b8ecbe1c5f6c00027217b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE9</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacd24f9c86cc27a37905b337c1ff07359</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE8</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad2bd16a7ad2693781058020d73a7a558</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE7</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9b99c700ace56f93799840e87cba9bb6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE6</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf8e5d04a77bf1891473e0c8d80bf24ee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE5</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac95b624cd8ab1ca4dc436dd6890beb12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7b762ebb5bbe27a192112092d40a9df2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga695a12776e1bb09014beba7c6d5a285a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaed8af91b32f02d1228cf9231a2b2d7c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2e9aa86dfe99d523d040c97850b70008</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga039c2b0623c159a9f0b9f1bf22ea45cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7c2faba7291ffb3a06b132fbc509703f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_GPRXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7e707e6192e1855bf01d084e7c7788f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_GPRDE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga81f81992839f00e1390e6e860b406db9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_GPTXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaba822a685812ad1cbc674f231365b381</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_GPWRE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga74a35900a70a19fd8489597f20a7283d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_GCWRE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7add9e397381add99f1e4e6a3290fc9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_LPWRE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad071e4acd1c9ebfddafbfb63a24b270c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_EOTPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4ac2fcff75c8f0631f40d1d417885f67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_PSE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaaf14828e8a84c7878bcd1b55746f4414</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_CRCE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga93fc832d991f92b9a4d54f56c5dff3a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_ECCME</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga34bbe1fcabdeb546ccef8530719cce51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_ECCSE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga282ed2f52258b93a768167fdbef86daf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_TOLPRX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0fa95325efd7372bfce1b7b084b64cbe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_TOHSTX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga009c2e192b0e3d4baea85f14602b20be</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1c19955bb5c91439cc7595a304921de2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_PE4IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad113df892e2d586963085ac6d37d23c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_PE3IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9fe469acd9eff118e9b0d0588c4e9d84</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_PE2IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab05aa16adbb02113268a093847ed842f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_PE1IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1dd8e8f1f11002be0d8ab38e7f9f5e92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_PE0IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac5f0df77336624fe534cc37c51089507</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE15IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab16924e5534c586d2ec1ed7052b14f47</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE14IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9e03d3773ad91217f21856837b2e3b9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE13IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacaafbdde21d3d0f2aaf0de2313705a5f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE12IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafb07b121c8348857900bac0d52ca7afc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE11IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga65a4810685b0e12aef5e25c86b1b1a92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE10IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaefeb0bea734f3e2312ac3c0bb733e562</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE9IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4b9535efc4ccc3bc765a406f671680b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE8IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga652b583fe809cd28984d18a85f851b34</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE7IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga43262076b7b35f9ef0da10c940c7be09</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE6IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5c293dda35ce88bf23e9a070b675cc50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE5IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga73b48859155920f98c1e221d2a0b9df2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE4IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga185d2d9468be71c8c85fd7fbd7ce2c9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE3IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1f54a7f345c45129e57843cf9c8abde9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE2IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1f9ef96395bf6182c988a7651cd05921</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE1IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1c907c6bfda60cb39b78a3e2ed0e6e0b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE0IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga902aca207c33de2be1b71ed1bd8c5b70</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3a6d5725914d6a3d05f17aadb22a9472</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_GPRXEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadf8c4d408f41a88bb242018ea5b1e03f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_GPRDEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaea8047b9a19ce117f7b231432e0da7f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_GPTXEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae184bf700a97659cbd3336457352ea8e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_GPWREIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac23567b07272010f0b1fd150f3bad934</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_GCWREIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8171764932af6119b00a6a8e679a29ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_LPWREIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad5806637c13c2b399960dfb64a36ebef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_EOTPEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga93ebd7565a18c4f263074090e3e8824a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_PSEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4d0b1edecb0dc890182a1e0405bb08d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_CRCEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga167d4dc0552e907e7f7dbe2706534c7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_ECCMEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0dc9fea1a138c0c9de8de91ac73a43c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_ECCSEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1b2c84cd8cc67f7370a015f83603206e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_TOLPRXIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga95c2e55d790a72083de329c86c254874</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_TOHSTXIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9b38d22252c9a4c999e0a64196e611c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga37ec76efbaf2bc932e4e519fe79827ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FPE4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabf13c9c547cad26f8c394ec168db3990</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FPE3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9c5494a01837773da0f4c12021334d63</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FPE2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac556248da013a5af5e43077f4cf676dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FPE1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf67bcdd3a9b6ba03baae66814f736474</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FPE0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafbbcedf50ee001c1193cd112a955bac9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE15</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6af71644ac766640c3aff23fa3fdab30</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE14</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0f48ff3b97ceec852eddeee300655baa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE13</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga31d34809bb78b992ed6e6727f437b6ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE12</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacf13b6ebc888ba8bc88e4f99d4bbe245</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE11</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5afa13dffe8d187e51b12ab43fa515d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE10</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaceb753932ca6786399a2d461cf3b6722</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE9</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa5224a7448af6576200df44c77d7e814</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE8</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga66f94d7776ab12c9d807ba50bc394a16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE7</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa8a768e31af9238093464a7f4a1e9f4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE6</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaac29bcc1d0cbb93198c4444b8e937b0b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE5</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3253fbfac4f2cd3174260fd4b37612f2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa744df999c45b2d8acd36e4dd857cacc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae7bf454a80c591816dbc4b30ecbff43b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5a5025e884ac5343326045862846e226</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa4d631cb62358ce75accc065cb9925c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga966efd5645411e85c24e9f99e65580af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6c0b74a2da3479292c06e176f81eb720</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FGPRXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga236e270550977bb3e04ede1c85392ff0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FGPRDE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2b7c5eb36b021f4ea8de6f64c0c5c95b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FGPTXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae98523dbe3e7460e6a5fac27e855278d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FGPWRE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf07ba0f73612ba1a8392743c01bf6061</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FGCWRE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf0164329d308aa3b2c65c711a80daf1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FLPWRE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0c0045a827a93c69de50bb6e782c7045</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FEOTPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad990c6c8a5bcda7fa56e39723425f901</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FPSE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3182d2ef179420c1a53c285ddd7c9c5b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FCRCE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa87beb7f82a2f16d037d074342a48286</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FECCME</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8dc5b206bd6b13f41274a837e0ee4e0d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FECCSE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6ede48129d86d7b3015e12ca81275de6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FTOLPRX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5a35afc9ab3dc15a39452647643c2720</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FTOHSTX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga69cc20e1336d31881f98b20b7d50c958</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VSCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafd788a9dbe5c8d5a8042b6f141933b11</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VSCR_UR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga320300f1000a330a1e407451c24c73c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VSCR_EN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab6e966ef131036dc5d67b4352d094530</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCVCIDR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga48778527de8d0f24ef9b50fab325b373</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCVCIDR_VCID_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0b4ce4c415c1072b86f118ffa6477dd9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCVCIDR_VCID_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga926a014188c59b47e7af31d3334fb086</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5528b65bcc51fed8ed0b8d02c56bb14f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCR_LPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga98cc73d68df64cef542f378cba18bd3f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCR_COLC_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacb2bfb4e01d2dc14d866c08503e3532d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCR_COLC_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga48b498f4f7f09c73ae2c2c493172a7e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga67658fadc5340a28d5e799f1eeb2eb29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCCR_LPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacdcf9d2f56172ae06a6904364461791a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCCR_LPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga45f921ed58f98906c0e2dd98d3587f4f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCCR_VLPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga10405dface28afbc2e3002a16f6a5548</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCCR_VLPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1c64765ab01e4f6e659cf129e011dfaf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafe4a392cfe23819cb47073c88f03c585</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPCE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga95e91c4d2a578158bcb39c20a7c716c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_FBTAAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2e95fcdf5855e5996d7b4c0c14f063c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPHFE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacb130069d48e6ce315dbf50e9534f9c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPHBPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaed3aea90e87531af13ac9292d908a132</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPVAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabb114bbe4da20c0cafc075bcf92fc228</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPVFPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga04c500f8f281d97b6d7cdfaedf78b6d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPVBPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3cfab883080f6195458f963586a34f8b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPVSAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6f1410d129d61c64198a1031ffe59bce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_VMT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4802b56e0eaa3e7e85a8f7e5f5f3e187</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_VMT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa4ea06b8f5e8bf7ee71611294c043926</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VPCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1d403c0cab52d0fffebb505c54f5cf8d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VPCCR_VPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9d6acfe16c5957e60ff9cbdd508aeb4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VPCCR_VPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0f923e7842e03bd4d5fdb55fd359b8a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VCCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae7aa22984ca3b0bfd16afbf45c9577c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VCCCR_NUMC_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9a460a56aebe56ea849d4357a2948fc6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VCCCR_NUMC_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabf71e2ea0a1ead2e01929124254ce01b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VNPCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1938a3033852cbb4437ae4802b303d7e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VNPCCR_NPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2c2451dfb50814a43219a8aaa43e6c39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VNPCCR_NPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad3fbed1e35257da4c4a652e73c1bcfca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHSACCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa04fc25ae825ceffc8a385e5421b161f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHSACCR_HSA_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1aaa9ed9625f203ab05f38aa1b064e24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHSACCR_HSA_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7c86c4196d41ea641556719ebe1a2735</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHBPCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3811f1236861c834d3d95cd3f1fd3e9a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHBPCCR_HBP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga311050eb71b9dbe3580d277e6b267a01</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHBPCCR_HBP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga85484c0599aa257ab8fb4bc9bde5531f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VLCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa9eeeaff7a74f5131f660a10e907c64a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VLCCR_HLINE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac654b5fb26d35bf0d426c849637c1feb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VLCCR_HLINE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga030ca28228e244594624db6d7352d851</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVSACCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab7b0bbcd79f84af5e0b09a354224946a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVSACCR_VSA_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab4b8f0952bfd4ac21f14b4bb07d85188</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVSACCR_VSA_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab240d9f5396c484f6ead4bd1ab6c6e18</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVBPCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9f3ddf2772cc759726c1859ec7856413</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVBPCCR_VBP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafa929f36ce07617d70d2e970ffa80959</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVBPCCR_VBP_MAST</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8a1d3a60c54c4fee7dc2430056b442b3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVFPCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6a951c5ba15f7f2d28f72bf9639351dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVFPCCR_VFP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf57327e2d84d482d9f30eeac9109279a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVFPCCR_VFP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab3c60662f932da98826ab4519c4006b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVACCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga83b9030cb9b4aa188df04683eee167cc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVACCR_VA_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga895b72b2a0f52f038a9a53420dc81e8f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVACCR_VA_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac078e6d08067a63a53a39e9add9451f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga352f8ccb990cff1780e2d140f373a65b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_VSPOL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9eebbf467dc79404f30599e96583df10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_AR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaeb0b204cc00e063cb458a4f120b4e438</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_TEPOL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6a072a54fe0f7d5902f461a169a79364</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_TESRC</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8324bec90e6d5b151d9db4b5c302e55b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_COLMUX_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf5fe823072ab7634a50a20b7d70ea845</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_COLMUX_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae6013183be3e92f530a42b170f4392f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_DSIM</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadab6a6ad815e53905bb24dc386b10343</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae40a7b8cbb8b805968ecd6f3be1d1884</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCR_DSIEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4f8370f2494d02034c4f9804b016669f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCR_LTDCEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad51879d59c9b70933cfd38d61cbe3d32</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCR_SHTDN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga47b414720c442a5a655ede13e470102e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_SCR_COLM</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga57dc4ae086899cdff06c1d15db5d5982</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIER</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga38b5b37a55ce0fe40cd698b6d55aa945</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIER_RRIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac7ebae6bbef11ce454276f8bce935267</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIER_PLLUIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf849992d702307b3c87aec3179743165</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIER_PLLLIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga86bb26906038de03d92219488070cd8d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIER_ERIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga71bd1029efb5cb1b53d469b6be1fdd8b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIER_TEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga66d2fbb9bc66d77fd4dcd076af930bca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadbea74ca9d96d534591340b698130227</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_RRIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadad7a89f48d990aa987234055c73993d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_RRS</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga12edd1340d4eb79dc1d39174acd345ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_PLLUIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga38eb01920a7b6d5f505903fb4ccf9e3e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_PLLLIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga62582c2e50e4ed63727f9111375cc7a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_PLLLS</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gade7d2a2069da112a2b36e176bd35bdc0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_BUSY</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8741210a2ba21c8b900f2a99962d3a22</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_ERIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga174d3118efe144cc10f96076493cc454</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_TEIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga74ff0222d59bd3994a1b927c4a517305</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIFCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3337fe06cfda487ed4151d1af58cb41e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIFCR_CRRIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2bc327ee540e5bed0e7649a9807cf525</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIFCR_CPLLUIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaaadb1e22402e9316bc4cc5d8c1d3a1b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIFCR_CPLLLIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga52c520c3156ad5f4bf73543f5e866ed0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIFCR_CERIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga64dee09a8c1148dae74c260e30b6f6c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIFCR_CTEIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga361274925692b4973395d20c7c60387c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga75ea83b7bd42a6273bb43f40c0c0e5a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_TCLKPOSTEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacffb76965eca07fa6181045269ce7cdb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_TLPXCEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9579e0f5c0f26d7aa33ce17996617337</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_THSEXITEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf0df5ca5acd6ea32a6b21a8a21924cea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_TLPXDEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3b46a6ec918d02e0d849aa4639d683ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_THSZEROEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4a6c491794e2fd0f85541def721aa258</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_THSTRAILEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9bb4d80856df33cc7d6a13d94d2e7a9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_THSPREPEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaaedf38614792fe9416f529c17eb0b0d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_TCLKZEROEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab2027067274319b5790a529a4df158d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_TCLKPREPEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad5682591091c015bc88faf555faaa52b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_PDEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8c0ba1a3546d7df4296b296079ce2c5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_TDDL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga60a2b013ce6c921c5a3278a206a3e526</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_CDOFFDL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae93ac87239ad136b571fa5d79e6c34ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_FTXSMDL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1082c04b6949ad98df037295be151f7e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_FTXSMCL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaca659a7694ca7f3e9af92c5c82855500</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_HSIDL1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf806b428af69f1b09955b6985fcdca92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_HSIDL0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5df1af8b748280e8c492cca6deca2cd0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_HSICL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad00231b9641a86a575c2ba9c1dcd0224</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_SWDL1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab4efa8f094953ac100bfad910f35b35c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_SWDL0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5f041a69dfda3eff66aebaacd2d22c96</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_SWCL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0bda5fffaf6514cbba333804fcf7708e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_UIX4_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3b12afe3d8fbe2e0f74d1cc03545ba8b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_UIX4_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2ae9eab3295f095bc694b80719202c4e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga390248afeeba600ca47eb51033467dc1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_LPRXFT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4cf953f53eef82369c2af98dc3eb838b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_LPRXFT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga22df947b5049c4cf1e37de1f0ec8a264</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_FLPRXLPM</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5367c08e404cd9b7e892992d9d2f2453</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXSRCDL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3cc4f21738575c89ee3372f75d5e7dac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXSRCDL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafac590095f451aada34a3c9d6c2ff40c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXSRCCL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad7615281398efba9c50934a9932eb5e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXSRCCL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2db7ae57b8d7d32ac08ee233b08e6c5d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_SDDC</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2bbe4d6c1d20c7b3706fe7b00d89c54b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_LPSRCDL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafcb408b33e0cf53aaa37b3d10a9144f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_LPSRCDL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga081a2937cf698d1f89941bee222bfb52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXDDL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga685e34095030e73884b7da4f159651a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXDDL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1f11a0bd22446d4457a2e0b026c243e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXDCL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad524eedaa3d195a97e69bc48eeccdf5a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXDCL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac89fd6b3cdedf413d292733b0801926b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3b53acfff87f7355400e0e4171f92a9b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_THSTRAIL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf989eb569fc3a66032004dd661e93927</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_THSTRAIL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafbbff99e603788533a9e74ff02cfe662</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_THSPREP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga11a310017cc7b8f9fd1608b7a4a35c7b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_THSPREP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga241507af465363011687aafcbb59b46c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_TCLKZERO_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafa50ee997430750785aa656f0d1975d7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_TCLKZERO_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga26578818a1d1c4f7decc4b15c45cfa68</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_TCLKPREP_SHIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2324efdeab88e5f568ad008dac36c863</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_TCLKPREP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa988364a211cb6fda3ec2d2a7df76a01</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaed3769971fb26c8ca3f4d0c318a09cc2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_TLPXC_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2208694be1e7a2fa4e0d4eeb52a05940</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_TLPXC_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gade086a07fec0e469b379188a995f8daa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_THSEXIT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacf4801f1c6738cac14a9c91d1a52e14b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_THSEXIT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga038009e6dc3c670f76726e5274883e45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_TLPXD_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5ef2dcf1f81632492f4f1222a7517eee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_TLPXD_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae74ada05993525245703abb780ff05fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_THSZERO_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5693489a16717794f65c86b51cb950e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_THSZERO_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga46df4a1e7773b820395873396273d3b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4ec247cc89b61ad8615b216c2137ad51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR4_TCLKPOST_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga36f3f97b42b85bd341bea0d9e2a08f6a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR4_TCLKPOST_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7b13bdca46407d327bb69653671f61c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga549eda5aae7b3461064ecbe2165bf475</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_REGEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga36c0de05d2c99f9fd998b424f41f65d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_ODF_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga337608af7645b1314abdb91983b0c5ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_ODF_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac0382c88cd9fd0aa7046c507e422af41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_ODF_DIV_1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9029924def699f7b5a9e5c5144f9b8d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_ODF_DIV_2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga988fd36c77183f9b26d5a69919e0187a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_ODF_DIV_4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga40816ff0d17d2a5c1fc406c6c854a5a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_ODF_DIV_8</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad3a8752b7c44d1edbeb8ead1407c6ade</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6359bfed91fe02006819e31f3bd07fa1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5e5acff235f9c6c59ed93802196ead4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga616eac737ccfd140806d13f239d2c52b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2dc84faea2df05c9ded144eff49c8bc7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae91e98e9c71e827e859d37028011cddb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga25ec9b24536b70ad080d6eb1d90c7972</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_5</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae9a5cd4eb2ad1cb69ab0a0dba0a53c6f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_6</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafd86be06fed0ff341cf8d1c070ef713a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_7</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0c4a4ab217b3bea292c89421623397a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_NDIV_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga448616b938d112f7dcd2223d22d6a951</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_NDIV_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5c192e6ec1f855571a7755ef6346d25d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_PLLEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacc3dfe78db82ea9b1365de4bf9d63c00</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>exti.h</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/</path>
     <filename>exti_8h</filename>
@@ -16652,6 +19975,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>DSI_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>ac094188b138a77bbac13d9361609b617</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>GPIO_PORT_A_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>aadfedde7941fa484de08872551516cd9</anchor>
@@ -16820,9 +20150,65 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>FMC_BANK1</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a34a32a0989512d378cc0defeac3724c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_BANK2</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a656e0d29a68ce622e0a9a733ea2605d7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_BANK3</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a0ade3350b211c3cb0839dd0955f52691</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_BANK</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>ac43956058e42ce51600fd15e90bf8683</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>FSMC_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a679200df61ecb0695d72c030fdeb50a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a68a39e11ba4a19785d20a98954c7fc9e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>afb7583d373a42482ec5176d0260c4871</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_BANK5</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>af9ece528e5d65fbc749bce5e447e1adf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>FMC_BANK6</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a8583f5d2adc0c63571fd2f4a52206814</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -17521,6 +20907,557 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>quadspi.h</name>
+    <path>/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/</path>
+    <filename>quadspi_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a3210b48a47acdc58de150f74a1b8c7c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_PRESCALE_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ab0d89f09c9d761ef42cfe36a6c3acfc9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_PRESCALE_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a3adfb97acf8deb132e783cc5c804a945</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_PMM</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a4ccf439c54bb374d15bb1407e3018e4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_APMS</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a7d623300af29d42d1233140873c43db6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_TOIE</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a24de4f12fa1b925837252613f85e4c94</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_SMIE</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a7f95f4be636467b6fde77aa7a5785459</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_FTIE</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a2045af0479b1dac21baee49c33e8e42f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_TCIE</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a5b40d2fa562d560e20c1be773996e9ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_TEIE</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a25e8a6f3a65548cd3507bb01e1d505c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_FTHRES_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>addcdcbd729c7af1edb9031b9b92f5798</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_FTHRES_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a6ff12427cd0c1784d5e55b5db65bb44d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_FSEL</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a2ac5939ec9c764a0aef267fe8f43997f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_DFM</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a9d442f814ee278094ea5a7a4c2f24c1b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_SSHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ac649059660621f63f0fad2475c9054de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_TCEN</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a932b50af86c9c97f801efd75f342638a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_DMAEN</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>af7806b1bf9954ff72139fd657f193732</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_ABORT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ad099d47035fb63f8793169d7f0eb0ae3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CR_EN</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a050f00e199825fdcbf074c6c1f8607e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_DCR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>afcbdcfb2a6bb585b90c2babfbd31f3ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_DCR_FSIZE_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a0da3bc85a448a9291817798929d5676b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_DCR_FSIZE_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a99611587d38a138eb843087d1163eaab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_DCR_CSHT_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a732aa849e572928b22e8832c73c3d2b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_DCR_CSHT_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ab8d592d76d89ed1b89044b6b609faf0d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_DCR_CKMODE</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a8832f18ae10c2d8d1406182e340561bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_SR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>abbf3a08bfce6fd5e4d8d5a0741a16459</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_SR_FLEVEL_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ad78fffa44cb72a350ec56dc4e13a2fe3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_SR_FLEVEL_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a458b95a341f387afaf6fdfa4edde506c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_SR_BUSY</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a27254c6ca941e4ca5d2f46e5bc7fdf0d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_SR_TOF</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a76452c78d891392aad440842dc2882f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_SR_SMF</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a33328be6c9c4f951ba6d04c80ed846a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_SR_FTF</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ad96f31e896e12ca3a3f2e836a115bb09</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_SR_TCF</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a5c813dad6149701606c0ff42663b64c9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_SR_TEF</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a9cec647b2b62709c4518c4f82eb38b1d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_FCR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>af5c5a622641098f7b7efd0c14981d3bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_FCR_CTOF</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ad6694075780a7586b8a4dcaa97fd86dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_FCR_CSMF</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a6e4a83d65aa38256bcfa4e88621bc514</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_FCR_CTCF</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a44c6130ef9224cad78ad7c8161782886</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_FCR_CTEF</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a4884ff79878b8b4a9bbf4cab3719b72f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_DLR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ad0e1bede17593eef6def264397114b29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>abc18e2855eb2087f70e599c7155cc049</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_DDRM</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a884faae87510ac6026871e24a517f3d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_DHHC</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>abcb43a53d42e435f766e61dd6dabb73e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_SIOO</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a688f887b33af465540dbaf97ee924497</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_FMODE_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a77049478d5887f7ec16440ee170c5983</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_FMODE_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a2c517a2eb91d53ab8980d8882f1a7176</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_DMODE_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a5197df65c120634483e47af94ba56fac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_DMODE_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a0b44fd3526c36b86dad2aa0d3dff29db</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_DCYC_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a810e4076c524bc5bbeb98ec3a8961108</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_DCYC_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a87a84ad6ac7d4b5b498fcab07adf7462</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_ABSIZE_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a769ecc76b18abe62b5c8ccdec09a1585</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_ABSIZE_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a0627aa6d3f64a4fa791af19aa13e211d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_ABMODE_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a9ba8acf717694495d508c5622073ce86</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_ABMODE_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a6a31ee06392d3f3b98b82a77301bd802</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_ADSIZE_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a71407bfa32c7082a3185ecb5af339d47</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_ADSIZE_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>aee118652fa8bee6c482896142a6ed12b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_ADMODE_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ada871203aedd70d84bae83d93e534dc6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_ADMODE_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ac14feecd66a4638770914fff28fa0d38</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_IMODE_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>aa3164cb249127e49502a8fb47a8ca033</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_IMODE_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a9dd0e316742c638060dee5c1a8e87381</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_INST_MASK</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a0071d90ea4d1ba4ce7ceddd14b95c1e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_INST_SHIFT</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ae2e0a0d99fecefc50b8869b31d278d69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_MODE_NONE</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>af33f6b615380479df8abce7677cc0a27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_MODE_1LINE</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ad1a14d1674fcc4bcb8c72d545b5fa729</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_MODE_2LINE</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>acae50053b512d5fbade57c491934acf1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_MODE_4LINE</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a6817d3c5ce45042106c04ccc522eb427</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_FMODE_IWRITE</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ab92c737d1dcc5f1e344148f113430bd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_FMODE_IREAD</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>aa613251e7824c58841c6755de64bb21d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_FMODE_APOLL</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a4d11a6da3bdb8e5a12f73964d2113a93</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_CCR_FMODE_MEMMAP</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a8ab99edfe7d358b8cd952b5b8f12f54e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_AR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>ae44d0f893800239416eaa34437a8c936</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_ABR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a22fa5f210f463d35861b9d3717bbc56f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_DR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a2a582f48066ccadc6a23db963c178a3e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_BYTE_DR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a8c13157b7a68284152131ae4244b303f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_PSMKR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a9e321ca903678330e1af7a3e065457ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_PSMAR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>af86030498cf0d38501038c0800697d81</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_PIR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>abf45d0bbba86777fa368a6f408a3b471</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>QUADSPI_LPTR</name>
+      <anchorfile>quadspi_8h.html</anchorfile>
+      <anchor>a9adeb5c56843bd450c626341766c6d90</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>rcc.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f4/</path>
     <filename>rcc_8c</filename>
@@ -17995,6 +21932,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CR_HSITRIM_SHIFT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>afc2514c6e831f2baea68fd08626e69c5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CR_HSITRIM_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a73f9913edb8b30eb2b8aa1b5d29b297e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CR_HSIRDY</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a9dbac3f2bc04f04ebafe1e66ae3fcf0d</anchor>
@@ -18009,9 +21960,30 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_PLLCFGR_PLLR_SHIFT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ab97b96fa0fd9d3d4386ed56bb700e4e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLCFGR_PLLR_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a1d434ca0178b0806d56ecaeba5b77e31</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_PLLCFGR_PLLQ_SHIFT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>ac4df0bb6bd16afd9fbf2e30d3089e93c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLCFGR_PLLQ_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ad4784939ce13e81f2cc64dda2b5d8770</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -18030,9 +22002,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_PLLCFGR_PLLP_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a40a7c5938dfdd0ab63dcf3b203da7dd4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_PLLCFGR_PLLN_SHIFT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a01fadb9f1fc91bb2830620ab5eee5324</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLCFGR_PLLN_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a90997335764397eb4be02c23676cda4a</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -18044,9 +22030,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_PLLCFGR_PLLM_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>afaac3bc429eaa475ca5e431a020d4c67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_MCO2_SHIFT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>aec56718af94d435a901b66dbdc20e579</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_MC02_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>acde251a134e81517b4e1162d55162d3b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -18086,9 +22086,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_MCO2PRE_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ae6c96bbf78206eee149e53cd715980ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_MCO1PRE_SHIFT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a4f8f18c88c6c897e0968c0c952a8b26d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CFGR_MCO1PRE_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ac14b7e92650855bca43158cbefe9a0af</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -18352,6 +22366,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CFGR_SWS_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a451045d952eb1caaa0090c9e8dc75082</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CFGR_SWS_HSI</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a6764639cf221e1ebc0b5448dcaed590a</anchor>
@@ -18408,6 +22429,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_CIR_PLLSAIRDYC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a425b11a624411ace33a1884128175f4f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_CIR_PLLI2SRDYC</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a73e79cc7236f5f76cb97c8012771e6bb</anchor>
@@ -18446,6 +22474,13 @@
       <name>RCC_CIR_LSIRDYC</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a982989563f1a95c89bf7f4a25d99f704</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CIR_PLLSAIRDYIE</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>aea7017a347f40972bc457594991a5470</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -18495,6 +22530,13 @@
       <name>RCC_CIR_CSSF</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>ad66b719e4061294de35af58cc27aba7f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_CIR_PLLSAIRDYF</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a33085822ed319bf2549742043e56f55f</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -18555,6 +22597,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_AHB1RSTR_DMA2DRST</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a25aa9e4bf01883c7fbc224b925ee4fc7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_AHB1RSTR_DMA2RST</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a827aea44c35a0c3eb815a5d7d8546c7b</anchor>
@@ -18572,6 +22621,20 @@
       <name>RCC_AHB1RSTR_CRCRST</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a94f45f591e5e217833c6ab36a958543b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_AHB1RSTR_IOPKRST</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a7a347990e4816e7b1a93e105ad32fefa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_AHB1RSTR_IOPJRST</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a04f58743613ad9c608169cd3c26bf875</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -18674,9 +22737,30 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_AHB3RSTR_QSPIRST</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a234abc40ffa9bdac10d20e46feedb697</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_AHB3RSTR_FSMCRST</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a915aa42b819649f5ee7abdf5319d6bb8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB1RSTR_UART8RST</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a6667dd4c4cd43641139966d6d455d71f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB1RSTR_UART7RST</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ae8082ea21d27919bf78784f4f5be8734</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -18842,6 +22926,41 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_APB2RSTR_DSIRST</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a1d99065e4fdd06b030261b3ba84d0b6e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2RSTR_LTDCRST</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a2f3f9f5166053bfd3bd193ce9d97b4c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2RSTR_SAI1RST</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ad9d8a170e7d5198bcb82b35af0e38395</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2RSTR_SPI6RST</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4e554201b98c7594e5e59e93a6dff4b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2RSTR_SPI5RST</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a2a739f8154dffb6b14aa3338de8d2cfe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB2RSTR_TIM11RST</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a9651c8201d42ba03bb1bf89d9d39e60c</anchor>
@@ -18866,6 +22985,13 @@
       <name>RCC_APB2RSTR_SYSCFGRST</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a813d42b8d48ae6379c053a44870af49d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2RSTR_SPI4RST</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a6029eb5c0288f48ef8de5f88ca7c7e08</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -18961,6 +23087,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_AHB1ENR_DMA2DEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a9bef4fb42adb3343f4f22b298cb9b1fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_AHB1ENR_DMA2EN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a664a5d572a39a0c084e4ee7c1cf7df0d</anchor>
@@ -18975,6 +23108,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_AHB1ENR_CCMDATARAMEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a29bbdcc191708a9e6a46ef197a3b2c65</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_AHB1ENR_BKPSRAMEN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>aee10e5e11a2043e4ff865c3d7b804233</anchor>
@@ -18985,6 +23125,20 @@
       <name>RCC_AHB1ENR_CRCEN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>afa3d41f31401e812f839defee241df83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_AHB1ENR_IOPKEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a93770eb82605c91239c669813e55d8e4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_AHB1ENR_IOPJEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a09c183e68f88732b547c07aca35532c9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -19083,6 +23237,13 @@
       <name>RCC_AHB2ENR_DCMIEN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>afe6b7edde44307072327fcae3c15c8d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_AHB3ENR_QSPIEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a88f25e0d1a24e53f53405dd9b67b84c7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -19276,6 +23437,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_APB2ENR_DSIEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a28021cccefec882ec2a57aad19ad761c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB2ENR_LTDCEN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a355bd72d57bef878611abbd68c5e2fa8</anchor>
@@ -19444,6 +23612,13 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_AHB1LPENR_DMA2DLPEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a8eaf334d499a56654b4471dedcf07ab2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_AHB1LPENR_DMA2LPEN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a9e2d376f6c7db4266a5b039a3aa6c207</anchor>
@@ -19454,6 +23629,13 @@
       <name>RCC_AHB1LPENR_DMA1LPEN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a7d6c8ae1441d545d18c54b30c6a0da77</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_AHB1LPENR_SRAM3LPEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>afee817715d402e9c41037a29e99e916c</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -19489,6 +23671,20 @@
       <name>RCC_AHB1LPENR_CRCLPEN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a7333e14b5ccf6d608232ea52a10f7052</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_AHB1LPENR_IOPKLPEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a57211399820f18471b4c17e0e8c318b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_AHB1LPENR_IOPJLPEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>aaac2ba69e6ad07b53e7ec490c0cc9ed4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -19591,9 +23787,37 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_AHB3LPENR_QSPIEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a732b4eeb42d064550272236c88c30f98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_AHB3LPENR_FSMCLPEN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>abf56147909fa8e7f8629c7fd7349ecb3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_AHB3LPENR_FMCLPEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>af1ad4387b2e45aa706f817544721a6e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB1LPENR_UART8EN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>aa441e0b30d54e1e6125bc0458179e88d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB1LPENR_UART7EN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ae51033a4af3d0da75a0f53b39b2564d4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -19759,6 +23983,41 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_APB2LPENR_DSILPEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a00fb7914016cebedae9d87a23146c505</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2LPENR_LTDCLPEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ac9ec8b19c763bcab7af4e56cc5875799</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2LPENR_SAI1LPEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a35b57d8d3404e6e7e2beed66a201e8fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2LPENR_SPI6LPEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a6ff3ef243e422da69d9ab80e6c646da4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB2LPENR_SPI5LPEN</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a328b8ccda77ab9f0ce965888646df17c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB2LPENR_TIM11LPEN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>ad43fcaa4f4d6fb2b590a6ffee31f8c94</anchor>
@@ -19860,6 +24119,55 @@
       <name>RCC_BDCR_RTCEN</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a79ea6f2df75f09b17df9582037ed6a53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_BDCR_RTCSEL_SHIFT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a811233fc28c0285b701a2e14c7a0aa65</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_BDCR_RTCSEL_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a0703d555881fc61e5de42903ebd3ce8d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_BDCR_RTCSEL_NONE</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4401f21edefdb839e9a5260447480447</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_BDCR_RTCSEL_LSE</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a07f6cd2e581dabf6d442145603033205</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_BDCR_RTCSEL_LSI</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a66773d3ffb98fb0c7a72e39a224f1cfd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_BDCR_RTCSEL_HSE</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ac9db61bfa161573b4225c147d4ea0c3e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_BDCR_LSEMOD</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>afe360ffbda460aef12c42651a2b17583</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -19976,9 +24284,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_SSCGR_INCSTEP_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ae1063da974f39a8c2f5e279ad9a83798</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_SSCGR_MODPER_SHIFT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>aedcd8f566ad34243368aa46ddf7a590e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_SSCGR_MODPER_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>aeb217c6a9a174370dde05cf2591860f4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -19990,9 +24312,37 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_PLLI2SCFGR_PLLI2SR_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ae70b1eec9f683e713d2bf4c9634bc826</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLI2SCFGR_PLLI2SQ_SHIFT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a0d893ca126fece9e0224366baa7e478d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLI2SCFGR_PLLI2SQ_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a7e0dfedbd517b5e787bd1cc2168bc2f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_PLLI2SCFGR_PLLI2SN_SHIFT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a0a1061d38962f6b21c522741f7d4b668</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLI2SCFGR_PLLI2SN_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>abeee33d91002f1e3815dafb50e6b2d3b</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -20025,6 +24375,20 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIP_SHIFT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a7a8e44b00d0546c70f5406bee1f1be2a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIP_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a857cb03b278ab1b7a28f7a6b50000c27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_PLLSAICFGR_PLLSAIN_SHIFT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a944ebe2ee56cbeea81d19bca9a5912b6</anchor>
@@ -20039,9 +24403,100 @@
     </member>
     <member kind="define">
       <type>#define</type>
-      <name>RCC_DCKCFGR_PLLSAIDIVR_MSK</name>
+      <name>RCC_DCKCFGR_DSISEL</name>
       <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>adb6da4d2318290fde8546307117a70dc</anchor>
+      <anchor>a25b0b69ad14d4c97dc6b8efe612fa1b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_SDMMCSEL</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ab7eeadfc1f83208adb6f8bda8aaf79d9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_48MSEL</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a6071ac018c8c46624ecb322cd39393af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_TIMPRE</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a78cc4107f023df9a3168daf04ba1c2da</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_SAI1BSRC_SHIFT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a34f565fb9c11c2c6bbdeac57bf0f74e6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_SAI1BSRC_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ae2ae6af4736ea84b5892c0303bad152c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_SAI1ASRC_SHIFT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>af0fc9fb86873d52dd094d5a41ba9f1e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_SAI1ASRC_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ad3a54099b570102a6aee428cf0fee606</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_SAI1SRC_SAIQ</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>aaa0f23f3050328f5b678fb7d4fa91cd9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_SAI1SRC_I2SQ</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ab3bb1ea14dcc4dbfe319b4caafe37da8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_SAI1SRC_ALT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a83768dc69b4f2fadacfa76c268284ae1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_SAI1SRC_ERROR</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a724abd759250466c794d645ad4b783e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_PLLSAIDIVR_SHIFT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>abb3e4329783b39dcc09c7d2319884764</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_PLLSAIDIVR_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a24e232bef1771b42aa0270bc45d5c3d4</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -20070,6 +24525,34 @@
       <name>RCC_DCKCFGR_PLLSAIDIVR_DIVR_16</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a9a5b57b56d34eddfad3463641faab4ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_PLLSAIDIVQ_SHIFT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ae73ac61b8b327d728ec305a626e8fe47</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_PLLSAIDIVQ_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ab34007a550fa8db9afbbba39efc73513</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_PLLI2SDIVQ_SHIFT</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>ac4ac84d5ba926d5fa6fb29f4fbe3565e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_DCKCFGR_PLLI2SDIVQ_MASK</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a904c20b5608998ce4b75ad276c551fa2</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -20127,6 +24610,18 @@
       <name>RCC_PLL</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a68c2b48bd51903ccf423c86458194354a627d71402d403a5517bd652ece1d5013</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_PLLSAI</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a68c2b48bd51903ccf423c86458194354a20c3a12d556c709cb94fa89c1db91cad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_PLLI2S</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a68c2b48bd51903ccf423c86458194354a311479aecd131b3eb38411d68b796dbc</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -20257,6 +24752,12 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
+      <name>RCC_DMA2D</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a7948d0a2e581ed3829007a22a145c720</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
       <name>RCC_ETHMAC</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a54c7db24941f636ee238833c481ada48ab92887f75603288e1a12139abdd36d39</anchor>
@@ -20326,6 +24827,18 @@
       <name>RCC_FSMC</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a54c7db24941f636ee238833c481ada48a14682a077f8b751228b73025036856b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_FMC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a1097a9074953e5aa6d9f43c0d1b0b940</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_QUADSPI</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48acb22bbee1c87a8409a64cb2b94b3df4c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -20587,6 +25100,12 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
+      <name>RCC_DSI</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a06724cd5ab81357f22eb021faedfb490</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
       <name>RCC_RTC</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a54c7db24941f636ee238833c481ada48a423bed052627843253bef676da03c0b9</anchor>
@@ -20707,6 +25226,12 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
+      <name>SCC_DMA2D</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a5bb6eec8cdf52c30b55295d929e9c619</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
       <name>SCC_ETHMAC</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a54c7db24941f636ee238833c481ada48a80d2e7b5b6ae88d3a861b4c480367dde</anchor>
@@ -20770,6 +25295,18 @@
       <name>SCC_OTGFS</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a54c7db24941f636ee238833c481ada48ac86fb113baec702b9ede6584a33af9f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_QSPIC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a5dc86dfd3bfb2830c7f8cfcd60e5674f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_FMC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48ae413c00c2fbb91c4fe1382d20ec01ac4</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -21024,6 +25561,24 @@
       <anchor>a54c7db24941f636ee238833c481ada48a261150677f60d15d733ac404f27bbdd3</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumvalue">
+      <name>SCC_SAI1</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48aeead3bc74fce0b0780a4303cc0a3af53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_LTDC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a9b52400909b60af835f6f88c3eec4ed4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_DSI</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a54c7db24941f636ee238833c481ada48a41570a3ede1ac0d283021dd444b496b2</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>rcc_periph_rst</name>
@@ -21116,6 +25671,12 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
+      <name>RST_DMA2D</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a50918cd0a169da4c42086c1655d844ce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
       <name>RST_ETHMAC</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a83c81184087f13efd80f2a498d4ae275</anchor>
@@ -21158,9 +25719,21 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
+      <name>RST_QSPI</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a229227afd87763b296f367a49689288b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
       <name>RST_FSMC</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a1dc6bc101d4b71012002f61140d93bbd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_FMC</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718aed2ff72b9892160631772de6935e191a</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -21407,6 +25980,12 @@
       <name>RST_LTDC</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a4bd6185a4613aaa3ee5447c3d86ba718afdee0b25d89026a8c5c1a7ea8c092e18</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_DSI</name>
+      <anchorfile>rcc_8h.html</anchorfile>
+      <anchor>a4bd6185a4613aaa3ee5447c3d86ba718a133e26b369ceae196b0e75db952266a4</anchor>
       <arglist></arglist>
     </member>
     <member kind="function" static="yes">
@@ -31416,9 +35995,9 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>timer_common_f234.c</name>
+    <name>timer_common_f0234.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>timer__common__f234_8c</filename>
+    <filename>timer__common__f0234_8c</filename>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_set_polarity</name>
@@ -39117,6 +43696,7 @@
     <subgroup>crypto_defines</subgroup>
     <subgroup>dac_defines</subgroup>
     <subgroup>dma_defines</subgroup>
+    <subgroup>dsi_defines</subgroup>
     <subgroup>exti_defines</subgroup>
     <subgroup>flash_defines</subgroup>
     <subgroup>gpio_defines</subgroup>
@@ -39130,6 +43710,3329 @@
     <subgroup>syscfg_defines</subgroup>
     <subgroup>timer_defines</subgroup>
     <subgroup>usart_defines</subgroup>
+  </compound>
+  <compound kind="group">
+    <name>dsi_defines</name>
+    <title>DSI Defines</title>
+    <filename>group__dsi__defines.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaecd0c2da63b076f34da0d277b5d04c27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4e3204194cd32776b4efb2afce9f088a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CR_EN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac68ad8c3542ffce9e90f7c4d0200f08c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad5065ce137da48b5f0a07a557391c8f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CCR_TOCKDIV_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3e47ebf1cb9787bfd9d4b7ec339388c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CCR_TOCKDIV_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga209f45444ab4c3438c3fce211059093b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CCR_TXECKDIV_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1c8342a900ccbcc17b40670f18e40dce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CCR_TXECKDIV_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaaa40282f2acc6fc2eda51c73eb97e690</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LVCIDR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa89b089c486bbf8cbc5bf2c8ea886889</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LVCIDR_VCID_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9078969a6445bbcd07268acde0af67c9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LVCIDR_VCID_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadccc5e82c670ec03a640bae9aaf31aee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCOLCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0dad6a31bd67fe5b552e14f20367adbe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCOLCR_LPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga49bdbd63ebaf7995f7b0978b2c76d4fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCOLCR_COLC_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac9a0f8d13a8487df565c6b9481cb465d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCOLCR_COLC_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaaf74dc18a9e1f56573b4d5d58df1b636</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga87db604a5805196941b573415650c554</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPCR_HSP</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7707e575e587e64192cb6ca28607f8ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPCR_VSP</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga127369d58058244ea3d016c3abd43836</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPCR_DEP</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3027390fb854b893c6bb6754a892781f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga69a445b19bd6f5c5d2da34a58e11e41b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCR_LPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga434d312224132278d96ce96a4e06754c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCR_LPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga26de9d72b4180b703a6b023545b6312d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCR_VLPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0d55cf2d7621c6f481fef3e61a89db1b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCR_VLPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae5be4b9ad8e6e9fa6939238ea63b6769</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadb78b3aae214a2d67f6ce94e4910dd48</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCR_CRCRXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga32ec2c9fcb4c6f81b7c4f3ae407d51fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCR_ECCRXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7bbf08fa558692ff2b95dc46d68e2bee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCR_BTAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab84237e059071fea54ad39e86ee273ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCR_ETRXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabb7ba4a8879877d5bf8506dfe747cdfa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCR_ETTXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2fda7155667fc35420e26d7ab723c4a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GVCIDR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga14b2f9ff4310815409f37195aa714c68</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GVCIDR_VCID_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaad3abfcab6bc41374b1414c08d2b853e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GVCIDR_VCID_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf8ab011bf59b488b2597e2a80b312758</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_MCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad5b23e9c401acf6fe39f03423693aab1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_MCR_CMDM</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8e4112f3c3602dd72b83484ce4bae612</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6b641bb688cfbaefcf6553e99ee5609e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_PGO</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1a6da0811a0de5e0a5cfc6c0d89cef74</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_PGM</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3a5a0902d6466d938a31dd8e2b8b50a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_PGE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae92bce25052824488fdc774d2db18143</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPCE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9c1242ea18fcfc34ec05152ff9e1db9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_FBTAAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaedcc80d8adf4febf242270f170e4a033</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPHFE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab8f6c6e31cf780d08240e35ca666c597</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPHBPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab3da6d0ac36b043661ae8bd095ee104f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPVAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf37cc4e193fc0fa2e8b8284c8f116119</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPVFPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad5855d38dabf3d7fb5201493088779cb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPVBPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga494200eb86450d27da438512391b66c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_LPVSAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4b5e0f67eb2a8aaaf54d5493969f6cae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_VMT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabb21a13f9d9e8ca16f18eb167bcd363c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_VMT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0722f9cfca6afbb4a177aae2191c5ab2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_VMT_NON_BURST_PULSE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8b351fc3102fe897c2e044b566321599</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_VMT_NON_BURSE_EVENT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf272a94f7a3a859bb233897ed65de765</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCR_VMT_BURST</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabc4ab8258017e7106b95f5f7507ccd9b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga41e9279eba79743a54518a8b42db66c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VPCR_VPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga24ad8cac8a67a0ba82a0cfeab01a1947</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VPCR_VPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga52f63f0ff9c3fb9ce1bfaae07445f7b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6e3b85e66074e5d6b23009224b402aa9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VCCR_NUMC_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga95d18d46e5d270060e5118dd4363bbe5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VCCR_NUMC_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga235d2eead47782c14e0fbe84383f5eed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VNPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6ad7769d494640c88d35a6e4d422633c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VNPCR_NPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2dfe759a2ef72736d6e6f2caaa64ea51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VNPCR_NPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga591275b4d5d21559ea1e5cc35f7c3178</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHSACR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga52da6873192d03ff2b4725cd4cd1f6d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHSACR_HSA_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab900d34dcf37ad2a2c376674ad180c54</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHSACR_HSA_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga289783f98765488c4e249ff009c9467f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHBPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadf2ebb4629a427226c76ad25fb912522</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHBPCR_HBP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga173a76c76d94c989d12e9b7c61c7b2f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHBPCR_HBP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac595d3af5358c1ec94b7a1526805e7dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VLCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5afd04cfc6d2191afe43704b0d1ea70e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VLCR_HLINE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacd55282af6bd1d49bfbd99c85de1df76</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VLCR_HLINE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga191f0034a91239948597e29ca50cf99d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVSACR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabf3c3524877f5bfa443401bf7225b606</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVSACR_VSA_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae523d1fa45fbec6f0b661f2ad2ef2fcd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVSACR_VSA_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaba661b23009ae507db3d0888785fa010</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVBPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf47a47e3bb7eb415e8fb1436efeb185f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVBPCR_VBP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga042bc54cf8cb60588df87cb5a802c2d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVBPCR_VBP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8193b44974231782cbfc3231703b8b8d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVFPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab574b1c52280469bb7d901971c079c79</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVFPCR_VFP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab1d616a8200e43eb67a979856f12c44f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVFPCR_VFP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacc7da4469803fc3754f384a9b9d4027e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVACR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadfd274cefb2c80869f9081d2050d5e81</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVACR_VA_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa5deb51f83a80d37018b9d541b9f56f7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVACR_VA_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab914d05cd58152c2759b5eb2ec95eade</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad30e78734567c2d1bf33c17077304bdf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCR_CMDSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7131d1f39584e57dd9abe73ee44ca6e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCR_CMDSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga50ec68c262d3463f1e104e79ec1c1e95</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8c7f50f68958dbd580c322a62c678767</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_MRDPS</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad10d9dcd4fe554899f9193e981dc5023</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_DLWTX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga50cfd6e793d5c91d8116482fabd780af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_DSR0TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaaef15fba26b09dd5a2ec30c11aa37e85</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_DSW1TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4477c9a908c076ab54faa81d50b9bf2a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_DSW0TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga82286c89793e7d5744965e96823f44eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GLWTX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7b26f5a7d0f486c7016e908731659da4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GSR2TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3e9e8011027f5265cb62aaf9cf4d0cd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GSR1TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac4ae55af5054595b961da557b63c04f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GSR0TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa903db3e77077ef3de1bc8582a28ade5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GSW2TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga584660cee46362755734bd0e9883284d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GSW1TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafa1f337a1e7ac088be31a9f2a61f4ad2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_GSW0TX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga042e16d076d9c62da41ee6d4906ca20d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_ARE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4fc32c8658625982e9d98508a35e66d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CMCR_TEARE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae165e8743a68833d00260b094eba86f9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8ea9e833717bb84acb2d42555385eb2b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_WCMSB_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabf67bb4f895b1cdde5633659aec50b8a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_WCMSB_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6886a377bf1f390e0662076ca03d0f03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_WCLSB_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga65942620a985c853111e6ce24b827544</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_WCLSB_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafbc83efc116a5a2c5b08a0140570483c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_DATA1_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8f15e0d6dab97113586250f9738817a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_DATA1_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga69f85a53082eb0da790e2a104af2b5ac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_DATA0_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaacf486a9173ccc83cf0d35049f33f223</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_DATA0_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabf3ceb100fc6d7bf898a33a07420b5cc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_VCID_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga27823ae3424124a887ea1b659c7494f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_VCID_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf583df00968188d6f92a687e4ffb0ee1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_DT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac4ed8f253c601b829a626a482933ad50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GHCR_DT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga292e25344e95bb0e9d1e42dfd10524b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9a71a6aecd08aa768cd2357fcd88f666</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE4_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac7b3765635c48fd1c2199218e49843c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE4_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga38edef730728d525f682e36ea6037813</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE3_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1597f3b9ee8374e95507b1c04644f8a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE3_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga10c0f234c1d9c903ef26a73ae3d9b84d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE2_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1f1d7084fb727f19b52eba0bade09b39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE2_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafe47212f9d4457376e84659aef0ab0ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE1_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga99376dac85dda88e2d68e1c8a4f9193b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPDR_BYTE1_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabad77af9c06a6c83abae774031afaece</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1f0454571115d4561a957563b27003c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_RCB</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga088901669e97de93f6b2d18434c56bf7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_PRDFF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6972ca8edca438fb9535d0983b02a8de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_PRDFE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa57a8d5f638716c983a94eb05eefc0e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_PWRFF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf71660dc0ba37b59ea97f74c83871fa2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_PWRFE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5148df68ebe562b8583656d60d3b3906</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_CMDFF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga17826ffd99b3be6acc8a3154828dbe85</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_GPSR_CMDFE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa9921b82e80f4c9524d5145d58c76d41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0839e8fff9a837b0c97aa91950c7c14c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR0_HSTX_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga00952e63eca4372ac9203cd11e75379f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR0_HSTX_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2ab6ed49f9845a3e9ab7806b729e3b3b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR0_LPRX_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1144538559578062ff8ba92846c4f31f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR0_LPRX_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3d96e56563470d9d8d752c84abf0dcfe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab13c195c134bd7467bbc6a0842f681a6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR1_HSRD_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad100d5b8dcd3ceda394c7f49aad2425d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR1_HSRD_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga887e29d5aed560eebb3090d14b6dabbd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaedee745c896cfd0af1bccfaef6dc6660</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR2_LPRD_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad6c30b855cfe98047ef6d842e35e3794</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR2_LPRD_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafa6ee17925572e15e5d01c4d319a6c1f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaac39a42bffb5d1cc29aff306bc725bba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR3_PM</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa64af365e4364b09faa9a0bd764e28d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR3_HSWR_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae772760ab714021788e64ee7d3215fec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR3_HSWR_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga51912a21399e5c775d53a9263c8fdee3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gade4cf6f8e816fb208ffafed3afcfb15c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR4_LSWR_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5b871bb64290fd3ad537313e5d73aeff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR4_LSWR_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae4d7bb93ccb75830cfe1e1575d9f1877</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR5</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga71c7edad391bef114a24dbea385debce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR5_BTA_TOCNT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga002ecccce9bac150979583f20b8fc486</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_TCCR5_BTA_TOCNT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga74f41f995827df52dbb851c62bf699b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1ee738e8698cb7edbc9a5a22f2f271e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLCR_ACR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf26ff73875d53c3ac72854c71864e67c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLCR_DPCC</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa9072ddf9cb2ab01a5769a0f6bbe7664</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLTCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga95635b8ef572051e696c087ce05c3e7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLTCR_HS2LP_TIME_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga63887be0605eb977adc9f9977bc0862a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLTCR_HS2LP_TIME_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga54756a145f9b0bb68abc91923783eddc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLTCR_LP2HS_TIME_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafd955ae6143179de2a767d145d83dfa3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_CLTCR_LP2HS_TIME_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab3639fdee38526021496c2db0b889346</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga584de061a9311ab1838ddbfe83dc14dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR_HS2LP_TIME_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae632f56b7edf58557aefa02fadf02942</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR_HS2LP_TIME_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac2ded1bf0e888c1a3494c2994cbff827</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR_LP2HS_TIME_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga46aef2073b1b7ec3c0d262d006b47441</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR_LP2HS_TIME_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6a773a8b2da7d22c40092956de07195c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR_MRD_TIME_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa877958715a66fb1b6190b96d7e52077</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_DLTCR_MRD_TIME_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4e2d9d0e00a2f39aecb684418d337c9a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCTLR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1e47d1e4da0257e393797f75b76f503a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCTLR_CKE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga68b6e369058fd1a2759aee05ea39e529</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCTLR_DEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga18ce6e77e682454528715f30c6739a8a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga14cdc929c343b7e57ad2124add12aa58</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR_SW_TIME_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9db02f9bbff0f671e35d33f285ea807d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR_SW_TIME_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3dbc6368cd1f8e4b228daf49a89f1cce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR_NL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga91a277f4095d4fdfd8e381d8c27f3ae0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR_NL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab687b6235e473ddb5ea6cf8c3d260285</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR_NL_1LANE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga911ecaa07205bfd5e493dcadc653a6ed</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PCONFR_NL_2LANE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0fdc231613ed87593bdc4f07f58e6a12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PUCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6e3fb30f384ddd4198e3bb33a1ae3144</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PUCR_UEDL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7058d1e9cdfe8cc63917cc11661c1883</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PUCR_URDL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabdb450bdcdb9b9c7e5ddd102965b57c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PUCR_UECL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac78e91f54493ad9678982a970c4d23a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PUCR_URCL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab8c318bf495a57c38035b1b8cbbbf8a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa072dc85da6e6395a7e2ca2f4d9587f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR_TX_TRIG_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6a01724c6477abb91690d8e66823e481</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR_TX_TRIG_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad76d7dee25705ce4881de1e22a694e7d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR_TX_TRIG_1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1c4add6508333cd1fc79583e59308b1a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR_TX_TRIG_2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga45b9eaf2abe2981ddd49f4dc0acd145f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR_TX_TRIG_3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaeb87a78b1860b06b521f00f593d76c51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PTTCR_TX_TRIG_4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2f878e0a73cc393ac8682dc5058486e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga57e91a1b2074f4ab913ca879ea819ec3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_UAN1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga23fc01aa8ecabc3c002d559feafea539</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_PSS1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5a1e314338c7d2f4208fa8394333741d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_RUE0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3f78b848bd75cc9da361c75e2dce6d7f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_UAN0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4914b37b53afdd69a29250aff50b5fd5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_PSS0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga179457f56eff305ff4790de4e426a9c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_UANC</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8186e958c617b039c1022c052e27adea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_PSSC</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga049c17fdfbfb626332649f1ff4772cf2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_PSR_PD</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7f118d2dd8be8bc13bfbc6faf22530e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad8fc2592986c443d5b89cc0c227aca01</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_PE4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadb3b6a7200b0de24fa65512d6c48305c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_PE3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafa46c359e93843090c645c8d24a9930a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_PE2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5d57e3866251cb5cfa391a8ef2319d25</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_PE1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabf2061678662f4035a8077cc47a091a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_PE0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga717365ce3767e0d073cd24c84bc6bd16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE15</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga182d0754c07272185496e567d7d8b22f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE14</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9a75cb8065e2aa86c6dd0a76ee6baa3f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE13</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5539aa6b9f40b39e2025096cb6d54073</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE12</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac28ce5da248776335981a0959395060c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE11</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafbb3a86843f0274ac032db8a7deb05dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE10</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6fdfddc9e83b8ecbe1c5f6c00027217b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE9</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacd24f9c86cc27a37905b337c1ff07359</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE8</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad2bd16a7ad2693781058020d73a7a558</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE7</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9b99c700ace56f93799840e87cba9bb6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE6</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf8e5d04a77bf1891473e0c8d80bf24ee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE5</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac95b624cd8ab1ca4dc436dd6890beb12</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7b762ebb5bbe27a192112092d40a9df2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga695a12776e1bb09014beba7c6d5a285a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaed8af91b32f02d1228cf9231a2b2d7c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2e9aa86dfe99d523d040c97850b70008</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR0_AE0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga039c2b0623c159a9f0b9f1bf22ea45cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7c2faba7291ffb3a06b132fbc509703f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_GPRXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7e707e6192e1855bf01d084e7c7788f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_GPRDE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga81f81992839f00e1390e6e860b406db9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_GPTXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaba822a685812ad1cbc674f231365b381</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_GPWRE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga74a35900a70a19fd8489597f20a7283d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_GCWRE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7add9e397381add99f1e4e6a3290fc9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_LPWRE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad071e4acd1c9ebfddafbfb63a24b270c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_EOTPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4ac2fcff75c8f0631f40d1d417885f67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_PSE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaaf14828e8a84c7878bcd1b55746f4414</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_CRCE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga93fc832d991f92b9a4d54f56c5dff3a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_ECCME</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga34bbe1fcabdeb546ccef8530719cce51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_ECCSE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga282ed2f52258b93a768167fdbef86daf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_TOLPRX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0fa95325efd7372bfce1b7b084b64cbe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_ISR1_TOHSTX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga009c2e192b0e3d4baea85f14602b20be</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1c19955bb5c91439cc7595a304921de2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_PE4IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad113df892e2d586963085ac6d37d23c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_PE3IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9fe469acd9eff118e9b0d0588c4e9d84</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_PE2IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab05aa16adbb02113268a093847ed842f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_PE1IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1dd8e8f1f11002be0d8ab38e7f9f5e92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_PE0IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac5f0df77336624fe534cc37c51089507</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE15IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab16924e5534c586d2ec1ed7052b14f47</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE14IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9e03d3773ad91217f21856837b2e3b9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE13IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacaafbdde21d3d0f2aaf0de2313705a5f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE12IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafb07b121c8348857900bac0d52ca7afc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE11IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga65a4810685b0e12aef5e25c86b1b1a92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE10IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaefeb0bea734f3e2312ac3c0bb733e562</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE9IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4b9535efc4ccc3bc765a406f671680b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE8IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga652b583fe809cd28984d18a85f851b34</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE7IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga43262076b7b35f9ef0da10c940c7be09</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE6IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5c293dda35ce88bf23e9a070b675cc50</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE5IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga73b48859155920f98c1e221d2a0b9df2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE4IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga185d2d9468be71c8c85fd7fbd7ce2c9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE3IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1f54a7f345c45129e57843cf9c8abde9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE2IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1f9ef96395bf6182c988a7651cd05921</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE1IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1c907c6bfda60cb39b78a3e2ed0e6e0b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER0_AE0IE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga902aca207c33de2be1b71ed1bd8c5b70</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3a6d5725914d6a3d05f17aadb22a9472</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_GPRXEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadf8c4d408f41a88bb242018ea5b1e03f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_GPRDEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaea8047b9a19ce117f7b231432e0da7f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_GPTXEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae184bf700a97659cbd3336457352ea8e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_GPWREIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac23567b07272010f0b1fd150f3bad934</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_GCWREIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8171764932af6119b00a6a8e679a29ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_LPWREIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad5806637c13c2b399960dfb64a36ebef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_EOTPEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga93ebd7565a18c4f263074090e3e8824a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_PSEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4d0b1edecb0dc890182a1e0405bb08d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_CRCEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga167d4dc0552e907e7f7dbe2706534c7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_ECCMEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0dc9fea1a138c0c9de8de91ac73a43c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_ECCSEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1b2c84cd8cc67f7370a015f83603206e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_TOLPRXIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga95c2e55d790a72083de329c86c254874</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_IER1_TOHSTXIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9b38d22252c9a4c999e0a64196e611c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga37ec76efbaf2bc932e4e519fe79827ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FPE4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabf13c9c547cad26f8c394ec168db3990</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FPE3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9c5494a01837773da0f4c12021334d63</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FPE2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac556248da013a5af5e43077f4cf676dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FPE1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf67bcdd3a9b6ba03baae66814f736474</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FPE0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafbbcedf50ee001c1193cd112a955bac9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE15</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6af71644ac766640c3aff23fa3fdab30</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE14</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0f48ff3b97ceec852eddeee300655baa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE13</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga31d34809bb78b992ed6e6727f437b6ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE12</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacf13b6ebc888ba8bc88e4f99d4bbe245</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE11</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5afa13dffe8d187e51b12ab43fa515d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE10</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaceb753932ca6786399a2d461cf3b6722</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE9</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa5224a7448af6576200df44c77d7e814</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE8</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga66f94d7776ab12c9d807ba50bc394a16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE7</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa8a768e31af9238093464a7f4a1e9f4d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE6</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaac29bcc1d0cbb93198c4444b8e937b0b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE5</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3253fbfac4f2cd3174260fd4b37612f2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa744df999c45b2d8acd36e4dd857cacc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae7bf454a80c591816dbc4b30ecbff43b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5a5025e884ac5343326045862846e226</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa4d631cb62358ce75accc065cb9925c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR0_FAE0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga966efd5645411e85c24e9f99e65580af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6c0b74a2da3479292c06e176f81eb720</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FGPRXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga236e270550977bb3e04ede1c85392ff0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FGPRDE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2b7c5eb36b021f4ea8de6f64c0c5c95b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FGPTXE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae98523dbe3e7460e6a5fac27e855278d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FGPWRE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf07ba0f73612ba1a8392743c01bf6061</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FGCWRE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf0164329d308aa3b2c65c711a80daf1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FLPWRE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0c0045a827a93c69de50bb6e782c7045</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FEOTPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad990c6c8a5bcda7fa56e39723425f901</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FPSE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3182d2ef179420c1a53c285ddd7c9c5b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FCRCE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa87beb7f82a2f16d037d074342a48286</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FECCME</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8dc5b206bd6b13f41274a837e0ee4e0d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FECCSE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6ede48129d86d7b3015e12ca81275de6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FTOLPRX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5a35afc9ab3dc15a39452647643c2720</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_FIR1_FTOHSTX</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga69cc20e1336d31881f98b20b7d50c958</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VSCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafd788a9dbe5c8d5a8042b6f141933b11</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VSCR_UR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga320300f1000a330a1e407451c24c73c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VSCR_EN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab6e966ef131036dc5d67b4352d094530</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCVCIDR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga48778527de8d0f24ef9b50fab325b373</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCVCIDR_VCID_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0b4ce4c415c1072b86f118ffa6477dd9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCVCIDR_VCID_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga926a014188c59b47e7af31d3334fb086</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5528b65bcc51fed8ed0b8d02c56bb14f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCR_LPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga98cc73d68df64cef542f378cba18bd3f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCR_COLC_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacb2bfb4e01d2dc14d866c08503e3532d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LCCR_COLC_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga48b498f4f7f09c73ae2c2c493172a7e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga67658fadc5340a28d5e799f1eeb2eb29</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCCR_LPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacdcf9d2f56172ae06a6904364461791a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCCR_LPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga45f921ed58f98906c0e2dd98d3587f4f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCCR_VLPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga10405dface28afbc2e3002a16f6a5548</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_LPMCCR_VLPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1c64765ab01e4f6e659cf129e011dfaf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafe4a392cfe23819cb47073c88f03c585</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPCE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga95e91c4d2a578158bcb39c20a7c716c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_FBTAAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2e95fcdf5855e5996d7b4c0c14f063c0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPHFE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacb130069d48e6ce315dbf50e9534f9c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPHBPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaed3aea90e87531af13ac9292d908a132</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPVAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabb114bbe4da20c0cafc075bcf92fc228</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPVFPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga04c500f8f281d97b6d7cdfaedf78b6d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPVBPE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3cfab883080f6195458f963586a34f8b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_LPVSAE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6f1410d129d61c64198a1031ffe59bce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_VMT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4802b56e0eaa3e7e85a8f7e5f5f3e187</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VMCCR_VMT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa4ea06b8f5e8bf7ee71611294c043926</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VPCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1d403c0cab52d0fffebb505c54f5cf8d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VPCCR_VPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9d6acfe16c5957e60ff9cbdd508aeb4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VPCCR_VPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0f923e7842e03bd4d5fdb55fd359b8a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VCCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae7aa22984ca3b0bfd16afbf45c9577c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VCCCR_NUMC_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9a460a56aebe56ea849d4357a2948fc6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VCCCR_NUMC_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gabf71e2ea0a1ead2e01929124254ce01b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VNPCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1938a3033852cbb4437ae4802b303d7e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VNPCCR_NPSIZE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2c2451dfb50814a43219a8aaa43e6c39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VNPCCR_NPSIZE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad3fbed1e35257da4c4a652e73c1bcfca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHSACCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa04fc25ae825ceffc8a385e5421b161f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHSACCR_HSA_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1aaa9ed9625f203ab05f38aa1b064e24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHSACCR_HSA_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7c86c4196d41ea641556719ebe1a2735</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHBPCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3811f1236861c834d3d95cd3f1fd3e9a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHBPCCR_HBP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga311050eb71b9dbe3580d277e6b267a01</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VHBPCCR_HBP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga85484c0599aa257ab8fb4bc9bde5531f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VLCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa9eeeaff7a74f5131f660a10e907c64a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VLCCR_HLINE_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac654b5fb26d35bf0d426c849637c1feb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VLCCR_HLINE_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga030ca28228e244594624db6d7352d851</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVSACCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab7b0bbcd79f84af5e0b09a354224946a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVSACCR_VSA_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab4b8f0952bfd4ac21f14b4bb07d85188</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVSACCR_VSA_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab240d9f5396c484f6ead4bd1ab6c6e18</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVBPCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9f3ddf2772cc759726c1859ec7856413</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVBPCCR_VBP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafa929f36ce07617d70d2e970ffa80959</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVBPCCR_VBP_MAST</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8a1d3a60c54c4fee7dc2430056b442b3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVFPCCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6a951c5ba15f7f2d28f72bf9639351dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVFPCCR_VFP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf57327e2d84d482d9f30eeac9109279a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVFPCCR_VFP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab3c60662f932da98826ab4519c4006b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVACCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga83b9030cb9b4aa188df04683eee167cc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVACCR_VA_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga895b72b2a0f52f038a9a53420dc81e8f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_VVACCR_VA_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac078e6d08067a63a53a39e9add9451f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga352f8ccb990cff1780e2d140f373a65b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_VSPOL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9eebbf467dc79404f30599e96583df10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_AR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaeb0b204cc00e063cb458a4f120b4e438</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_TEPOL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6a072a54fe0f7d5902f461a169a79364</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_TESRC</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8324bec90e6d5b151d9db4b5c302e55b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_COLMUX_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf5fe823072ab7634a50a20b7d70ea845</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_COLMUX_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae6013183be3e92f530a42b170f4392f6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCFGR_DSIM</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadab6a6ad815e53905bb24dc386b10343</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae40a7b8cbb8b805968ecd6f3be1d1884</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCR_DSIEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4f8370f2494d02034c4f9804b016669f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCR_LTDCEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad51879d59c9b70933cfd38d61cbe3d32</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WCR_SHTDN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga47b414720c442a5a655ede13e470102e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_SCR_COLM</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga57dc4ae086899cdff06c1d15db5d5982</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIER</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga38b5b37a55ce0fe40cd698b6d55aa945</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIER_RRIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac7ebae6bbef11ce454276f8bce935267</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIER_PLLUIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf849992d702307b3c87aec3179743165</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIER_PLLLIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga86bb26906038de03d92219488070cd8d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIER_ERIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga71bd1029efb5cb1b53d469b6be1fdd8b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIER_TEIE</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga66d2fbb9bc66d77fd4dcd076af930bca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadbea74ca9d96d534591340b698130227</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_RRIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gadad7a89f48d990aa987234055c73993d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_RRS</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga12edd1340d4eb79dc1d39174acd345ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_PLLUIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga38eb01920a7b6d5f505903fb4ccf9e3e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_PLLLIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga62582c2e50e4ed63727f9111375cc7a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_PLLLS</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gade7d2a2069da112a2b36e176bd35bdc0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_BUSY</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8741210a2ba21c8b900f2a99962d3a22</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_ERIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga174d3118efe144cc10f96076493cc454</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WISR_TEIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga74ff0222d59bd3994a1b927c4a517305</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIFCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3337fe06cfda487ed4151d1af58cb41e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIFCR_CRRIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2bc327ee540e5bed0e7649a9807cf525</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIFCR_CPLLUIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaaadb1e22402e9316bc4cc5d8c1d3a1b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIFCR_CPLLLIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga52c520c3156ad5f4bf73543f5e866ed0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIFCR_CERIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga64dee09a8c1148dae74c260e30b6f6c1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WIFCR_CTEIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga361274925692b4973395d20c7c60387c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga75ea83b7bd42a6273bb43f40c0c0e5a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_TCLKPOSTEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacffb76965eca07fa6181045269ce7cdb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_TLPXCEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9579e0f5c0f26d7aa33ce17996617337</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_THSEXITEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf0df5ca5acd6ea32a6b21a8a21924cea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_TLPXDEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3b46a6ec918d02e0d849aa4639d683ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_THSZEROEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4a6c491794e2fd0f85541def721aa258</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_THSTRAILEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9bb4d80856df33cc7d6a13d94d2e7a9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_THSPREPEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaaedf38614792fe9416f529c17eb0b0d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_TCLKZEROEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab2027067274319b5790a529a4df158d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_TCLKPREPEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad5682591091c015bc88faf555faaa52b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_PDEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga8c0ba1a3546d7df4296b296079ce2c5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_TDDL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga60a2b013ce6c921c5a3278a206a3e526</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_CDOFFDL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae93ac87239ad136b571fa5d79e6c34ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_FTXSMDL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1082c04b6949ad98df037295be151f7e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_FTXSMCL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaca659a7694ca7f3e9af92c5c82855500</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_HSIDL1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf806b428af69f1b09955b6985fcdca92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_HSIDL0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5df1af8b748280e8c492cca6deca2cd0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_HSICL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad00231b9641a86a575c2ba9c1dcd0224</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_SWDL1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gab4efa8f094953ac100bfad910f35b35c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_SWDL0</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5f041a69dfda3eff66aebaacd2d22c96</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_SWCL</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0bda5fffaf6514cbba333804fcf7708e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_UIX4_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3b12afe3d8fbe2e0f74d1cc03545ba8b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR0_UIX4_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2ae9eab3295f095bc694b80719202c4e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga390248afeeba600ca47eb51033467dc1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_LPRXFT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4cf953f53eef82369c2af98dc3eb838b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_LPRXFT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga22df947b5049c4cf1e37de1f0ec8a264</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_FLPRXLPM</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5367c08e404cd9b7e892992d9d2f2453</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXSRCDL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3cc4f21738575c89ee3372f75d5e7dac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXSRCDL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafac590095f451aada34a3c9d6c2ff40c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXSRCCL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad7615281398efba9c50934a9932eb5e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXSRCCL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2db7ae57b8d7d32ac08ee233b08e6c5d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_SDDC</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2bbe4d6c1d20c7b3706fe7b00d89c54b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_LPSRCDL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafcb408b33e0cf53aaa37b3d10a9144f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_LPSRCDL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga081a2937cf698d1f89941bee222bfb52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXDDL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga685e34095030e73884b7da4f159651a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXDDL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga1f11a0bd22446d4457a2e0b026c243e0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXDCL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad524eedaa3d195a97e69bc48eeccdf5a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR1_HSTXDCL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac89fd6b3cdedf413d292733b0801926b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga3b53acfff87f7355400e0e4171f92a9b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_THSTRAIL_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaf989eb569fc3a66032004dd661e93927</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_THSTRAIL_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafbbff99e603788533a9e74ff02cfe662</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_THSPREP_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga11a310017cc7b8f9fd1608b7a4a35c7b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_THSPREP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga241507af465363011687aafcbb59b46c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_TCLKZERO_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafa50ee997430750785aa656f0d1975d7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_TCLKZERO_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga26578818a1d1c4f7decc4b15c45cfa68</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_TCLKPREP_SHIF</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2324efdeab88e5f568ad008dac36c863</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR2_TCLKPREP_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaa988364a211cb6fda3ec2d2a7df76a01</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gaed3769971fb26c8ca3f4d0c318a09cc2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_TLPXC_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2208694be1e7a2fa4e0d4eeb52a05940</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_TLPXC_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gade086a07fec0e469b379188a995f8daa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_THSEXIT_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacf4801f1c6738cac14a9c91d1a52e14b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_THSEXIT_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga038009e6dc3c670f76726e5274883e45</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_TLPXD_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5ef2dcf1f81632492f4f1222a7517eee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_TLPXD_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae74ada05993525245703abb780ff05fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_THSZERO_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5693489a16717794f65c86b51cb950e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR3_THSZERO_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga46df4a1e7773b820395873396273d3b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga4ec247cc89b61ad8615b216c2137ad51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR4_TCLKPOST_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga36f3f97b42b85bd341bea0d9e2a08f6a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WPCR4_TCLKPOST_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga7b13bdca46407d327bb69653671f61c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga549eda5aae7b3461064ecbe2165bf475</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_REGEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga36c0de05d2c99f9fd998b424f41f65d5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_ODF_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga337608af7645b1314abdb91983b0c5ec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_ODF_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gac0382c88cd9fd0aa7046c507e422af41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_ODF_DIV_1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga9029924def699f7b5a9e5c5144f9b8d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_ODF_DIV_2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga988fd36c77183f9b26d5a69919e0187a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_ODF_DIV_4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga40816ff0d17d2a5c1fc406c6c854a5a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_ODF_DIV_8</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gad3a8752b7c44d1edbeb8ead1407c6ade</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga6359bfed91fe02006819e31f3bd07fa1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5e5acff235f9c6c59ed93802196ead4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_1</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga616eac737ccfd140806d13f239d2c52b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_2</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga2dc84faea2df05c9ded144eff49c8bc7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_3</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae91e98e9c71e827e859d37028011cddb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_4</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga25ec9b24536b70ad080d6eb1d90c7972</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_5</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gae9a5cd4eb2ad1cb69ab0a0dba0a53c6f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_6</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gafd86be06fed0ff341cf8d1c070ef713a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_IDF_DIV_7</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga0c4a4ab217b3bea292c89421623397a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_NDIV_SHIFT</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga448616b938d112f7dcd2223d22d6a951</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_NDIV_MASK</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>ga5c192e6ec1f855571a7755ef6346d25d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>DSI_WRPCR_PLLEN</name>
+      <anchorfile>group__dsi__defines.html</anchorfile>
+      <anchor>gacc3dfe78db82ea9b1365de4bf9d63c00</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>exti_defines</name>

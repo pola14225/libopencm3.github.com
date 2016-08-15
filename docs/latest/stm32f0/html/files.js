@@ -80,6 +80,7 @@ var files =
     [ "timer.h", "timer_8h.html", null ],
     [ "timer_common_all.c", "timer__common__all_8c.html", "timer__common__all_8c" ],
     [ "timer_common_all.h", "timer__common__all_8h.html", "timer__common__all_8h" ],
+    [ "timer_common_f0234.c", "timer__common__f0234_8c.html", "timer__common__f0234_8c" ],
     [ "tsc.h", "tsc_8h.html", "tsc_8h" ],
     [ "usart.c", "usart_8c.html", "usart_8c" ],
     [ "usart.h", "usart_8h.html", "usart_8h" ],

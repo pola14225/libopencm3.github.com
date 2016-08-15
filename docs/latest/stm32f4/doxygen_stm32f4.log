@@ -1,3 +1,5 @@
+/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f4/dsi.h:818: warning: end of file while inside a group
+
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:409: warning: More #endif's than #if's found.
 
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:411: warning: end of file while inside a group

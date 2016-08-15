@@ -14673,9 +14673,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>TIM3_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>af0c34a518f87e1e505cd2332e989564a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>TIM6_BASE</name>
       <anchorfile>memorymap_8h.html</anchorfile>
       <anchor>a8268ec947929f192559f28c6bf7d1eac</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>TIM7_BASE</name>
+      <anchorfile>memorymap_8h.html</anchorfile>
+      <anchor>a0ebf54364c6a2be6eb19ded6b18b6387</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -16976,9 +16990,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_APB1RSTR_TIM7RST</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga40b1d355ee76ad9a044ad37f1629e760</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB1RSTR_TIM6RST</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga8d64bd82cf47a209afebc7d663e28383</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB1RSTR_TIM3RST</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga8680c562fd372b494a160594525d7ce9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -17207,9 +17235,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_APB1ENR_TIM7EN</name>
+      <anchorfile>group__rcc__apb1enr__en.html</anchorfile>
+      <anchor>gab595fbaf4167297d8fe2825e41f41990</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB1ENR_TIM6EN</name>
       <anchorfile>group__rcc__apb1enr__en.html</anchorfile>
       <anchor>gafb0279b1f0ff35c2df728d9653cabc0c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB1ENR_TIM3EN</name>
+      <anchorfile>group__rcc__apb1enr__en.html</anchorfile>
+      <anchor>ga75bfa33eb00ee30c6e22f7ceea464ac7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -17438,9 +17480,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_APB1SMENR_TIM7SMEN</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gacabac86fe2e3a8a81d1f24b61388430a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB1SMENR_TIM6SMEN</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga840e7c6c56539a0113dba358ea6e966a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB1SMENR_TIM3SMEN</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga6c7afec0290d12dbbf9c0503e0914815</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -18047,9 +18103,21 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
+      <name>RCC_TIM3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1a9a17dcecf7d72c5ed224795e4885cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
       <name>RCC_TIM6</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48acd42061f083a2f92452b1bbdd145ec69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM7</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abeacc0ceea5fc0c26b7b44d0f7a0ddcb</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -18245,9 +18313,21 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
+      <name>SCC_TIM3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5ac6aaf0ee19343577526860fcec24b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
       <name>SCC_TIM6</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a4fd108426970cee3f77f2ce46ef6eaa5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM7</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af5a9d04a649295d00ea046c199aef838</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -18444,9 +18524,21 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
+      <name>RST_TIM3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a730ba1c5bff49ab694370cd1f3d832a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
       <name>RST_TIM6</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a85394e9ff835d6ef6e3997a5476c429a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM7</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a95737fdc165d4b6943f9792a63457dfa</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -30008,9 +30100,9 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>timer_common_f234.c</name>
+    <name>timer_common_f0234.c</name>
     <path>/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/</path>
-    <filename>timer__common__f234_8c</filename>
+    <filename>timer__common__f0234_8c</filename>
     <member kind="function">
       <type>void</type>
       <name>timer_ic_set_polarity</name>
@@ -36907,9 +36999,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_APB1RSTR_TIM7RST</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga40b1d355ee76ad9a044ad37f1629e760</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB1RSTR_TIM6RST</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga8d64bd82cf47a209afebc7d663e28383</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB1RSTR_TIM3RST</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga8680c562fd372b494a160594525d7ce9</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -37173,9 +37279,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_APB1SMENR_TIM7SMEN</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gacabac86fe2e3a8a81d1f24b61388430a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB1SMENR_TIM6SMEN</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga840e7c6c56539a0113dba358ea6e966a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB1SMENR_TIM3SMEN</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga6c7afec0290d12dbbf9c0503e0914815</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
@@ -37782,9 +37902,21 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
+      <name>RCC_TIM3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a1a9a17dcecf7d72c5ed224795e4885cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
       <name>RCC_TIM6</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48acd42061f083a2f92452b1bbdd145ec69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RCC_TIM7</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48abeacc0ceea5fc0c26b7b44d0f7a0ddcb</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -37980,9 +38112,21 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
+      <name>SCC_TIM3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48a5ac6aaf0ee19343577526860fcec24b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
       <name>SCC_TIM6</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga54c7db24941f636ee238833c481ada48a4fd108426970cee3f77f2ce46ef6eaa5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>SCC_TIM7</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga54c7db24941f636ee238833c481ada48af5a9d04a649295d00ea046c199aef838</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -38179,9 +38323,21 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
+      <name>RST_TIM3</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a730ba1c5bff49ab694370cd1f3d832a3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
       <name>RST_TIM6</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a85394e9ff835d6ef6e3997a5476c429a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>RST_TIM7</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>gga4bd6185a4613aaa3ee5447c3d86ba718a95737fdc165d4b6943f9792a63457dfa</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -38665,9 +38821,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_APB1ENR_TIM7EN</name>
+      <anchorfile>group__rcc__apb1enr__en.html</anchorfile>
+      <anchor>gab595fbaf4167297d8fe2825e41f41990</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_APB1ENR_TIM6EN</name>
       <anchorfile>group__rcc__apb1enr__en.html</anchorfile>
       <anchor>gafb0279b1f0ff35c2df728d9653cabc0c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_APB1ENR_TIM3EN</name>
+      <anchorfile>group__rcc__apb1enr__en.html</anchorfile>
+      <anchor>ga75bfa33eb00ee30c6e22f7ceea464ac7</anchor>
       <arglist></arglist>
     </member>
     <member kind="define">
