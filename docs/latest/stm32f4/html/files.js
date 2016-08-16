@@ -23,6 +23,7 @@ var files =
     [ "dac_common_all.h", "dac__common__all_8h.html", "dac__common__all_8h" ],
     [ "dma.c", "dma_8c.html", null ],
     [ "dma.h", "dma_8h.html", null ],
+    [ "dma2d.h", "dma2d_8h.html", "dma2d_8h" ],
     [ "dma_common_f24.c", "dma__common__f24_8c.html", "dma__common__f24_8c" ],
     [ "dma_common_f24.h", "dma__common__f24_8h.html", "dma__common__f24_8h" ],
     [ "doc-stm32f4.h", "doc-stm32f4_8h.html", null ],

@@ -8,6 +8,7 @@ var searchData=
   ['dac_20channel_202_20trigger_20source_20selection',['DAC Channel 2 Trigger Source Selection',['../group__dac__trig2__sel.html',1,'']]],
   ['dac_20channel_201_20waveform_20generation_20enable',['DAC Channel 1 Waveform Generation Enable',['../group__dac__wave1__en.html',1,'']]],
   ['dac_20channel_202_20waveform_20generation_20enable',['DAC Channel 2 Waveform Generation Enable',['../group__dac__wave2__en.html',1,'']]],
+  ['dma2d_20defines',['DMA2D Defines',['../group__dma2d__defines.html',1,'']]],
   ['dma_20channel_20select',['DMA Channel Select',['../group__dma__ch__sel.html',1,'']]],
   ['dma_20defines',['DMA Defines',['../group__dma__defines.html',1,'']]],
   ['dma',['DMA',['../group__dma__file.html',1,'']]],
