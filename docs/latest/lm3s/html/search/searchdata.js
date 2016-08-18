@@ -1,11 +1,13 @@
 var indexSectionsWithContent =
 {
-  0: "dglms",
-  1: "dglms",
-  2: "g",
-  3: "gs",
-  4: "gls",
-  5: "l"
+  0: "dglmrsu",
+  1: "dglmrsu",
+  2: "gru",
+  3: "u",
+  4: "u",
+  5: "grsu",
+  6: "glrs",
+  7: "l"
 };
 
 var indexSectionNames =
@@ -13,9 +15,11 @@ var indexSectionNames =
   0: "all",
   1: "files",
   2: "functions",
-  3: "defines",
-  4: "groups",
-  5: "pages"
+  3: "enums",
+  4: "enumvalues",
+  5: "defines",
+  6: "groups",
+  7: "pages"
 };
 
 var indexSectionLabels =
@@ -23,8 +27,10 @@ var indexSectionLabels =
   0: "All",
   1: "Files",
   2: "Functions",
-  3: "Macros",
-  4: "Modules",
-  5: "Pages"
+  3: "Enumerations",
+  4: "Enumerator",
+  5: "Macros",
+  6: "Modules",
+  7: "Pages"
 };
 
