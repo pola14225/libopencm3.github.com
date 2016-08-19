@@ -12,6 +12,7 @@ var group__pwr__file =
     [ "pwr_get_wakeup_flag", "group__pwr__file.html#gac69631a0b97e81ef5b94b6a46c22c521", null ],
     [ "pwr_set_standby_mode", "group__pwr__file.html#ga0fae0ca13856ebe2b54921d08011ec53", null ],
     [ "pwr_set_stop_mode", "group__pwr__file.html#gaf79db56cf3c904ff69d1cc12984cfd1b", null ],
+    [ "pwr_set_vos_scale", "group__pwr__file.html#ga5c20c3e54554d82e05cf53cc02fba118", null ],
     [ "pwr_voltage_high", "group__pwr__file.html#gadf5ec836f6a94f6ea6fb99b16e9efe1b", null ],
     [ "pwr_voltage_regulator_low_power_in_stop", "group__pwr__file.html#gaa985590fc7eadc3a93a41fb59a85c9e1", null ],
     [ "pwr_voltage_regulator_on_in_stop", "group__pwr__file.html#ga2f84386ff3dc643ecd18a2d23d7e5cbd", null ]

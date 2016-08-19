@@ -183,6 +183,12 @@ Functions</h2></td></tr>
 <tr class="memitem:gaccfc4aa94152abb68e0d5ad473adbf53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#gaccfc4aa94152abb68e0d5ad473adbf53">rcc_set_mco</a> (uint32_t mcosrc)</td></tr>
 <tr class="memdesc:gaccfc4aa94152abb68e0d5ad473adbf53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select the source of Microcontroller Clock Output.  <a href="#gaccfc4aa94152abb68e0d5ad473adbf53">More...</a><br /></td></tr>
 <tr class="separator:gaccfc4aa94152abb68e0d5ad473adbf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2706213ae449214826f797ac93c51d52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#ga2706213ae449214826f797ac93c51d52">rcc_is_osc_ready</a> (enum <a class="el" href="rcc_8h.html#a68c2b48bd51903ccf423c86458194354">rcc_osc</a> osc)</td></tr>
+<tr class="memdesc:ga2706213ae449214826f797ac93c51d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the given oscillator ready?  <a href="#ga2706213ae449214826f797ac93c51d52">More...</a><br /></td></tr>
+<tr class="separator:ga2706213ae449214826f797ac93c51d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1dfd0e0ba16285ce16e782e07af2cafa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__defines.html#ga1dfd0e0ba16285ce16e782e07af2cafa">rcc_wait_for_osc_ready</a> (enum <a class="el" href="rcc_8h.html#a68c2b48bd51903ccf423c86458194354">rcc_osc</a> osc)</td></tr>
+<tr class="memdesc:ga1dfd0e0ba16285ce16e782e07af2cafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for Oscillator Ready.  <a href="#ga1dfd0e0ba16285ce16e782e07af2cafa">More...</a><br /></td></tr>
+<tr class="separator:ga1dfd0e0ba16285ce16e782e07af2cafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><b>Defined Constants and Types for the STM32F3xx Reset and Clock Control</b> </p>
@@ -202,6 +208,49 @@ Functions</h2></td></tr>
 <p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a></p>
 <dl class="section author"><dt>Author</dt><dd> &copy;  2013 Frantisek Burian <a href="#" onclick="location.href='mai'+'lto:'+'BuF'+'ra'+'n@s'+'ez'+'nam'+'.c'+'z'; return false;">BuFra<span style="display: none;">.nosp@m.</span>n@se<span style="display: none;">.nosp@m.</span>znam.<span style="display: none;">.nosp@m.</span>cz</a> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga2706213ae449214826f797ac93c51d52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool rcc_is_osc_ready </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="rcc_8h.html#a68c2b48bd51903ccf423c86458194354">rcc_osc</a>&#160;</td>
+          <td class="paramname"><em>osc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Is the given oscillator ready? </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">osc</td><td>Oscillator ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the hardware indicates the oscillator is ready. </dd></dl>
+
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00179">179</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+
+<p>References <a class="el" href="rcc_8h_source.html#l00064">RCC_BDCR</a>, <a class="el" href="rcc_8h_source.html#l00300">RCC_BDCR_LSERDY</a>, <a class="el" href="rcc_8h_source.html#l00056">RCC_CR</a>, <a class="el" href="rcc_8h_source.html#l00076">RCC_CR_HSERDY</a>, <a class="el" href="rcc_8h_source.html#l00080">RCC_CR_HSIRDY</a>, <a class="el" href="rcc_8h_source.html#l00072">RCC_CR_PLLRDY</a>, <a class="el" href="rcc_8h_source.html#l00065">RCC_CSR</a>, <a class="el" href="rcc_8h_source.html#l00313">RCC_CSR_LSIRDY</a>, <a class="el" href="rcc_8h_source.html#l00437">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00437">RCC_HSI</a>, <a class="el" href="rcc_8h_source.html#l00437">RCC_LSE</a>, <a class="el" href="rcc_8h_source.html#l00437">RCC_LSI</a>, and <a class="el" href="rcc_8h_source.html#l00437">RCC_PLL</a>.</p>
+
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00202">rcc_wait_for_osc_not_ready()</a>, and <a class="el" href="rcc_8c_source.html#l00196">rcc_wait_for_osc_ready()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__rcc__defines_ga2706213ae449214826f797ac93c51d52_icgraph.png" border="0" usemap="#group__rcc__defines_ga2706213ae449214826f797ac93c51d52_icgraph" alt=""/></div>
+<map name="group__rcc__defines_ga2706213ae449214826f797ac93c51d52_icgraph" id="group__rcc__defines_ga2706213ae449214826f797ac93c51d52_icgraph">
+<area shape="rect" id="node2" href="group__rcc__file.html#gaf70338e8856cc235ff8e79e126fa95fd" title="rcc_wait_for_osc_not\l_ready" alt="" coords="184,5,331,47"/>
+<area shape="rect" id="node4" href="group__rcc__file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="Wait for Oscillator Ready. " alt="" coords="177,71,337,98"/>
+<area shape="rect" id="node3" href="group__rcc__file.html#gafebecc597753020e983a9c2eb52ffb86" title="rcc_clock_setup_hsi" alt="" coords="385,42,527,69"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="ga87325ef1019f246cd84ba8aa73100721"></a>
 <div class="memitem">
 <div class="memproto">
@@ -586,12 +635,62 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="ga1dfd0e0ba16285ce16e782e07af2cafa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rcc_wait_for_osc_ready </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="rcc_8h.html#a68c2b48bd51903ccf423c86458194354">rcc_osc</a>&#160;</td>
+          <td class="paramname"><em>osc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wait for Oscillator Ready. </p>
+<p>Block until the hardware indicates that the Oscillator is ready. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">osc</td><td>Oscillator ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00196">196</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+
+<p>References <a class="el" href="rcc_8c_source.html#l00179">rcc_is_osc_ready()</a>.</p>
+
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00387">rcc_clock_setup_hsi()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__rcc__defines_ga1dfd0e0ba16285ce16e782e07af2cafa_cgraph.png" border="0" usemap="#group__rcc__defines_ga1dfd0e0ba16285ce16e782e07af2cafa_cgraph" alt=""/></div>
+<map name="group__rcc__defines_ga1dfd0e0ba16285ce16e782e07af2cafa_cgraph" id="group__rcc__defines_ga1dfd0e0ba16285ce16e782e07af2cafa_cgraph">
+<area shape="rect" id="node2" href="group__rcc__file.html#ga2706213ae449214826f797ac93c51d52" title="Is the given oscillator ready? " alt="" coords="213,5,337,32"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__rcc__defines_ga1dfd0e0ba16285ce16e782e07af2cafa_icgraph.png" border="0" usemap="#group__rcc__defines_ga1dfd0e0ba16285ce16e782e07af2cafa_icgraph" alt=""/></div>
+<map name="group__rcc__defines_ga1dfd0e0ba16285ce16e782e07af2cafa_icgraph" id="group__rcc__defines_ga1dfd0e0ba16285ce16e782e07af2cafa_icgraph">
+<area shape="rect" id="node2" href="group__rcc__file.html#gafebecc597753020e983a9c2eb52ffb86" title="rcc_clock_setup_hsi" alt="" coords="213,5,355,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 19 2016 01:21:51 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 19 2016 02:21:43 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

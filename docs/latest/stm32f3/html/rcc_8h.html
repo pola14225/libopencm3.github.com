@@ -884,8 +884,6 @@ Functions</h2></td></tr>
 <tr class="separator:gab1b45443e00d0774628de632257ba9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0d3d34d807e0934127960914833a1b4d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__file.html#ga0d3d34d807e0934127960914833a1b4d">rcc_css_int_flag</a> (void)</td></tr>
 <tr class="separator:ga0d3d34d807e0934127960914833a1b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1dfd0e0ba16285ce16e782e07af2cafa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__file.html#ga1dfd0e0ba16285ce16e782e07af2cafa">rcc_wait_for_osc_ready</a> (enum <a class="el" href="rcc_8h.html#a68c2b48bd51903ccf423c86458194354">rcc_osc</a> osc)</td></tr>
-<tr class="separator:ga1dfd0e0ba16285ce16e782e07af2cafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf70338e8856cc235ff8e79e126fa95fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__file.html#gaf70338e8856cc235ff8e79e126fa95fd">rcc_wait_for_osc_not_ready</a> (enum <a class="el" href="rcc_8h.html#a68c2b48bd51903ccf423c86458194354">rcc_osc</a> osc)</td></tr>
 <tr class="separator:gaf70338e8856cc235ff8e79e126fa95fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa768e6d3787b02f6dc93c8392b879ef7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__rcc__file.html#gaa768e6d3787b02f6dc93c8392b879ef7">rcc_wait_for_sysclk_status</a> (enum <a class="el" href="rcc_8h.html#a68c2b48bd51903ccf423c86458194354">rcc_osc</a> osc)</td></tr>
@@ -2324,7 +2322,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00064">64</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00439">rcc_backupdomain_reset()</a>, <a class="el" href="rcc_8c_source.html#l00312">rcc_osc_bypass_disable()</a>, <a class="el" href="rcc_8c_source.html#l00295">rcc_osc_bypass_enable()</a>, <a class="el" href="rcc_8c_source.html#l00264">rcc_osc_off()</a>, <a class="el" href="rcc_8c_source.html#l00243">rcc_osc_on()</a>, <a class="el" href="rcc_8c_source.html#l00201">rcc_wait_for_osc_not_ready()</a>, and <a class="el" href="rcc_8c_source.html#l00179">rcc_wait_for_osc_ready()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00424">rcc_backupdomain_reset()</a>, <a class="el" href="rcc_8c_source.html#l00179">rcc_is_osc_ready()</a>, <a class="el" href="rcc_8c_source.html#l00297">rcc_osc_bypass_disable()</a>, <a class="el" href="rcc_8c_source.html#l00280">rcc_osc_bypass_enable()</a>, <a class="el" href="rcc_8c_source.html#l00249">rcc_osc_off()</a>, and <a class="el" href="rcc_8c_source.html#l00228">rcc_osc_on()</a>.</p>
 
 </div>
 </div>
@@ -2340,7 +2338,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00295">295</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00439">rcc_backupdomain_reset()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00424">rcc_backupdomain_reset()</a>.</p>
 
 </div>
 </div>
@@ -2356,7 +2354,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00299">299</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00312">rcc_osc_bypass_disable()</a>, and <a class="el" href="rcc_8c_source.html#l00295">rcc_osc_bypass_enable()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00297">rcc_osc_bypass_disable()</a>, and <a class="el" href="rcc_8c_source.html#l00280">rcc_osc_bypass_enable()</a>.</p>
 
 </div>
 </div>
@@ -2372,7 +2370,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00301">301</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00264">rcc_osc_off()</a>, and <a class="el" href="rcc_8c_source.html#l00243">rcc_osc_on()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00249">rcc_osc_off()</a>, and <a class="el" href="rcc_8c_source.html#l00228">rcc_osc_on()</a>.</p>
 
 </div>
 </div>
@@ -2388,7 +2386,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00300">300</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00201">rcc_wait_for_osc_not_ready()</a>, and <a class="el" href="rcc_8c_source.html#l00179">rcc_wait_for_osc_ready()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00179">rcc_is_osc_ready()</a>.</p>
 
 </div>
 </div>
@@ -2418,7 +2416,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00057">57</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00395">rcc_get_system_clock_source()</a>, <a class="el" href="rcc_8c_source.html#l00365">rcc_set_hpre()</a>, <a class="el" href="rcc__common__all_8c_source.html#l00194">rcc_set_mco()</a>, <a class="el" href="rcc_8c_source.html#l00385">rcc_set_pll_multiplier()</a>, <a class="el" href="rcc_8c_source.html#l00338">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00356">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00347">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00329">rcc_set_sysclk_source()</a>, <a class="el" href="rcc_8c_source.html#l00478">rcc_usb_prescale_1()</a>, <a class="el" href="rcc_8c_source.html#l00473">rcc_usb_prescale_1_5()</a>, and <a class="el" href="rcc_8c_source.html#l00222">rcc_wait_for_sysclk_status()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00380">rcc_get_system_clock_source()</a>, <a class="el" href="rcc_8c_source.html#l00350">rcc_set_hpre()</a>, <a class="el" href="rcc__common__all_8c_source.html#l00194">rcc_set_mco()</a>, <a class="el" href="rcc_8c_source.html#l00370">rcc_set_pll_multiplier()</a>, <a class="el" href="rcc_8c_source.html#l00323">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00341">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00332">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00314">rcc_set_sysclk_source()</a>, <a class="el" href="rcc_8c_source.html#l00463">rcc_usb_prescale_1()</a>, <a class="el" href="rcc_8c_source.html#l00458">rcc_usb_prescale_1_5()</a>, and <a class="el" href="rcc_8c_source.html#l00207">rcc_wait_for_sysclk_status()</a>.</p>
 
 </div>
 </div>
@@ -2434,7 +2432,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00067">67</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00483">rcc_adc_prescale()</a>, and <a class="el" href="rcc_8c_source.html#l00380">rcc_set_prediv()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00468">rcc_adc_prescale()</a>, and <a class="el" href="rcc_8c_source.html#l00365">rcc_set_prediv()</a>.</p>
 
 </div>
 </div>
@@ -2450,7 +2448,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00333">333</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00483">rcc_adc_prescale()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00468">rcc_adc_prescale()</a>.</p>
 
 </div>
 </div>
@@ -2466,7 +2464,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00332">332</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00483">rcc_adc_prescale()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00468">rcc_adc_prescale()</a>.</p>
 
 </div>
 </div>
@@ -2482,7 +2480,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00334">334</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00483">rcc_adc_prescale()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00468">rcc_adc_prescale()</a>.</p>
 
 </div>
 </div>
@@ -2666,7 +2664,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00348">348</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00380">rcc_set_prediv()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00365">rcc_set_prediv()</a>.</p>
 
 </div>
 </div>
@@ -2682,7 +2680,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00068">68</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00468">rcc_get_i2c_clocks()</a>, <a class="el" href="rcc_8c_source.html#l00448">rcc_set_i2c_clock_hsi()</a>, and <a class="el" href="rcc_8c_source.html#l00458">rcc_set_i2c_clock_sysclk()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00453">rcc_get_i2c_clocks()</a>, <a class="el" href="rcc_8c_source.html#l00433">rcc_set_i2c_clock_hsi()</a>, and <a class="el" href="rcc_8c_source.html#l00443">rcc_set_i2c_clock_sysclk()</a>.</p>
 
 </div>
 </div>
@@ -2698,7 +2696,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00374">374</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00468">rcc_get_i2c_clocks()</a>, <a class="el" href="rcc_8c_source.html#l00448">rcc_set_i2c_clock_hsi()</a>, and <a class="el" href="rcc_8c_source.html#l00458">rcc_set_i2c_clock_sysclk()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00453">rcc_get_i2c_clocks()</a>, <a class="el" href="rcc_8c_source.html#l00433">rcc_set_i2c_clock_hsi()</a>, and <a class="el" href="rcc_8c_source.html#l00443">rcc_set_i2c_clock_sysclk()</a>.</p>
 
 </div>
 </div>
@@ -2714,7 +2712,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00373">373</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00468">rcc_get_i2c_clocks()</a>, <a class="el" href="rcc_8c_source.html#l00448">rcc_set_i2c_clock_hsi()</a>, and <a class="el" href="rcc_8c_source.html#l00458">rcc_set_i2c_clock_sysclk()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00453">rcc_get_i2c_clocks()</a>, <a class="el" href="rcc_8c_source.html#l00433">rcc_set_i2c_clock_hsi()</a>, and <a class="el" href="rcc_8c_source.html#l00443">rcc_set_i2c_clock_sysclk()</a>.</p>
 
 </div>
 </div>
@@ -3234,7 +3232,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00148">148</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00365">rcc_set_hpre()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00350">rcc_set_hpre()</a>.</p>
 
 </div>
 </div>
@@ -3250,7 +3248,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00147">147</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00365">rcc_set_hpre()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00350">rcc_set_hpre()</a>.</p>
 
 </div>
 </div>
@@ -3424,7 +3422,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00108">108</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00385">rcc_set_pll_multiplier()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00370">rcc_set_pll_multiplier()</a>.</p>
 
 </div>
 </div>
@@ -3650,7 +3648,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00107">107</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00385">rcc_set_pll_multiplier()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00370">rcc_set_pll_multiplier()</a>.</p>
 
 </div>
 </div>
@@ -3666,7 +3664,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00088">88</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00338">rcc_set_pll_source()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00323">rcc_set_pll_source()</a>.</p>
 
 </div>
 </div>
@@ -3794,7 +3792,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00138">138</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00356">rcc_set_ppre1()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00341">rcc_set_ppre1()</a>.</p>
 
 </div>
 </div>
@@ -3810,7 +3808,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00137">137</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00356">rcc_set_ppre1()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00341">rcc_set_ppre1()</a>.</p>
 
 </div>
 </div>
@@ -3896,7 +3894,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00127">127</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00347">rcc_set_ppre2()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00332">rcc_set_ppre2()</a>.</p>
 
 </div>
 </div>
@@ -3912,7 +3910,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00126">126</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00347">rcc_set_ppre2()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00332">rcc_set_ppre2()</a>.</p>
 
 </div>
 </div>
@@ -3942,7 +3940,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00169">169</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00402">rcc_clock_setup_hsi()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00387">rcc_clock_setup_hsi()</a>.</p>
 
 </div>
 </div>
@@ -3958,7 +3956,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00171">171</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00402">rcc_clock_setup_hsi()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00387">rcc_clock_setup_hsi()</a>.</p>
 
 </div>
 </div>
@@ -3988,7 +3986,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00164">164</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00222">rcc_wait_for_sysclk_status()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00207">rcc_wait_for_sysclk_status()</a>.</p>
 
 </div>
 </div>
@@ -4004,7 +4002,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00163">163</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00222">rcc_wait_for_sysclk_status()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00207">rcc_wait_for_sysclk_status()</a>.</p>
 
 </div>
 </div>
@@ -4020,7 +4018,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00162">162</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00222">rcc_wait_for_sysclk_status()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00207">rcc_wait_for_sysclk_status()</a>.</p>
 
 </div>
 </div>
@@ -4036,7 +4034,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00165">165</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00222">rcc_wait_for_sysclk_status()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00207">rcc_wait_for_sysclk_status()</a>.</p>
 
 </div>
 </div>
@@ -4052,7 +4050,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00161">161</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00222">rcc_wait_for_sysclk_status()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00207">rcc_wait_for_sysclk_status()</a>.</p>
 
 </div>
 </div>
@@ -4068,7 +4066,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00086">86</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00478">rcc_usb_prescale_1()</a>, and <a class="el" href="rcc_8c_source.html#l00473">rcc_usb_prescale_1_5()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00463">rcc_usb_prescale_1()</a>, and <a class="el" href="rcc_8c_source.html#l00458">rcc_usb_prescale_1_5()</a>.</p>
 
 </div>
 </div>
@@ -4372,7 +4370,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00056">56</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00290">rcc_css_disable()</a>, <a class="el" href="rcc_8c_source.html#l00285">rcc_css_enable()</a>, <a class="el" href="rcc_8c_source.html#l00312">rcc_osc_bypass_disable()</a>, <a class="el" href="rcc_8c_source.html#l00295">rcc_osc_bypass_enable()</a>, <a class="el" href="rcc_8c_source.html#l00264">rcc_osc_off()</a>, <a class="el" href="rcc_8c_source.html#l00243">rcc_osc_on()</a>, <a class="el" href="rcc_8c_source.html#l00201">rcc_wait_for_osc_not_ready()</a>, and <a class="el" href="rcc_8c_source.html#l00179">rcc_wait_for_osc_ready()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00275">rcc_css_disable()</a>, <a class="el" href="rcc_8c_source.html#l00270">rcc_css_enable()</a>, <a class="el" href="rcc_8c_source.html#l00179">rcc_is_osc_ready()</a>, <a class="el" href="rcc_8c_source.html#l00297">rcc_osc_bypass_disable()</a>, <a class="el" href="rcc_8c_source.html#l00280">rcc_osc_bypass_enable()</a>, <a class="el" href="rcc_8c_source.html#l00249">rcc_osc_off()</a>, and <a class="el" href="rcc_8c_source.html#l00228">rcc_osc_on()</a>.</p>
 
 </div>
 </div>
@@ -4388,7 +4386,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00074">74</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00290">rcc_css_disable()</a>, and <a class="el" href="rcc_8c_source.html#l00285">rcc_css_enable()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00275">rcc_css_disable()</a>, and <a class="el" href="rcc_8c_source.html#l00270">rcc_css_enable()</a>.</p>
 
 </div>
 </div>
@@ -4404,7 +4402,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00075">75</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00312">rcc_osc_bypass_disable()</a>, and <a class="el" href="rcc_8c_source.html#l00295">rcc_osc_bypass_enable()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00297">rcc_osc_bypass_disable()</a>, and <a class="el" href="rcc_8c_source.html#l00280">rcc_osc_bypass_enable()</a>.</p>
 
 </div>
 </div>
@@ -4420,7 +4418,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00077">77</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00264">rcc_osc_off()</a>, and <a class="el" href="rcc_8c_source.html#l00243">rcc_osc_on()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00249">rcc_osc_off()</a>, and <a class="el" href="rcc_8c_source.html#l00228">rcc_osc_on()</a>.</p>
 
 </div>
 </div>
@@ -4436,7 +4434,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00076">76</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00201">rcc_wait_for_osc_not_ready()</a>, and <a class="el" href="rcc_8c_source.html#l00179">rcc_wait_for_osc_ready()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00179">rcc_is_osc_ready()</a>.</p>
 
 </div>
 </div>
@@ -4452,7 +4450,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00081">81</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00264">rcc_osc_off()</a>, and <a class="el" href="rcc_8c_source.html#l00243">rcc_osc_on()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00249">rcc_osc_off()</a>, and <a class="el" href="rcc_8c_source.html#l00228">rcc_osc_on()</a>.</p>
 
 </div>
 </div>
@@ -4468,7 +4466,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00080">80</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00201">rcc_wait_for_osc_not_ready()</a>, and <a class="el" href="rcc_8c_source.html#l00179">rcc_wait_for_osc_ready()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00179">rcc_is_osc_ready()</a>.</p>
 
 </div>
 </div>
@@ -4484,7 +4482,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00073">73</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00264">rcc_osc_off()</a>, and <a class="el" href="rcc_8c_source.html#l00243">rcc_osc_on()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00249">rcc_osc_off()</a>, and <a class="el" href="rcc_8c_source.html#l00228">rcc_osc_on()</a>.</p>
 
 </div>
 </div>
@@ -4500,7 +4498,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00072">72</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00201">rcc_wait_for_osc_not_ready()</a>, and <a class="el" href="rcc_8c_source.html#l00179">rcc_wait_for_osc_ready()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00179">rcc_is_osc_ready()</a>.</p>
 
 </div>
 </div>
@@ -4516,7 +4514,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00065">65</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00264">rcc_osc_off()</a>, <a class="el" href="rcc_8c_source.html#l00243">rcc_osc_on()</a>, <a class="el" href="rcc_8c_source.html#l00201">rcc_wait_for_osc_not_ready()</a>, and <a class="el" href="rcc_8c_source.html#l00179">rcc_wait_for_osc_ready()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00179">rcc_is_osc_ready()</a>, <a class="el" href="rcc_8c_source.html#l00249">rcc_osc_off()</a>, and <a class="el" href="rcc_8c_source.html#l00228">rcc_osc_on()</a>.</p>
 
 </div>
 </div>
@@ -4560,7 +4558,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00314">314</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00264">rcc_osc_off()</a>, and <a class="el" href="rcc_8c_source.html#l00243">rcc_osc_on()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00249">rcc_osc_off()</a>, and <a class="el" href="rcc_8c_source.html#l00228">rcc_osc_on()</a>.</p>
 
 </div>
 </div>
@@ -4576,7 +4574,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="rcc_8h_source.html#l00313">313</a> of file <a class="el" href="rcc_8h_source.html">rcc.h</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00201">rcc_wait_for_osc_not_ready()</a>, and <a class="el" href="rcc_8c_source.html#l00179">rcc_wait_for_osc_ready()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00179">rcc_is_osc_ready()</a>.</p>
 
 </div>
 </div>
@@ -4979,7 +4977,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_9417be1a17550340f19505b8a524537b.html">stm32</a></li><li class="navelem"><a class="el" href="dir_8c346179f1666f7704fb69c9f9ba3585.html">f3</a></li><li class="navelem"><a class="el" href="rcc_8h.html">rcc.h</a></li>
-    <li class="footer">Generated on Fri Aug 19 2016 01:21:51 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 19 2016 02:21:42 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

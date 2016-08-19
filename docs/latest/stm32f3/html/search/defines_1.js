@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['adc1',['ADC1',['../adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a',1,'adc.h']]],
   ['adc12_5fccr',['ADC12_CCR',['../adc_8h.html#a88872e6d255626c7bc59cffe8d406f9f',1,'adc.h']]],
   ['adc12_5fcdr',['ADC12_CDR',['../adc_8h.html#a041e5ee09c7cdcf65abaa1740206c0c7',1,'adc.h']]],
   ['adc12_5fcsr',['ADC12_CSR',['../adc_8h.html#aa7bd18e57496268aa82cdd38a72e9c30',1,'adc.h']]],
@@ -33,7 +32,6 @@ var searchData=
   ['adc1_5ftr1',['ADC1_TR1',['../adc_8h.html#a1ceb4c489d13b0c223031059b5e0d174',1,'adc.h']]],
   ['adc1_5ftr2',['ADC1_TR2',['../adc_8h.html#a2bb7fda85fdee3a0a1a696ea154841b7',1,'adc.h']]],
   ['adc1_5ftr3',['ADC1_TR3',['../adc_8h.html#a84eff12fbbd6ac016125485e36b5fd5a',1,'adc.h']]],
-  ['adc2',['ADC2',['../adc_8h.html#ac5503ae96c26b4475226f96715a1bf1e',1,'adc.h']]],
   ['adc2_5fawd2cr',['ADC2_AWD2CR',['../adc_8h.html#a3f0d513cc25d267331083d7292c849f2',1,'adc.h']]],
   ['adc2_5fawd3cr',['ADC2_AWD3CR',['../adc_8h.html#aa8dc04ac7cbba870945f33286f220ce4',1,'adc.h']]],
   ['adc2_5fbase',['ADC2_BASE',['../memorymap_8h.html#a6544abc57f9759f610eee09a02442ae6',1,'memorymap.h']]],
@@ -63,7 +61,6 @@ var searchData=
   ['adc2_5ftr1',['ADC2_TR1',['../adc_8h.html#aaae77e21318e44949cd6186c3fba1906',1,'adc.h']]],
   ['adc2_5ftr2',['ADC2_TR2',['../adc_8h.html#a203522bd40b9da9e9e56b46779f5ce53',1,'adc.h']]],
   ['adc2_5ftr3',['ADC2_TR3',['../adc_8h.html#a2e01443d17a3e55004f3fd8cc1e78f96',1,'adc.h']]],
-  ['adc3',['ADC3',['../adc_8h.html#ae917784606daf6b04c9b7b96b40c2f74',1,'adc.h']]],
   ['adc34_5fccr',['ADC34_CCR',['../adc_8h.html#a656559ad68b01efb75bc97803b0a2c93',1,'adc.h']]],
   ['adc34_5fcdr',['ADC34_CDR',['../adc_8h.html#aacd65b934ac05ca75dab4297a5e39de5',1,'adc.h']]],
   ['adc34_5fcsr',['ADC34_CSR',['../adc_8h.html#a490539c57de56c540bffeb57c11fb7bc',1,'adc.h']]],
@@ -96,7 +93,6 @@ var searchData=
   ['adc3_5ftr1',['ADC3_TR1',['../adc_8h.html#af3796071ef9b04d2da87c4ae1364a49c',1,'adc.h']]],
   ['adc3_5ftr2',['ADC3_TR2',['../adc_8h.html#a4f9c67015543407b1c1b61fbb9bcee65',1,'adc.h']]],
   ['adc3_5ftr3',['ADC3_TR3',['../adc_8h.html#a8b1caaef32967681b83a990d03a4b34c',1,'adc.h']]],
-  ['adc4',['ADC4',['../adc_8h.html#af89e07bd5958276f10d90865d55628ff',1,'adc.h']]],
   ['adc4_5fawd2cr',['ADC4_AWD2CR',['../adc_8h.html#a548c3b55618f31550aae8996fbe8926e',1,'adc.h']]],
   ['adc4_5fawd3cr',['ADC4_AWD3CR',['../adc_8h.html#a9097fb65aeb2e19f9d625f60e62a1502',1,'adc.h']]],
   ['adc4_5fbase',['ADC4_BASE',['../memorymap_8h.html#ac61de2ec7005fd7da840006e92996020',1,'memorymap.h']]],

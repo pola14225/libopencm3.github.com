@@ -8820,20 +8820,6 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
-      <name>rcc_is_osc_ready</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga2706213ae449214826f797ac93c51d52</anchor>
-      <arglist>(enum rcc_osc osc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_wait_for_osc_ready</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
-      <arglist>(enum rcc_osc osc)</arglist>
-    </member>
-    <member kind="function">
       <type>void</type>
       <name>rcc_wait_for_sysclk_status</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
@@ -9129,6 +9115,20 @@
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
       <arglist>(uint32_t mcosrc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>rcc_is_osc_ready</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga2706213ae449214826f797ac93c51d52</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_wait_for_osc_ready</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -15989,20 +15989,6 @@
       <arglist>(void)</arglist>
     </member>
     <member kind="function">
-      <type>bool</type>
-      <name>rcc_is_osc_ready</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga2706213ae449214826f797ac93c51d52</anchor>
-      <arglist>(enum rcc_osc osc)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>rcc_wait_for_osc_ready</name>
-      <anchorfile>group__rcc__defines.html</anchorfile>
-      <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
-      <arglist>(enum rcc_osc osc)</arglist>
-    </member>
-    <member kind="function">
       <type>void</type>
       <name>rcc_wait_for_sysclk_status</name>
       <anchorfile>group__rcc__defines.html</anchorfile>
@@ -16183,6 +16169,20 @@
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>gaccfc4aa94152abb68e0d5ad473adbf53</anchor>
       <arglist>(uint32_t mcosrc)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>rcc_is_osc_ready</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga2706213ae449214826f797ac93c51d52</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_wait_for_osc_ready</name>
+      <anchorfile>group__rcc__defines.html</anchorfile>
+      <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
+      <arglist>(enum rcc_osc osc)</arglist>
     </member>
     <member kind="variable">
       <type>uint32_t</type>

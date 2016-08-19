@@ -1,5 +1,8 @@
 <map id="ADC Defines" name="ADC Defines">
-<area shape="rect" id="node1" href="$group__STM32L0xx__defines.html" title="Defined Constants and Types for the STM32L0xx series. " alt="" coords="5,31,147,57"/>
-<area shape="rect" id="node2" href="$group__adc__channel.html" title="ADC Channel Numbers" alt="" coords="360,5,520,32"/>
-<area shape="rect" id="node4" href="$group__adc__reg__base.html" title="ADC register base addresses" alt="" coords="343,56,537,83"/>
+<area shape="rect" id="node1" href="$group__STM32L0xx__defines.html" title="Defined Constants and Types for the STM32L0xx series. " alt="" coords="5,129,147,156"/>
+<area shape="rect" id="node2" href="$group__adc__channel.html" title="ADC Channel Numbers" alt="" coords="365,5,525,32"/>
+<area shape="rect" id="node3" href="$group__adc__cr1__discnum.html" title="ADC Number of channels\l in discontinuous mode." alt="" coords="359,57,531,98"/>
+<area shape="rect" id="node4" href="$group__adc__jsqr__jl.html" title="ADC Number of channels\l in discontinuous injected mode" alt="" coords="343,122,548,163"/>
+<area shape="rect" id="node5" href="$group__adc__watchdog__channel.html" title="ADC watchdog channel" alt="" coords="365,188,525,215"/>
+<area shape="rect" id="node7" href="$group__adc__reg__base.html" title="ADC register base addresses" alt="" coords="348,239,543,265"/>
 </map>

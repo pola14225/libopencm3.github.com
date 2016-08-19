@@ -164,8 +164,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0d3d34d807e0934127960914833a1b4d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F1xx-rcc-file.html#ga0d3d34d807e0934127960914833a1b4d">rcc_css_int_flag</a> (void)</td></tr>
 <tr class="memdesc:ga0d3d34d807e0934127960914833a1b4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">RCC Read the Clock Security System Interrupt Flag.  <a href="#ga0d3d34d807e0934127960914833a1b4d">More...</a><br /></td></tr>
 <tr class="separator:ga0d3d34d807e0934127960914833a1b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2706213ae449214826f797ac93c51d52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F1xx-rcc-file.html#ga2706213ae449214826f797ac93c51d52">rcc_is_osc_ready</a> (enum <a class="el" href="group__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354">rcc_osc</a> osc)</td></tr>
+<tr class="memdesc:ga2706213ae449214826f797ac93c51d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the given oscillator ready?  <a href="#ga2706213ae449214826f797ac93c51d52">More...</a><br /></td></tr>
+<tr class="separator:ga2706213ae449214826f797ac93c51d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1dfd0e0ba16285ce16e782e07af2cafa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa">rcc_wait_for_osc_ready</a> (enum <a class="el" href="group__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354">rcc_osc</a> osc)</td></tr>
-<tr class="memdesc:ga1dfd0e0ba16285ce16e782e07af2cafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">RCC Wait for Oscillator Ready.  <a href="#ga1dfd0e0ba16285ce16e782e07af2cafa">More...</a><br /></td></tr>
+<tr class="memdesc:ga1dfd0e0ba16285ce16e782e07af2cafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for Oscillator Ready.  <a href="#ga1dfd0e0ba16285ce16e782e07af2cafa">More...</a><br /></td></tr>
 <tr class="separator:ga1dfd0e0ba16285ce16e782e07af2cafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga81b16ade2e5d6e024f36e3d568a9fd97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__STM32F1xx-rcc-file.html#ga81b16ade2e5d6e024f36e3d568a9fd97">rcc_osc_on</a> (enum <a class="el" href="group__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354">rcc_osc</a> osc)</td></tr>
 <tr class="memdesc:ga81b16ade2e5d6e024f36e3d568a9fd97"><td class="mdescLeft">&#160;</td><td class="mdescRight">RCC Turn on an Oscillator.  <a href="#ga81b16ade2e5d6e024f36e3d568a9fd97">More...</a><br /></td></tr>
@@ -306,7 +309,7 @@ Variables</h2></td></tr>
 <p>RCC Reset the Backup Domain. </p>
 <p>The backup domain registers are reset to disable RTC controls and clear user data. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l01170">1170</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l01163">1163</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00056">RCC_BDCR</a>, and <a class="el" href="rcc_8h_source.html#l00420">RCC_BDCR_BDRST</a>.</p>
 
@@ -328,9 +331,9 @@ Variables</h2></td></tr>
 
 <p>RCC Set System Clock PLL at 72MHz from HSE at 12MHz. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00982">982</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00975">975</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>References <a class="el" href="flash_8h_source.html#l00074">FLASH_ACR_LATENCY_2WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00191">RCC_CFGR_ADCPRE_PCLK2_DIV6</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00147">RCC_CFGR_PLLMUL_PLL_CLK_MUL6</a>, <a class="el" href="rcc_8h_source.html#l00179">RCC_CFGR_PLLSRC_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00169">RCC_CFGR_PLLXTPRE_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00213">RCC_CFGR_PPRE1_HCLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00246">RCC_CFGR_SW_SYSCLKSEL_HSECLK</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00268">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00582">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00621">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00442">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00484">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00498">rcc_set_pllxtpre()</a>, <a class="el" href="rcc_8c_source.html#l00608">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00594">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00428">rcc_set_sysclk_source()</a>, and <a class="el" href="rcc_8c_source.html#l00226">rcc_wait_for_osc_ready()</a>.</p>
+<p>References <a class="el" href="flash_8h_source.html#l00074">FLASH_ACR_LATENCY_2WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00191">RCC_CFGR_ADCPRE_PCLK2_DIV6</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00147">RCC_CFGR_PLLMUL_PLL_CLK_MUL6</a>, <a class="el" href="rcc_8h_source.html#l00179">RCC_CFGR_PLLSRC_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00169">RCC_CFGR_PLLXTPRE_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00213">RCC_CFGR_PPRE1_HCLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00246">RCC_CFGR_SW_SYSCLKSEL_HSECLK</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00261">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00575">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00614">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00435">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00477">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00491">rcc_set_pllxtpre()</a>, <a class="el" href="rcc_8c_source.html#l00601">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00587">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00421">rcc_set_sysclk_source()</a>, and <a class="el" href="rcc_8c_source.html#l00241">rcc_wait_for_osc_ready()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -347,7 +350,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node9" href="group__STM32F1xx-rcc-file.html#gaaf1b9174131b00a7014c0328a53a65a1" title="RCC Set the APB1 Prescale Factor. " alt="" coords="252,376,356,403"/>
 <area shape="rect" id="node10" href="group__STM32F1xx-rcc-file.html#gac40c9478480f3a44c381c15482a563cd" title="RCC Set the APB2 Prescale Factor. " alt="" coords="252,427,356,453"/>
 <area shape="rect" id="node11" href="group__STM32F1xx-rcc-file.html#ga2c291271812c333d975807cd5ec99a36" title="RCC Set the Source for the System Clock. " alt="" coords="226,477,382,504"/>
-<area shape="rect" id="node12" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="RCC Wait for Oscillator Ready. " alt="" coords="224,528,384,555"/>
+<area shape="rect" id="node12" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="Wait for Oscillator Ready. " alt="" coords="224,528,384,555"/>
+<area shape="rect" id="node13" href="group__STM32F1xx-rcc-file.html#ga2706213ae449214826f797ac93c51d52" title="Is the given oscillator ready? " alt="" coords="436,528,560,555"/>
 </map>
 </div>
 </p>
@@ -370,9 +374,9 @@ Here is the call graph for this function:</div>
 
 <p>RCC Set System Clock PLL at 72MHz from HSE at 16MHz. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l01046">1046</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l01039">1039</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>References <a class="el" href="flash_8h_source.html#l00074">FLASH_ACR_LATENCY_2WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00191">RCC_CFGR_ADCPRE_PCLK2_DIV6</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00150">RCC_CFGR_PLLMUL_PLL_CLK_MUL9</a>, <a class="el" href="rcc_8h_source.html#l00179">RCC_CFGR_PLLSRC_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00170">RCC_CFGR_PLLXTPRE_HSE_CLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00213">RCC_CFGR_PPRE1_HCLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00246">RCC_CFGR_SW_SYSCLKSEL_HSECLK</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00268">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00582">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00621">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00442">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00484">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00498">rcc_set_pllxtpre()</a>, <a class="el" href="rcc_8c_source.html#l00608">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00594">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00428">rcc_set_sysclk_source()</a>, and <a class="el" href="rcc_8c_source.html#l00226">rcc_wait_for_osc_ready()</a>.</p>
+<p>References <a class="el" href="flash_8h_source.html#l00074">FLASH_ACR_LATENCY_2WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00191">RCC_CFGR_ADCPRE_PCLK2_DIV6</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00150">RCC_CFGR_PLLMUL_PLL_CLK_MUL9</a>, <a class="el" href="rcc_8h_source.html#l00179">RCC_CFGR_PLLSRC_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00170">RCC_CFGR_PLLXTPRE_HSE_CLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00213">RCC_CFGR_PPRE1_HCLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00246">RCC_CFGR_SW_SYSCLKSEL_HSECLK</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00261">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00575">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00614">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00435">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00477">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00491">rcc_set_pllxtpre()</a>, <a class="el" href="rcc_8c_source.html#l00601">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00587">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00421">rcc_set_sysclk_source()</a>, and <a class="el" href="rcc_8c_source.html#l00241">rcc_wait_for_osc_ready()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -389,7 +393,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node9" href="group__STM32F1xx-rcc-file.html#gaaf1b9174131b00a7014c0328a53a65a1" title="RCC Set the APB1 Prescale Factor. " alt="" coords="252,376,356,403"/>
 <area shape="rect" id="node10" href="group__STM32F1xx-rcc-file.html#gac40c9478480f3a44c381c15482a563cd" title="RCC Set the APB2 Prescale Factor. " alt="" coords="252,427,356,453"/>
 <area shape="rect" id="node11" href="group__STM32F1xx-rcc-file.html#ga2c291271812c333d975807cd5ec99a36" title="RCC Set the Source for the System Clock. " alt="" coords="226,477,382,504"/>
-<area shape="rect" id="node12" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="RCC Wait for Oscillator Ready. " alt="" coords="224,528,384,555"/>
+<area shape="rect" id="node12" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="Wait for Oscillator Ready. " alt="" coords="224,528,384,555"/>
+<area shape="rect" id="node13" href="group__STM32F1xx-rcc-file.html#ga2706213ae449214826f797ac93c51d52" title="Is the given oscillator ready? " alt="" coords="436,528,560,555"/>
 </map>
 </div>
 </p>
@@ -412,9 +417,9 @@ Here is the call graph for this function:</div>
 
 <p>RCC Set System Clock PLL at 72MHz from HSE at 25MHz. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l01110">1110</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l01103">1103</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>References <a class="el" href="flash_8h_source.html#l00074">FLASH_ACR_LATENCY_2WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00489">RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL8</a>, <a class="el" href="rcc_8h_source.html#l00462">RCC_CFGR2_PREDIV1SRC_PLL2_CLK</a>, <a class="el" href="rcc_8h_source.html#l00522">RCC_CFGR2_PREDIV2_DIV5</a>, <a class="el" href="rcc_8h_source.html#l00504">RCC_CFGR2_PREDIV_DIV5</a>, <a class="el" href="rcc_8h_source.html#l00191">RCC_CFGR_ADCPRE_PCLK2_DIV6</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00150">RCC_CFGR_PLLMUL_PLL_CLK_MUL9</a>, <a class="el" href="rcc_8h_source.html#l00180">RCC_CFGR_PLLSRC_PREDIV1_CLK</a>, <a class="el" href="rcc_8h_source.html#l00169">RCC_CFGR_PLLXTPRE_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00213">RCC_CFGR_PPRE1_HCLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00246">RCC_CFGR_SW_SYSCLKSEL_HSECLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00135">RCC_CFGR_USBPRE_PLL_VCO_CLK_DIV3</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8c_source.html#l00268">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL2</a>, <a class="el" href="rcc_8c_source.html#l00582">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00621">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00456">rcc_set_pll2_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00442">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00484">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00498">rcc_set_pllxtpre()</a>, <a class="el" href="rcc_8c_source.html#l00608">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00594">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00648">rcc_set_prediv1()</a>, <a class="el" href="rcc_8c_source.html#l00660">rcc_set_prediv1_source()</a>, <a class="el" href="rcc_8c_source.html#l00654">rcc_set_prediv2()</a>, <a class="el" href="rcc_8c_source.html#l00428">rcc_set_sysclk_source()</a>, <a class="el" href="rcc_8c_source.html#l00639">rcc_set_usbpre()</a>, and <a class="el" href="rcc_8c_source.html#l00226">rcc_wait_for_osc_ready()</a>.</p>
+<p>References <a class="el" href="flash_8h_source.html#l00074">FLASH_ACR_LATENCY_2WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00489">RCC_CFGR2_PLL2MUL_PLL2_CLK_MUL8</a>, <a class="el" href="rcc_8h_source.html#l00462">RCC_CFGR2_PREDIV1SRC_PLL2_CLK</a>, <a class="el" href="rcc_8h_source.html#l00522">RCC_CFGR2_PREDIV2_DIV5</a>, <a class="el" href="rcc_8h_source.html#l00504">RCC_CFGR2_PREDIV_DIV5</a>, <a class="el" href="rcc_8h_source.html#l00191">RCC_CFGR_ADCPRE_PCLK2_DIV6</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00150">RCC_CFGR_PLLMUL_PLL_CLK_MUL9</a>, <a class="el" href="rcc_8h_source.html#l00180">RCC_CFGR_PLLSRC_PREDIV1_CLK</a>, <a class="el" href="rcc_8h_source.html#l00169">RCC_CFGR_PLLXTPRE_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00213">RCC_CFGR_PPRE1_HCLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00246">RCC_CFGR_SW_SYSCLKSEL_HSECLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00135">RCC_CFGR_USBPRE_PLL_VCO_CLK_DIV3</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8c_source.html#l00261">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL2</a>, <a class="el" href="rcc_8c_source.html#l00575">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00614">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00449">rcc_set_pll2_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00435">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00477">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00491">rcc_set_pllxtpre()</a>, <a class="el" href="rcc_8c_source.html#l00601">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00587">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00641">rcc_set_prediv1()</a>, <a class="el" href="rcc_8c_source.html#l00653">rcc_set_prediv1_source()</a>, <a class="el" href="rcc_8c_source.html#l00647">rcc_set_prediv2()</a>, <a class="el" href="rcc_8c_source.html#l00421">rcc_set_sysclk_source()</a>, <a class="el" href="rcc_8c_source.html#l00632">rcc_set_usbpre()</a>, and <a class="el" href="rcc_8c_source.html#l00241">rcc_wait_for_osc_ready()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -436,7 +441,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node14" href="group__STM32F1xx-rcc-file.html#ga3a206a5322c1c6f7737654e13a01c6b8" title="rcc_set_prediv2" alt="" coords="250,644,365,671"/>
 <area shape="rect" id="node15" href="group__STM32F1xx-rcc-file.html#ga2c291271812c333d975807cd5ec99a36" title="RCC Set the Source for the System Clock. " alt="" coords="229,695,385,721"/>
 <area shape="rect" id="node16" href="group__STM32F1xx-rcc-file.html#gad434015520b42043657d7478f8308c37" title="RCC Set the USB Prescale Factor. " alt="" coords="252,745,363,772"/>
-<area shape="rect" id="node17" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="RCC Wait for Oscillator Ready. " alt="" coords="227,796,387,823"/>
+<area shape="rect" id="node17" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="Wait for Oscillator Ready. " alt="" coords="227,796,387,823"/>
+<area shape="rect" id="node18" href="group__STM32F1xx-rcc-file.html#ga2706213ae449214826f797ac93c51d52" title="Is the given oscillator ready? " alt="" coords="443,796,567,823"/>
 </map>
 </div>
 </p>
@@ -459,9 +465,9 @@ Here is the call graph for this function:</div>
 
 <p>RCC Set System Clock PLL at 24MHz from HSE at 8MHz. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00854">854</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00847">847</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>References <a class="el" href="flash_8h_source.html#l00072">FLASH_ACR_LATENCY_0WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00189">RCC_CFGR_ADCPRE_PCLK2_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00144">RCC_CFGR_PLLMUL_PLL_CLK_MUL3</a>, <a class="el" href="rcc_8h_source.html#l00179">RCC_CFGR_PLLSRC_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00169">RCC_CFGR_PLLXTPRE_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00212">RCC_CFGR_PPRE1_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00246">RCC_CFGR_SW_SYSCLKSEL_HSECLK</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00268">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00582">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00621">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00442">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00484">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00498">rcc_set_pllxtpre()</a>, <a class="el" href="rcc_8c_source.html#l00608">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00594">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00428">rcc_set_sysclk_source()</a>, and <a class="el" href="rcc_8c_source.html#l00226">rcc_wait_for_osc_ready()</a>.</p>
+<p>References <a class="el" href="flash_8h_source.html#l00072">FLASH_ACR_LATENCY_0WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00189">RCC_CFGR_ADCPRE_PCLK2_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00144">RCC_CFGR_PLLMUL_PLL_CLK_MUL3</a>, <a class="el" href="rcc_8h_source.html#l00179">RCC_CFGR_PLLSRC_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00169">RCC_CFGR_PLLXTPRE_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00212">RCC_CFGR_PPRE1_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00246">RCC_CFGR_SW_SYSCLKSEL_HSECLK</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00261">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00575">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00614">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00435">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00477">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00491">rcc_set_pllxtpre()</a>, <a class="el" href="rcc_8c_source.html#l00601">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00587">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00421">rcc_set_sysclk_source()</a>, and <a class="el" href="rcc_8c_source.html#l00241">rcc_wait_for_osc_ready()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -478,7 +484,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node9" href="group__STM32F1xx-rcc-file.html#gaaf1b9174131b00a7014c0328a53a65a1" title="RCC Set the APB1 Prescale Factor. " alt="" coords="245,376,349,403"/>
 <area shape="rect" id="node10" href="group__STM32F1xx-rcc-file.html#gac40c9478480f3a44c381c15482a563cd" title="RCC Set the APB2 Prescale Factor. " alt="" coords="245,427,349,453"/>
 <area shape="rect" id="node11" href="group__STM32F1xx-rcc-file.html#ga2c291271812c333d975807cd5ec99a36" title="RCC Set the Source for the System Clock. " alt="" coords="219,477,375,504"/>
-<area shape="rect" id="node12" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="RCC Wait for Oscillator Ready. " alt="" coords="217,528,377,555"/>
+<area shape="rect" id="node12" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="Wait for Oscillator Ready. " alt="" coords="217,528,377,555"/>
+<area shape="rect" id="node13" href="group__STM32F1xx-rcc-file.html#ga2706213ae449214826f797ac93c51d52" title="Is the given oscillator ready? " alt="" coords="429,528,553,555"/>
 </map>
 </div>
 </p>
@@ -501,9 +508,9 @@ Here is the call graph for this function:</div>
 
 <p>RCC Set System Clock PLL at 72MHz from HSE at 8MHz. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00918">918</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00911">911</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>References <a class="el" href="flash_8h_source.html#l00074">FLASH_ACR_LATENCY_2WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00192">RCC_CFGR_ADCPRE_PCLK2_DIV8</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00150">RCC_CFGR_PLLMUL_PLL_CLK_MUL9</a>, <a class="el" href="rcc_8h_source.html#l00179">RCC_CFGR_PLLSRC_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00169">RCC_CFGR_PLLXTPRE_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00213">RCC_CFGR_PPRE1_HCLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00246">RCC_CFGR_SW_SYSCLKSEL_HSECLK</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00268">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00582">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00621">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00442">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00484">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00498">rcc_set_pllxtpre()</a>, <a class="el" href="rcc_8c_source.html#l00608">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00594">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00428">rcc_set_sysclk_source()</a>, and <a class="el" href="rcc_8c_source.html#l00226">rcc_wait_for_osc_ready()</a>.</p>
+<p>References <a class="el" href="flash_8h_source.html#l00074">FLASH_ACR_LATENCY_2WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00192">RCC_CFGR_ADCPRE_PCLK2_DIV8</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00150">RCC_CFGR_PLLMUL_PLL_CLK_MUL9</a>, <a class="el" href="rcc_8h_source.html#l00179">RCC_CFGR_PLLSRC_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00169">RCC_CFGR_PLLXTPRE_HSE_CLK</a>, <a class="el" href="rcc_8h_source.html#l00213">RCC_CFGR_PPRE1_HCLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00246">RCC_CFGR_SW_SYSCLKSEL_HSECLK</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00261">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00575">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00614">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00435">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00477">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00491">rcc_set_pllxtpre()</a>, <a class="el" href="rcc_8c_source.html#l00601">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00587">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00421">rcc_set_sysclk_source()</a>, and <a class="el" href="rcc_8c_source.html#l00241">rcc_wait_for_osc_ready()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -520,7 +527,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node9" href="group__STM32F1xx-rcc-file.html#gaaf1b9174131b00a7014c0328a53a65a1" title="RCC Set the APB1 Prescale Factor. " alt="" coords="245,376,349,403"/>
 <area shape="rect" id="node10" href="group__STM32F1xx-rcc-file.html#gac40c9478480f3a44c381c15482a563cd" title="RCC Set the APB2 Prescale Factor. " alt="" coords="245,427,349,453"/>
 <area shape="rect" id="node11" href="group__STM32F1xx-rcc-file.html#ga2c291271812c333d975807cd5ec99a36" title="RCC Set the Source for the System Clock. " alt="" coords="219,477,375,504"/>
-<area shape="rect" id="node12" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="RCC Wait for Oscillator Ready. " alt="" coords="217,528,377,555"/>
+<area shape="rect" id="node12" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="Wait for Oscillator Ready. " alt="" coords="217,528,377,555"/>
+<area shape="rect" id="node13" href="group__STM32F1xx-rcc-file.html#ga2706213ae449214826f797ac93c51d52" title="Is the given oscillator ready? " alt="" coords="429,528,553,555"/>
 </map>
 </div>
 </p>
@@ -543,9 +551,9 @@ Here is the call graph for this function:</div>
 
 <p>RCC Set System Clock PLL at 24MHz from HSI. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00801">801</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00794">794</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>References <a class="el" href="flash_8h_source.html#l00072">FLASH_ACR_LATENCY_0WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00189">RCC_CFGR_ADCPRE_PCLK2_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00147">RCC_CFGR_PLLMUL_PLL_CLK_MUL6</a>, <a class="el" href="rcc_8h_source.html#l00178">RCC_CFGR_PLLSRC_HSI_CLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00212">RCC_CFGR_PPRE1_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00268">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00582">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00621">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00442">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00484">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00608">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00594">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00428">rcc_set_sysclk_source()</a>, and <a class="el" href="rcc_8c_source.html#l00226">rcc_wait_for_osc_ready()</a>.</p>
+<p>References <a class="el" href="flash_8h_source.html#l00072">FLASH_ACR_LATENCY_0WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00189">RCC_CFGR_ADCPRE_PCLK2_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00147">RCC_CFGR_PLLMUL_PLL_CLK_MUL6</a>, <a class="el" href="rcc_8h_source.html#l00178">RCC_CFGR_PLLSRC_HSI_CLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00212">RCC_CFGR_PPRE1_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00261">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00575">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00614">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00435">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00477">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00601">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00587">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00421">rcc_set_sysclk_source()</a>, and <a class="el" href="rcc_8c_source.html#l00241">rcc_wait_for_osc_ready()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -561,7 +569,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node8" href="group__STM32F1xx-rcc-file.html#gaaf1b9174131b00a7014c0328a53a65a1" title="RCC Set the APB1 Prescale Factor. " alt="" coords="220,325,324,352"/>
 <area shape="rect" id="node9" href="group__STM32F1xx-rcc-file.html#gac40c9478480f3a44c381c15482a563cd" title="RCC Set the APB2 Prescale Factor. " alt="" coords="220,376,324,403"/>
 <area shape="rect" id="node10" href="group__STM32F1xx-rcc-file.html#ga2c291271812c333d975807cd5ec99a36" title="RCC Set the Source for the System Clock. " alt="" coords="194,427,350,453"/>
-<area shape="rect" id="node11" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="RCC Wait for Oscillator Ready. " alt="" coords="192,477,352,504"/>
+<area shape="rect" id="node11" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="Wait for Oscillator Ready. " alt="" coords="192,477,352,504"/>
+<area shape="rect" id="node12" href="group__STM32F1xx-rcc-file.html#ga2706213ae449214826f797ac93c51d52" title="Is the given oscillator ready? " alt="" coords="404,477,528,504"/>
 </map>
 </div>
 </p>
@@ -584,9 +593,9 @@ Here is the call graph for this function:</div>
 
 <p>RCC Set System Clock PLL at 48MHz from HSI. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00747">747</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00740">740</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>References <a class="el" href="flash_8h_source.html#l00073">FLASH_ACR_LATENCY_1WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00192">RCC_CFGR_ADCPRE_PCLK2_DIV8</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00153">RCC_CFGR_PLLMUL_PLL_CLK_MUL12</a>, <a class="el" href="rcc_8h_source.html#l00178">RCC_CFGR_PLLSRC_HSI_CLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00213">RCC_CFGR_PPRE1_HCLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00131">RCC_CFGR_USBPRE_PLL_CLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00268">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00582">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00621">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00442">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00484">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00608">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00594">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00428">rcc_set_sysclk_source()</a>, <a class="el" href="rcc_8c_source.html#l00639">rcc_set_usbpre()</a>, and <a class="el" href="rcc_8c_source.html#l00226">rcc_wait_for_osc_ready()</a>.</p>
+<p>References <a class="el" href="flash_8h_source.html#l00073">FLASH_ACR_LATENCY_1WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00192">RCC_CFGR_ADCPRE_PCLK2_DIV8</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00153">RCC_CFGR_PLLMUL_PLL_CLK_MUL12</a>, <a class="el" href="rcc_8h_source.html#l00178">RCC_CFGR_PLLSRC_HSI_CLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00213">RCC_CFGR_PPRE1_HCLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00131">RCC_CFGR_USBPRE_PLL_CLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00261">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00575">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00614">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00435">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00477">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00601">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00587">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00421">rcc_set_sysclk_source()</a>, <a class="el" href="rcc_8c_source.html#l00632">rcc_set_usbpre()</a>, and <a class="el" href="rcc_8c_source.html#l00241">rcc_wait_for_osc_ready()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -603,7 +612,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node9" href="group__STM32F1xx-rcc-file.html#gac40c9478480f3a44c381c15482a563cd" title="RCC Set the APB2 Prescale Factor. " alt="" coords="220,376,324,403"/>
 <area shape="rect" id="node10" href="group__STM32F1xx-rcc-file.html#ga2c291271812c333d975807cd5ec99a36" title="RCC Set the Source for the System Clock. " alt="" coords="194,427,350,453"/>
 <area shape="rect" id="node11" href="group__STM32F1xx-rcc-file.html#gad434015520b42043657d7478f8308c37" title="RCC Set the USB Prescale Factor. " alt="" coords="217,477,327,504"/>
-<area shape="rect" id="node12" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="RCC Wait for Oscillator Ready. " alt="" coords="192,528,352,555"/>
+<area shape="rect" id="node12" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="Wait for Oscillator Ready. " alt="" coords="192,528,352,555"/>
+<area shape="rect" id="node13" href="group__STM32F1xx-rcc-file.html#ga2706213ae449214826f797ac93c51d52" title="Is the given oscillator ready? " alt="" coords="404,528,528,555"/>
 </map>
 </div>
 </p>
@@ -626,9 +636,9 @@ Here is the call graph for this function:</div>
 
 <p>RCC Set System Clock PLL at 64MHz from HSI. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00694">694</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00687">687</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>References <a class="el" href="flash_8h_source.html#l00074">FLASH_ACR_LATENCY_2WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00192">RCC_CFGR_ADCPRE_PCLK2_DIV8</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00159">RCC_CFGR_PLLMUL_PLL_CLK_MUL16</a>, <a class="el" href="rcc_8h_source.html#l00178">RCC_CFGR_PLLSRC_HSI_CLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00213">RCC_CFGR_PPRE1_HCLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00268">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00582">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00621">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00442">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00484">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00608">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00594">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00428">rcc_set_sysclk_source()</a>, and <a class="el" href="rcc_8c_source.html#l00226">rcc_wait_for_osc_ready()</a>.</p>
+<p>References <a class="el" href="flash_8h_source.html#l00074">FLASH_ACR_LATENCY_2WS</a>, <a class="el" href="group__flash__defines.html#ga9347b16d27d64b79f507dc9cad8633b2">flash_set_ws()</a>, <a class="el" href="rcc_8c_source.html#l00059">rcc_ahb_frequency</a>, <a class="el" href="rcc_8c_source.html#l00057">rcc_apb1_frequency</a>, <a class="el" href="rcc_8c_source.html#l00058">rcc_apb2_frequency</a>, <a class="el" href="rcc_8h_source.html#l00192">RCC_CFGR_ADCPRE_PCLK2_DIV8</a>, <a class="el" href="rcc_8h_source.html#l00224">RCC_CFGR_HPRE_SYSCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00159">RCC_CFGR_PLLMUL_PLL_CLK_MUL16</a>, <a class="el" href="rcc_8h_source.html#l00178">RCC_CFGR_PLLSRC_HSI_CLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00213">RCC_CFGR_PPRE1_HCLK_DIV2</a>, <a class="el" href="rcc_8h_source.html#l00200">RCC_CFGR_PPRE2_HCLK_NODIV</a>, <a class="el" href="rcc_8h_source.html#l00245">RCC_CFGR_SW_SYSCLKSEL_HSICLK</a>, <a class="el" href="rcc_8h_source.html#l00247">RCC_CFGR_SW_SYSCLKSEL_PLLCLK</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8c_source.html#l00261">rcc_osc_on()</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8c_source.html#l00575">rcc_set_adcpre()</a>, <a class="el" href="rcc_8c_source.html#l00614">rcc_set_hpre()</a>, <a class="el" href="rcc_8c_source.html#l00435">rcc_set_pll_multiplication_factor()</a>, <a class="el" href="rcc_8c_source.html#l00477">rcc_set_pll_source()</a>, <a class="el" href="rcc_8c_source.html#l00601">rcc_set_ppre1()</a>, <a class="el" href="rcc_8c_source.html#l00587">rcc_set_ppre2()</a>, <a class="el" href="rcc_8c_source.html#l00421">rcc_set_sysclk_source()</a>, and <a class="el" href="rcc_8c_source.html#l00241">rcc_wait_for_osc_ready()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -644,7 +654,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node8" href="group__STM32F1xx-rcc-file.html#gaaf1b9174131b00a7014c0328a53a65a1" title="RCC Set the APB1 Prescale Factor. " alt="" coords="220,325,324,352"/>
 <area shape="rect" id="node9" href="group__STM32F1xx-rcc-file.html#gac40c9478480f3a44c381c15482a563cd" title="RCC Set the APB2 Prescale Factor. " alt="" coords="220,376,324,403"/>
 <area shape="rect" id="node10" href="group__STM32F1xx-rcc-file.html#ga2c291271812c333d975807cd5ec99a36" title="RCC Set the Source for the System Clock. " alt="" coords="194,427,350,453"/>
-<area shape="rect" id="node11" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="RCC Wait for Oscillator Ready. " alt="" coords="192,477,352,504"/>
+<area shape="rect" id="node11" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="Wait for Oscillator Ready. " alt="" coords="192,477,352,504"/>
+<area shape="rect" id="node12" href="group__STM32F1xx-rcc-file.html#ga2706213ae449214826f797ac93c51d52" title="Is the given oscillator ready? " alt="" coords="404,477,528,504"/>
 </map>
 </div>
 </p>
@@ -667,7 +678,7 @@ Here is the call graph for this function:</div>
 
 <p>RCC Disable the Clock Security System. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00351">351</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00344">344</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00048">RCC_CR</a>, and <a class="el" href="rcc_8h_source.html#l00069">RCC_CR_CSSON</a>.</p>
 
@@ -689,7 +700,7 @@ Here is the call graph for this function:</div>
 
 <p>RCC Enable the Clock Security System. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00341">341</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00334">334</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00048">RCC_CR</a>, and <a class="el" href="rcc_8h_source.html#l00069">RCC_CR_CSSON</a>.</p>
 
@@ -756,7 +767,7 @@ Here is the call graph for this function:</div>
 
 <p>RCC Enable the RTC clock. </p>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00520">520</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00513">513</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00056">RCC_BDCR</a>, and <a class="el" href="rcc_8h_source.html#l00421">RCC_BDCR_RTCEN</a>.</p>
 
@@ -769,6 +780,55 @@ Here is the caller graph for this function:</div>
 <map name="group__STM32F1xx-rcc-file_gabd376925e81df9e2f78110fabcdbd893_icgraph" id="group__STM32F1xx-rcc-file_gabd376925e81df9e2f78110fabcdbd893_icgraph">
 <area shape="rect" id="node2" href="group__rtc__file.html#gaa4fec0b94caffb25d0acde8813a7ef5b" title="RTC Set Operational from the Off state. " alt="" coords="199,5,336,32"/>
 <area shape="rect" id="node3" href="group__rtc__file.html#ga7693c69c9ff726487720b12576a20968" title="RTC Configuration on Wakeup. " alt="" coords="384,5,499,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga2706213ae449214826f797ac93c51d52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool rcc_is_osc_ready </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="group__rcc__defines.html#ga68c2b48bd51903ccf423c86458194354">rcc_osc</a>&#160;</td>
+          <td class="paramname"><em>osc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Is the given oscillator ready? </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">osc</td><td>Oscillator ID </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the hardware indicates the oscillator is ready. </dd></dl>
+
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00220">220</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+
+<p>References <a class="el" href="rcc_8h_source.html#l00056">RCC_BDCR</a>, <a class="el" href="rcc_8h_source.html#l00424">RCC_BDCR_LSERDY</a>, <a class="el" href="rcc_8h_source.html#l00048">RCC_CR</a>, <a class="el" href="rcc_8h_source.html#l00071">RCC_CR_HSERDY</a>, <a class="el" href="rcc_8h_source.html#l00075">RCC_CR_HSIRDY</a>, <a class="el" href="rcc_8h_source.html#l00065">RCC_CR_PLL2RDY</a>, <a class="el" href="rcc_8h_source.html#l00063">RCC_CR_PLL3RDY</a>, <a class="el" href="rcc_8h_source.html#l00067">RCC_CR_PLLRDY</a>, <a class="el" href="rcc_8h_source.html#l00057">RCC_CSR</a>, <a class="el" href="rcc_8h_source.html#l00436">RCC_CSR_LSIRDY</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL2</a>, and <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL3</a>.</p>
+
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00241">rcc_wait_for_osc_ready()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__STM32F1xx-rcc-file_ga2706213ae449214826f797ac93c51d52_icgraph.png" border="0" usemap="#group__STM32F1xx-rcc-file_ga2706213ae449214826f797ac93c51d52_icgraph" alt=""/></div>
+<map name="group__STM32F1xx-rcc-file_ga2706213ae449214826f797ac93c51d52_icgraph" id="group__STM32F1xx-rcc-file_ga2706213ae449214826f797ac93c51d52_icgraph">
+<area shape="rect" id="node2" href="group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="Wait for Oscillator Ready. " alt="" coords="177,242,337,269"/>
+<area shape="rect" id="node3" href="group__STM32F1xx-rcc-file.html#gae75d09f5953c113b10c266937e0d36a7" title="RCC Set System Clock PLL at 64MHz from HSI. " alt="" coords="401,5,536,47"/>
+<area shape="rect" id="node4" href="group__STM32F1xx-rcc-file.html#gadd6354a9a1404b23b5baa00b51b03cc2" title="RCC Set System Clock PLL at 48MHz from HSI. " alt="" coords="401,71,536,112"/>
+<area shape="rect" id="node5" href="group__STM32F1xx-rcc-file.html#ga63c14a3f3ed2799c6ad21564f97d0e99" title="RCC Set System Clock PLL at 24MHz from HSI. " alt="" coords="401,136,536,177"/>
+<area shape="rect" id="node6" href="group__STM32F1xx-rcc-file.html#ga2a1d0a3e6272c2268ed5b560fb37262c" title="RCC Set System Clock PLL at 24MHz from HSE at 8MHz. " alt="" coords="389,201,549,243"/>
+<area shape="rect" id="node7" href="group__STM32F1xx-rcc-file.html#ga7de5e411afdd8f22d01d91613acfc844" title="RCC Set System Clock PLL at 72MHz from HSE at 8MHz. " alt="" coords="389,267,549,308"/>
+<area shape="rect" id="node8" href="group__STM32F1xx-rcc-file.html#gae6012c8bf33f8cfa406a37ef88e9a47b" title="RCC Set System Clock PLL at 72MHz from HSE at 12MHz. " alt="" coords="385,332,552,373"/>
+<area shape="rect" id="node9" href="group__STM32F1xx-rcc-file.html#gaec148e144431957a5a0dff4d3ce581b1" title="RCC Set System Clock PLL at 72MHz from HSE at 16MHz. " alt="" coords="385,397,552,439"/>
+<area shape="rect" id="node10" href="group__STM32F1xx-rcc-file.html#gae61f5759a5cbcd628e873e951ade7f1b" title="RCC Set System Clock PLL at 72MHz from HSE at 25MHz. " alt="" coords="385,463,552,504"/>
 </map>
 </div>
 </p>
@@ -799,7 +859,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00403">403</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00396">396</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00056">RCC_BDCR</a>, <a class="el" href="rcc_8h_source.html#l00423">RCC_BDCR_LSEBYP</a>, <a class="el" href="rcc_8h_source.html#l00048">RCC_CR</a>, <a class="el" href="rcc_8h_source.html#l00070">RCC_CR_HSEBYP</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL2</a>, and <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL3</a>.</p>
 
@@ -829,7 +889,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00370">370</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00363">363</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00056">RCC_BDCR</a>, <a class="el" href="rcc_8h_source.html#l00423">RCC_BDCR_LSEBYP</a>, <a class="el" href="rcc_8h_source.html#l00048">RCC_CR</a>, <a class="el" href="rcc_8h_source.html#l00070">RCC_CR_HSEBYP</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL2</a>, and <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL3</a>.</p>
 
@@ -861,7 +921,7 @@ The LSE clock is in the backup domain and cannot be disabled until the backup do
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00309">309</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00302">302</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00056">RCC_BDCR</a>, <a class="el" href="rcc_8h_source.html#l00425">RCC_BDCR_LSEON</a>, <a class="el" href="rcc_8h_source.html#l00048">RCC_CR</a>, <a class="el" href="rcc_8h_source.html#l00072">RCC_CR_HSEON</a>, <a class="el" href="rcc_8h_source.html#l00076">RCC_CR_HSION</a>, <a class="el" href="rcc_8h_source.html#l00066">RCC_CR_PLL2ON</a>, <a class="el" href="rcc_8h_source.html#l00064">RCC_CR_PLL3ON</a>, <a class="el" href="rcc_8h_source.html#l00068">RCC_CR_PLLON</a>, <a class="el" href="rcc_8h_source.html#l00057">RCC_CSR</a>, <a class="el" href="rcc_8h_source.html#l00437">RCC_CSR_LSION</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL2</a>, and <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL3</a>.</p>
 
@@ -891,11 +951,11 @@ The LSE clock is in the backup domain and cannot be disabled until the backup do
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00268">268</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00261">261</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00056">RCC_BDCR</a>, <a class="el" href="rcc_8h_source.html#l00425">RCC_BDCR_LSEON</a>, <a class="el" href="rcc_8h_source.html#l00048">RCC_CR</a>, <a class="el" href="rcc_8h_source.html#l00072">RCC_CR_HSEON</a>, <a class="el" href="rcc_8h_source.html#l00076">RCC_CR_HSION</a>, <a class="el" href="rcc_8h_source.html#l00066">RCC_CR_PLL2ON</a>, <a class="el" href="rcc_8h_source.html#l00064">RCC_CR_PLL3ON</a>, <a class="el" href="rcc_8h_source.html#l00068">RCC_CR_PLLON</a>, <a class="el" href="rcc_8h_source.html#l00057">RCC_CSR</a>, <a class="el" href="rcc_8h_source.html#l00437">RCC_CSR_LSION</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL2</a>, and <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL3</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00982">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01046">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00854">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00918">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00801">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00747">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00694">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00975">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01039">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00847">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00911">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00794">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00687">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1047,7 +1107,7 @@ Here is the caller graph for this function:</div>
 <p>RCC RTC Clock Enabled Flag. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint32_t. Nonzero if the RTC Clock is enabled. </dd></dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00510">510</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00503">503</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00056">RCC_BDCR</a>, and <a class="el" href="rcc_8h_source.html#l00421">RCC_BDCR_RTCEN</a>.</p>
 
@@ -1088,11 +1148,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00582">582</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00575">575</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00049">RCC_CFGR</a>, <a class="el" href="rcc_8h_source.html#l00090">RCC_CFGR_ADCPRE</a>, and <a class="el" href="rcc_8h_source.html#l00089">RCC_CFGR_ADCPRE_SHIFT</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00982">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01046">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00854">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00918">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00801">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00747">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00694">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00975">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01039">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00847">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00911">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00794">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00687">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1135,11 +1195,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00621">621</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00614">614</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00049">RCC_CFGR</a>, <a class="el" href="rcc_8h_source.html#l00099">RCC_CFGR_HPRE</a>, and <a class="el" href="rcc_8h_source.html#l00098">RCC_CFGR_HPRE_SHIFT</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00982">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01046">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00854">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00918">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00801">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00747">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00694">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00975">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01039">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00847">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00911">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00794">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00687">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1183,11 +1243,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00456">456</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00449">449</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00059">RCC_CFGR2</a>, <a class="el" href="rcc_8h_source.html#l00469">RCC_CFGR2_PLL2MUL</a>, and <a class="el" href="rcc_8h_source.html#l00468">RCC_CFGR2_PLL2MUL_SHIFT</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1224,7 +1284,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00470">470</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00463">463</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00059">RCC_CFGR2</a>, <a class="el" href="rcc_8h_source.html#l00466">RCC_CFGR2_PLL3MUL</a>, and <a class="el" href="rcc_8h_source.html#l00465">RCC_CFGR2_PLL3MUL_SHIFT</a>.</p>
 
@@ -1253,11 +1313,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00442">442</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00435">435</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00049">RCC_CFGR</a>, <a class="el" href="rcc_8h_source.html#l00084">RCC_CFGR_PLLMUL</a>, and <a class="el" href="rcc_8h_source.html#l00083">RCC_CFGR_PLLMUL_SHIFT</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00982">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01046">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00854">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00918">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00801">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00747">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00694">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00975">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01039">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00847">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00911">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00794">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00687">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1301,11 +1361,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00484">484</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00477">477</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00049">RCC_CFGR</a>, and <a class="el" href="rcc_8h_source.html#l00087">RCC_CFGR_PLLSRC</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00982">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01046">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00854">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00918">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00801">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00747">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00694">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00975">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01039">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00847">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00911">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00794">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00687">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1349,11 +1409,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00498">498</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00491">491</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00049">RCC_CFGR</a>, and <a class="el" href="rcc_8h_source.html#l00086">RCC_CFGR_PLLXTPRE</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00982">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01046">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00854">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00918">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00975">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01039">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00847">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00911">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1394,11 +1454,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00608">608</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00601">601</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00049">RCC_CFGR</a>, <a class="el" href="rcc_8h_source.html#l00096">RCC_CFGR_PPRE1</a>, and <a class="el" href="rcc_8h_source.html#l00095">RCC_CFGR_PPRE1_SHIFT</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00982">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01046">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00854">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00918">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00801">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00747">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00694">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00975">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01039">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00847">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00911">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00794">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00687">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1441,11 +1501,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00594">594</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00587">587</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00049">RCC_CFGR</a>, <a class="el" href="rcc_8h_source.html#l00093">RCC_CFGR_PPRE2</a>, and <a class="el" href="rcc_8h_source.html#l00092">RCC_CFGR_PPRE2_SHIFT</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00982">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01046">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00854">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00918">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00801">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00747">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00694">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00975">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01039">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00847">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00911">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00794">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00687">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1480,11 +1540,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00648">648</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00641">641</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00059">RCC_CFGR2</a>, <a class="el" href="rcc_8h_source.html#l00475">RCC_CFGR2_PREDIV1</a>, and <a class="el" href="rcc_8h_source.html#l00474">RCC_CFGR2_PREDIV1_SHIFT</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1512,11 +1572,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00660">660</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00653">653</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00059">RCC_CFGR2</a>, and <a class="el" href="rcc_8h_source.html#l00463">RCC_CFGR2_PREDIV1SRC</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1544,11 +1604,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00654">654</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00647">647</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00059">RCC_CFGR2</a>, <a class="el" href="rcc_8h_source.html#l00472">RCC_CFGR2_PREDIV2</a>, and <a class="el" href="rcc_8h_source.html#l00471">RCC_CFGR2_PREDIV2_SHIFT</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1584,7 +1644,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00531">531</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00524">524</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00056">RCC_BDCR</a>, <a class="el" href="rcc_8h_source.html#l00425">RCC_BDCR_LSEON</a>, <a class="el" href="rcc_8h_source.html#l00424">RCC_BDCR_LSERDY</a>, <a class="el" href="rcc_8h_source.html#l00048">RCC_CR</a>, <a class="el" href="rcc_8h_source.html#l00072">RCC_CR_HSEON</a>, <a class="el" href="rcc_8h_source.html#l00071">RCC_CR_HSERDY</a>, <a class="el" href="rcc_8h_source.html#l00057">RCC_CSR</a>, <a class="el" href="rcc_8h_source.html#l00437">RCC_CSR_LSION</a>, <a class="el" href="rcc_8h_source.html#l00436">RCC_CSR_LSIRDY</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL2</a>, and <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL3</a>.</p>
 
@@ -1625,11 +1685,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00428">428</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00421">421</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00049">RCC_CFGR</a>, <a class="el" href="rcc_8h_source.html#l00105">RCC_CFGR_SW</a>, and <a class="el" href="rcc_8h_source.html#l00104">RCC_CFGR_SW_SHIFT</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00982">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01046">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00854">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00918">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00801">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00747">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00694">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00975">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01039">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00847">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00911">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00794">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00687">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1674,11 +1734,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00639">639</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00632">632</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00049">RCC_CFGR</a>, and <a class="el" href="rcc_8h_source.html#l00081">RCC_CFGR_USBPRE</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00747">rcc_clock_setup_in_hsi_out_48mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_48mhz()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1715,7 +1775,7 @@ Here is the caller graph for this function:</div>
 </ul>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00678">678</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00671">671</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
 <p>References <a class="el" href="rcc_8h_source.html#l00049">RCC_CFGR</a>, <a class="el" href="rcc_8h_source.html#l00102">RCC_CFGR_SWS</a>, and <a class="el" href="rcc_8h_source.html#l00101">RCC_CFGR_SWS_SHIFT</a>.</p>
 
@@ -1735,19 +1795,29 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>RCC Wait for Oscillator Ready. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Wait for Oscillator Ready. </p>
+<p>Block until the hardware indicates that the Oscillator is ready. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">osc</td><td>enum ::osc_t. Oscillator ID </td></tr>
+    <tr><td class="paramname">osc</td><td>Oscillator ID </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="rcc_8c_source.html#l00226">226</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
+<p>Definition at line <a class="el" href="rcc_8c_source.html#l00241">241</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>References <a class="el" href="rcc_8h_source.html#l00056">RCC_BDCR</a>, <a class="el" href="rcc_8h_source.html#l00424">RCC_BDCR_LSERDY</a>, <a class="el" href="rcc_8h_source.html#l00048">RCC_CR</a>, <a class="el" href="rcc_8h_source.html#l00071">RCC_CR_HSERDY</a>, <a class="el" href="rcc_8h_source.html#l00075">RCC_CR_HSIRDY</a>, <a class="el" href="rcc_8h_source.html#l00065">RCC_CR_PLL2RDY</a>, <a class="el" href="rcc_8h_source.html#l00063">RCC_CR_PLL3RDY</a>, <a class="el" href="rcc_8h_source.html#l00067">RCC_CR_PLLRDY</a>, <a class="el" href="rcc_8h_source.html#l00057">RCC_CSR</a>, <a class="el" href="rcc_8h_source.html#l00436">RCC_CSR_LSIRDY</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_HSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSE</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_LSI</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL</a>, <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL2</a>, and <a class="el" href="rcc_8h_source.html#l00543">RCC_PLL3</a>.</p>
+<p>References <a class="el" href="rcc_8c_source.html#l00220">rcc_is_osc_ready()</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00982">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01046">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00854">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00918">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00801">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00747">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00694">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00975">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01039">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00847">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00911">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00794">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00687">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__STM32F1xx-rcc-file_ga1dfd0e0ba16285ce16e782e07af2cafa_cgraph.png" border="0" usemap="#group__STM32F1xx-rcc-file_ga1dfd0e0ba16285ce16e782e07af2cafa_cgraph" alt=""/></div>
+<map name="group__STM32F1xx-rcc-file_ga1dfd0e0ba16285ce16e782e07af2cafa_cgraph" id="group__STM32F1xx-rcc-file_ga1dfd0e0ba16285ce16e782e07af2cafa_cgraph">
+<area shape="rect" id="node2" href="group__STM32F1xx-rcc-file.html#ga2706213ae449214826f797ac93c51d52" title="Is the given oscillator ready? " alt="" coords="213,5,337,32"/>
+</map>
+</div>
+</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1781,7 +1851,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00059">59</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00982">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01046">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00854">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00918">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00801">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00747">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00694">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00975">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01039">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00847">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00911">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00794">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00687">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
 
 </div>
 </div>
@@ -1799,7 +1869,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00057">57</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00982">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01046">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00854">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00918">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00801">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00747">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00694">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00975">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01039">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00847">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00911">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00794">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00687">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
 
 </div>
 </div>
@@ -1815,7 +1885,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="rcc_8c_source.html#l00058">58</a> of file <a class="el" href="rcc_8c_source.html">rcc.c</a>.</p>
 
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00982">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01046">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01110">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00854">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00918">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00801">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00747">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00694">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
+<p>Referenced by <a class="el" href="rcc_8c_source.html#l00975">rcc_clock_setup_in_hse_12mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01039">rcc_clock_setup_in_hse_16mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l01103">rcc_clock_setup_in_hse_25mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00847">rcc_clock_setup_in_hse_8mhz_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00911">rcc_clock_setup_in_hse_8mhz_out_72mhz()</a>, <a class="el" href="rcc_8c_source.html#l00794">rcc_clock_setup_in_hsi_out_24mhz()</a>, <a class="el" href="rcc_8c_source.html#l00740">rcc_clock_setup_in_hsi_out_48mhz()</a>, and <a class="el" href="rcc_8c_source.html#l00687">rcc_clock_setup_in_hsi_out_64mhz()</a>.</p>
 
 </div>
 </div>
@@ -1824,7 +1894,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 19 2016 01:21:30 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 19 2016 02:21:28 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,18 +1,16 @@
 var searchData=
 [
-  ['tim2_5for_20timer_202_20option_20register_20internal',['TIM2_OR Timer 2 Option Register Internal',['../group__tim2__opt__trigger__remap.html',1,'']]],
-  ['tim3_5for_20timer_203_20option_20register_20internal_20trigger_202_20remap',['TIM3_OR Timer 3 Option Register Internal Trigger 2 Remap',['../group__tim3__opt__trigger__remap.html',1,'']]],
-  ['timx_5fegr_20timer_20event_20generator_20values',['TIMx_EGR Timer Event Generator Values',['../group__tim__event__gen.html',1,'']]],
-  ['timx_5fdier_20timer_20dma_20and_20interrupt_20enable_20values',['TIMx_DIER Timer DMA and Interrupt Enable Values',['../group__tim__irq__enable.html',1,'']]],
-  ['tim_5fbdtr_5flock_20timer_20lock_20values',['TIM_BDTR_LOCK Timer Lock Values',['../group__tim__lock.html',1,'']]],
-  ['timx_5fcr2_20mms_5b6_3a4_5d_3a_20master_20mode_20selection',['TIMx_CR2 MMS[6:4]: Master Mode Selection',['../group__tim__mastermode.html',1,'']]],
-  ['timer_20register_20base_20addresses',['Timer register base addresses',['../group__tim__reg__base.html',1,'']]],
-  ['timx_5fsr_20timer_20status_20register_20flags',['TIMx_SR Timer Status Register Flags',['../group__tim__sr__values.html',1,'']]],
-  ['ts_20trigger_20selection',['TS Trigger selection',['../group__tim__ts.html',1,'']]],
-  ['timx_5fcr1_20ckd_5b1_3a0_5d_20clock_20division_20ratio',['TIMx_CR1 CKD[1:0] Clock Division Ratio',['../group__tim__x__cr1__cdr.html',1,'']]],
-  ['timx_5fcr1_20cms_5b1_3a0_5d_3a_20center_2daligned_20mode_20selection',['TIMx_CR1 CMS[1:0]: Center-aligned Mode Selection',['../group__tim__x__cr1__cms.html',1,'']]],
-  ['timx_5fcr1_20dir_3a_20direction',['TIMx_CR1 DIR: Direction',['../group__tim__x__cr1__dir.html',1,'']]],
-  ['timx_5fcr2_5fois_3a_20force_20output_20idle_20state_20control_20values',['TIMx_CR2_OIS: Force Output Idle State Control Values',['../group__tim__x__cr2__ois.html',1,'']]],
-  ['timer_20defines',['Timer Defines',['../group__timer__defines.html',1,'']]],
-  ['timers',['Timers',['../group__timer__file.html',1,'']]]
+  ['spi_20peripheral_20baud_20rates',['SPI peripheral baud rates',['../group__spi__baudrate.html',1,'']]],
+  ['spi_20peripheral_20baud_20rate_20prescale_20values',['SPI peripheral baud rate prescale values',['../group__spi__br__pre.html',1,'']]],
+  ['spi_20clock_20phase',['SPI clock phase',['../group__spi__cpha.html',1,'']]],
+  ['spi_20clock_20polarity',['SPI clock polarity',['../group__spi__cpol.html',1,'']]],
+  ['spi_20defines',['SPI Defines',['../group__spi__defines.html',1,'']]],
+  ['spi_20data_20frame_20format',['SPI data frame format',['../group__spi__dff.html',1,'']]],
+  ['spi',['SPI',['../group__spi__file.html',1,'']]],
+  ['spi_20lsb_2fmsb_20first',['SPI lsb/msb first',['../group__spi__lsbfirst.html',1,'']]],
+  ['spi_20register_20base_20address',['SPI Register base address',['../group__spi__reg__base.html',1,'']]],
+  ['stm32l1xx',['STM32L1xx',['../group__STM32L1xx.html',1,'']]],
+  ['stm32l1xx_20defines',['STM32L1xx Defines',['../group__STM32L1xx__defines.html',1,'']]],
+  ['syscfg_20defines',['SYSCFG Defines',['../group__syscfg__defines.html',1,'']]],
+  ['sms_20slave_20mode_20selection',['SMS Slave mode selection',['../group__tim__sms.html',1,'']]]
 ];

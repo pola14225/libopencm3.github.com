@@ -1,34 +1,22 @@
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:409: warning: More #endif's than #if's found.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:411: warning: end of file while inside a group
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v2.h:209: warning: More #endif's than #if's found.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v2_multi.h:181: warning: More #endif's than #if's found.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v2_single.h:71: warning: More #endif's than #if's found.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:400: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:367: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:306: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:265: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:393: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:360: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:299: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:258: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:65: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:131: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:98: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:164: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:223: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:244: warning: argument 'uint32_t' of command @param is not found in the argument list of rtc_set_counter_val(uint32_t counter_val)
 /home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/f1/rtc.h:165: warning: The following parameters of rtc_set_counter_val(uint32_t counter_val) are not documented:
   parameter 'counter_val'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:400: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:367: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:306: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:265: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:393: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:360: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:299: warning: explicit link request to 'osc_t' could not be resolved
+/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:258: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:65: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:131: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:98: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:164: warning: explicit link request to 'osc_t' could not be resolved
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rcc.c:223: warning: explicit link request to 'osc_t' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:244: warning: argument 'uint32_t' of command @param is not found in the argument list of rtc_set_counter_val(uint32_t counter_val)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/f1/rtc.c:249: warning: The following parameters of rtc_set_counter_val(uint32_t counter_val) are not documented:
   parameter 'counter_val'

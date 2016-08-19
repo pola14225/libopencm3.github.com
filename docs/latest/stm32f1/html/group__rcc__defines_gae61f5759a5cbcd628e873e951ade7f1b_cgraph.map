@@ -14,5 +14,6 @@
 <area shape="rect" id="node14" href="$group__STM32F1xx-rcc-file.html#ga3a206a5322c1c6f7737654e13a01c6b8" title="rcc_set_prediv2" alt="" coords="250,644,365,671"/>
 <area shape="rect" id="node15" href="$group__STM32F1xx-rcc-file.html#ga2c291271812c333d975807cd5ec99a36" title="RCC Set the Source for the System Clock. " alt="" coords="229,695,385,721"/>
 <area shape="rect" id="node16" href="$group__STM32F1xx-rcc-file.html#gad434015520b42043657d7478f8308c37" title="RCC Set the USB Prescale Factor. " alt="" coords="252,745,363,772"/>
-<area shape="rect" id="node17" href="$group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="RCC Wait for Oscillator Ready. " alt="" coords="227,796,387,823"/>
+<area shape="rect" id="node17" href="$group__STM32F1xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="Wait for Oscillator Ready. " alt="" coords="227,796,387,823"/>
+<area shape="rect" id="node18" href="$group__STM32F1xx-rcc-file.html#ga2706213ae449214826f797ac93c51d52" title="Is the given oscillator ready? " alt="" coords="443,796,567,823"/>
 </map>

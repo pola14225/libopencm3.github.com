@@ -172,13 +172,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:gae55af0a75a5724cb3776a283f786e939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the ADC powered down?  <a href="group__adc__file.html#gae55af0a75a5724cb3776a283f786e939">More...</a><br /></td></tr>
 <tr class="separator:gae55af0a75a5724cb3776a283f786e939"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga1ac745d1052240adb5cf55d3ed8b5aad">adc_power_off</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Off.  <a href="group__adc__file.html#ga1ac745d1052240adb5cf55d3ed8b5aad">More...</a><br /></td></tr>
+<tr class="memdesc:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn off the ADC This will actually block if it needs to turn off a currently running conversion, as per ref man.  <a href="group__adc__file.html#ga1ac745d1052240adb5cf55d3ed8b5aad">More...</a><br /></td></tr>
 <tr class="separator:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga366654c02369a57e3a79cb395966fbeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga366654c02369a57e3a79cb395966fbeb">adc_set_continuous_conversion_mode</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga366654c02369a57e3a79cb395966fbeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Continuous Conversion Mode.  <a href="group__adc__file.html#ga366654c02369a57e3a79cb395966fbeb">More...</a><br /></td></tr>
+<tr class="memdesc:ga366654c02369a57e3a79cb395966fbeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Continuous Conversion Mode In this mode the ADC starts a new conversion of a single channel or a channel group immediately following completion of the previous channel group conversion.  <a href="group__adc__file.html#ga366654c02369a57e3a79cb395966fbeb">More...</a><br /></td></tr>
 <tr class="separator:ga366654c02369a57e3a79cb395966fbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3b730353f6e1bb97b546101edb6c80c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga3b730353f6e1bb97b546101edb6c80c0">adc_set_single_conversion_mode</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga3b730353f6e1bb97b546101edb6c80c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Single Conversion Mode.  <a href="group__adc__file.html#ga3b730353f6e1bb97b546101edb6c80c0">More...</a><br /></td></tr>
+<tr class="memdesc:ga3b730353f6e1bb97b546101edb6c80c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Single Conversion Mode In this mode the ADC performs a conversion of one channel or a channel group and stops.  <a href="group__adc__file.html#ga3b730353f6e1bb97b546101edb6c80c0">More...</a><br /></td></tr>
 <tr class="separator:ga3b730353f6e1bb97b546101edb6c80c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga459708aeaf8e709264c4b96fed706ae3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga459708aeaf8e709264c4b96fed706ae3">adc_set_resolution</a> (uint32_t adc, uint16_t resolution)</td></tr>
 <tr class="memdesc:ga459708aeaf8e709264c4b96fed706ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set Resolution.  <a href="group__adc__file.html#ga459708aeaf8e709264c4b96fed706ae3">More...</a><br /></td></tr>
@@ -238,7 +238,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_4ec17005d2b9378bd9434f3627484c7d.html">stm32</a></li><li class="navelem"><a class="el" href="dir_205c2b2ce3ef6e2ec6e02a16510d5024.html">common</a></li><li class="navelem"><a class="el" href="adc__common__v2_8c.html">adc_common_v2.c</a></li>
-    <li class="footer">Generated on Fri Aug 19 2016 01:21:50 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 19 2016 02:21:42 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

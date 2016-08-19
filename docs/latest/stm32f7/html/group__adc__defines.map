@@ -1,4 +1,7 @@
 <map id="Adc_defines" name="Adc_defines">
-<area shape="rect" id="node1" href="$group__adc__channel.html" title="ADC Channel Numbers" alt="" coords="165,5,325,32"/>
-<area shape="rect" id="node3" href="$group__adc__reg__base.html" title="ADC register base addresses" alt="" coords="148,56,343,83"/>
+<area shape="rect" id="node1" href="$group__adc__channel.html" title="ADC Channel Numbers" alt="" coords="171,5,331,32"/>
+<area shape="rect" id="node2" href="$group__adc__cr1__discnum.html" title="ADC Number of channels\l in discontinuous mode." alt="" coords="165,57,337,98"/>
+<area shape="rect" id="node3" href="$group__adc__jsqr__jl.html" title="ADC Number of channels\l in discontinuous injected mode" alt="" coords="148,122,353,163"/>
+<area shape="rect" id="node4" href="$group__adc__watchdog__channel.html" title="ADC watchdog channel" alt="" coords="171,188,331,215"/>
+<area shape="rect" id="node6" href="$group__adc__reg__base.html" title="ADC register base addresses" alt="" coords="153,239,348,265"/>
 </map>

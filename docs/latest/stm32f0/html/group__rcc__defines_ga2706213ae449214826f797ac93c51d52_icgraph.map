@@ -1,0 +1,10 @@
+<map id="rcc_is_osc_ready" name="rcc_is_osc_ready">
+<area shape="rect" id="node2" href="$group__STM32F0xx-rcc-file.html#ga1dfd0e0ba16285ce16e782e07af2cafa" title="Wait for Oscillator Ready. " alt="" coords="177,209,337,235"/>
+<area shape="rect" id="node3" href="$group__STM32F0xx-rcc-file.html#gae14769a2ed83d96e2ec9ba22d3e3d62a" title="rcc_clock_setup_in\l_hsi_out_8mhz" alt="" coords="385,5,520,47"/>
+<area shape="rect" id="node4" href="$group__STM32F0xx-rcc-file.html#ga996fd36ac939e39eb2a377064620250f" title="rcc_clock_setup_in\l_hsi_out_16mhz" alt="" coords="385,71,520,112"/>
+<area shape="rect" id="node5" href="$group__STM32F0xx-rcc-file.html#ga63c14a3f3ed2799c6ad21564f97d0e99" title="rcc_clock_setup_in\l_hsi_out_24mhz" alt="" coords="385,136,520,177"/>
+<area shape="rect" id="node6" href="$group__STM32F0xx-rcc-file.html#ga98c89d075aa469fcaa4c892b8833433f" title="rcc_clock_setup_in\l_hsi_out_32mhz" alt="" coords="385,201,520,243"/>
+<area shape="rect" id="node7" href="$group__STM32F0xx-rcc-file.html#ga9d5e2b0fc534c6315d5d57db88812113" title="rcc_clock_setup_in\l_hsi_out_40mhz" alt="" coords="385,267,520,308"/>
+<area shape="rect" id="node8" href="$group__STM32F0xx-rcc-file.html#gadd6354a9a1404b23b5baa00b51b03cc2" title="rcc_clock_setup_in\l_hsi_out_48mhz" alt="" coords="385,332,520,373"/>
+<area shape="rect" id="node9" href="$group__STM32F0xx-rcc-file.html#ga8e517e73aea1b2e06447ed5367915a69" title="rcc_clock_setup_in\l_hsi48_out_48mhz" alt="" coords="385,397,520,439"/>
+</map>

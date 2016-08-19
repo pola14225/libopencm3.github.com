@@ -431,7 +431,6 @@ var rcc_8h =
     [ "rcc_usb_prescale_1", "group__rcc__file.html#ga3c462ec9b669b0592bdbac64b8165596", null ],
     [ "rcc_usb_prescale_1_5", "group__rcc__file.html#ga70255ecf6601ea9349aad2f0a001af83", null ],
     [ "rcc_wait_for_osc_not_ready", "group__rcc__file.html#gaf70338e8856cc235ff8e79e126fa95fd", null ],
-    [ "rcc_wait_for_osc_ready", "group__rcc__file.html#ga1dfd0e0ba16285ce16e782e07af2cafa", null ],
     [ "rcc_wait_for_sysclk_status", "group__rcc__file.html#gaa768e6d3787b02f6dc93c8392b879ef7", null ],
     [ "rcc_ahb_frequency", "group__rcc__file.html#ga86f90a27c26bc25e22999419f7d08622", null ],
     [ "rcc_apb1_frequency", "group__rcc__file.html#gaa1594220dae1eb3f9aa3dc30db60d8d1", null ],

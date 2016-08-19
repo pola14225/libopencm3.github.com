@@ -9,6 +9,7 @@ var group__rcc__file =
     [ "rcc_css_int_flag", "group__rcc__file.html#ga0d3d34d807e0934127960914833a1b4d", null ],
     [ "rcc_get_i2c_clocks", "group__rcc__file.html#gaae155cb3f3f06ad45e56234c14af5458", null ],
     [ "rcc_get_system_clock_source", "group__rcc__file.html#ga8f1bbc7860a536f2752a824462d0ee3d", null ],
+    [ "rcc_is_osc_ready", "group__rcc__file.html#ga2706213ae449214826f797ac93c51d52", null ],
     [ "rcc_osc_bypass_disable", "group__rcc__file.html#ga5fbe4bc4ca1447fff06e4490f655367e", null ],
     [ "rcc_osc_bypass_enable", "group__rcc__file.html#ga3bccfeb2f4364e18997cbd88e2476270", null ],
     [ "rcc_osc_off", "group__rcc__file.html#ga89d079556639549018fbd8d66cf5fc20", null ],

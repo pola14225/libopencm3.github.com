@@ -1,6 +1,6 @@
 <map id="GPIO Defines" name="GPIO Defines">
 <area shape="rect" id="node1" href="$group__gpio__pin__id.html" title="GPIO Pin Identifiers" alt="" coords="374,5,513,32"/>
-<area shape="rect" id="node2" href="$group__gpio__output__type.html" title="Push Pull &#160;Open Drain " alt="" coords="347,56,540,83"/>
+<area shape="rect" id="node2" href="$group__gpio__output__type.html" title="GPIO Output Pin Driver Type" alt="" coords="347,56,540,83"/>
 <area shape="rect" id="node3" href="$group__gpio__mode.html" title="GPIO Pin Direction\l and Analog/Digital Mode" alt="" coords="359,107,527,149"/>
 <area shape="rect" id="node4" href="$group__gpio__speed.html" title="GPIO Output Pin Speed" alt="" coords="362,173,525,200"/>
 <area shape="rect" id="node5" href="$group__gpio__pup.html" title="GPIO Output Pin Pullup" alt="" coords="363,224,524,251"/>

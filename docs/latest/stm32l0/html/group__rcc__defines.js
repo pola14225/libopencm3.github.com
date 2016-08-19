@@ -414,6 +414,7 @@ var group__rcc__defines =
       [ "RST_DAC", "group__rcc__defines.html#gga4bd6185a4613aaa3ee5447c3d86ba718a90b3f78831d25a6f6291744bc0eabd45", null ],
       [ "RST_LPTIM1", "group__rcc__defines.html#gga4bd6185a4613aaa3ee5447c3d86ba718a7fb3993883924a5e40a046fbeee8477a", null ]
     ] ],
+    [ "rcc_is_osc_ready", "group__rcc__defines.html#ga2706213ae449214826f797ac93c51d52", null ],
     [ "rcc_osc_bypass_disable", "group__rcc__defines.html#ga5fbe4bc4ca1447fff06e4490f655367e", null ],
     [ "rcc_osc_bypass_enable", "group__rcc__defines.html#ga3bccfeb2f4364e18997cbd88e2476270", null ],
     [ "rcc_osc_off", "group__rcc__defines.html#ga89d079556639549018fbd8d66cf5fc20", null ],

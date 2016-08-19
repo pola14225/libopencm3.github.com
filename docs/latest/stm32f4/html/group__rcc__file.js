@@ -5,6 +5,7 @@ var group__rcc__file =
     [ "rcc_css_enable", "group__rcc__file.html#gaddb943f9f25dc2df52890c90d468f373", null ],
     [ "rcc_css_int_clear", "group__rcc__file.html#gab1b45443e00d0774628de632257ba9f4", null ],
     [ "rcc_css_int_flag", "group__rcc__file.html#ga0d3d34d807e0934127960914833a1b4d", null ],
+    [ "rcc_is_osc_ready", "group__rcc__file.html#ga2706213ae449214826f797ac93c51d52", null ],
     [ "rcc_osc_bypass_disable", "group__rcc__file.html#ga5fbe4bc4ca1447fff06e4490f655367e", null ],
     [ "rcc_osc_bypass_enable", "group__rcc__file.html#ga3bccfeb2f4364e18997cbd88e2476270", null ],
     [ "rcc_osc_off", "group__rcc__file.html#ga89d079556639549018fbd8d66cf5fc20", null ],

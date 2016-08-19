@@ -358,7 +358,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>USART Disable Half-duplex. </p>
-<p>bit field can only be written when the USART is disabled.</p>
+<p>This bit field can only be written when the USART is disabled.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
@@ -444,7 +444,7 @@ Functions</h2></td></tr>
 
 <p>USART Disable RX pin active level inversion. </p>
 <p>RX pin signal works using the standard logic levels (VDD =1/idle, Gnd=0/mark)</p>
-<p>bit field can only be written when the USART is disabled.</p>
+<p>This bit field can only be written when the USART is disabled.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
@@ -709,7 +709,7 @@ Functions</h2></td></tr>
 <li>The TX pin is always released when no data is transmitted. Thus, it acts as a standard I/O in idle or in reception. It means that the I/O must be configured so that TX is configured as alternate function open-drain with an external pull-up.</li>
 </ul>
 <p>Apart from this, the communication protocol is similar to normal USART mode. Any conflicts on the line must be managed by software</p>
-<p>bit field can only be written when the USART is disabled.</p>
+<p>This bit field can only be written when the USART is disabled.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
@@ -801,7 +801,7 @@ Functions</h2></td></tr>
 
 <p>USART Enable RX pin active level inversion. </p>
 <p>RX pin signal values are inverted. (VDD =0/mark, Gnd=1/idle).</p>
-<p>bit field can only be written when the USART is disabled.</p>
+<p>This bit field can only be written when the USART is disabled.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">usart</td><td>USART block register address base <a class="el" href="group__usart__reg__base.html">USART register base addresses</a> </td></tr>
@@ -1600,7 +1600,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 19 2016 01:22:10 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 19 2016 02:22:01 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,6 +1,3 @@
 <map id="ADC Channel Numbers" name="ADC Channel Numbers">
-<area shape="rect" id="node2" href="$group__adc__cr1__discnum.html" title="ADC Number of channels\l in discontinuous mode." alt="" coords="378,5,550,47"/>
-<area shape="rect" id="node3" href="$group__adc__jsqr__jl.html" title="ADC Number of channels\l in discontinuous injected mode" alt="" coords="361,71,567,112"/>
-<area shape="rect" id="node4" href="$group__adc__watchdog__channel.html" title="ADC watchdog channel" alt="" coords="384,137,544,163"/>
-<area shape="rect" id="node5" href="$group__adc__defines.html" title="Defined Constants and Types for the STM32F1xx Analog to Digital Converters " alt="" coords="5,78,105,105"/>
+<area shape="rect" id="node2" href="$group__adc__defines.html" title="Defined Constants and Types for the STM32F1xx Analog to Digital Converters " alt="" coords="5,5,105,32"/>
 </map>

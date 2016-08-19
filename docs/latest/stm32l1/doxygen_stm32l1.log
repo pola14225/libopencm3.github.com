@@ -1,17 +1,3 @@
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:409: warning: More #endif's than #if's found.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v1.h:411: warning: end of file while inside a group
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v2.h:209: warning: More #endif's than #if's found.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v2_multi.h:181: warning: More #endif's than #if's found.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/common/adc_common_v2_single.h:71: warning: More #endif's than #if's found.
-
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2.c:357: warning: end of file while inside a group
-
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2_multi.c:130: warning: end of file while inside a group
-
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:247: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:548: warning: preprocessing issue while doing constant expression evaluation: syntax error
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_all.c:575: warning: preprocessing issue while doing constant expression evaluation: syntax error
@@ -47,22 +33,6 @@
   parameter 'dev'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/st_usbfs_core.h:36: warning: The following parameters of st_usbfs_set_ep_rx_bufsize(usbd_device *dev, uint8_t ep, uint32_t size) are not documented:
   parameter 'dev'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2.c:174: warning: unable to resolve reference to `adc_api_res' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2_multi.c:48: warning: unable to resolve reference to `adc_sample' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2_multi.c:73: warning: unable to resolve reference to `adc_sample' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2_multi.c:42: warning: unable to resolve reference to `adc_sample' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2_multi.c:55: warning: unable to resolve reference to `adc_sample' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2_multi.c:67: warning: unable to resolve reference to `adc_sample' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2_multi.c:79: warning: unable to resolve reference to `adc_sample' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:214: warning: unable to resolve reference to `flash_options' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:164: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:165: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:1: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:2: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:164: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:165: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:164: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:165: warning: Found unknown command `\list'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:99: warning: unable to resolve reference to `rcc_ahbrstr_rst' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:100: warning: unable to resolve reference to `rcc_apb1rstr_rst' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:101: warning: unable to resolve reference to `rcc_apb2rstr_rst' for \ref command
@@ -71,9 +41,6 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:80: warning: unable to resolve reference to `rcc_apb2rstr_rst' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/rcc_common_all.c:189: warning: Found unknown command `\parame'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/adc.c:182: warning: unable to resolve reference to `adc_trigger_injected' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2.c:174: warning: unable to resolve reference to `adc_api_res' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2_multi.c:48: warning: unable to resolve reference to `adc_sample' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/adc_common_v2_multi.c:73: warning: unable to resolve reference to `adc_sample' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:67: warning: argument 'stream' of command @param is not found in the argument list of dma_clear_interrupt_flags(uint32_t dma, uint8_t channel, uint32_t interrupts)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:317: warning: argument 'stream' of command @param is not found in the argument list of dma_disable_half_transfer_interrupt(uint32_t dma, uint8_t channel)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:193: warning: argument 'stream' of command @param is not found in the argument list of dma_disable_memory_increment_mode(uint32_t dma, uint8_t channel)
@@ -93,17 +60,8 @@
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:380: warning: argument 'stream' of command @param is not found in the argument list of dma_set_peripheral_address(uint32_t dma, uint8_t channel, uint32_t address)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:157: warning: argument 'stream' of command @param is not found in the argument list of dma_set_peripheral_size(uint32_t dma, uint8_t channel, uint32_t peripheral_size)
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/dma_common_l1f013.c:122: warning: argument 'stream' of command @param is not found in the argument list of dma_set_priority(uint32_t dma, uint8_t channel, uint32_t prio)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/flash_common_f01.c:214: warning: unable to resolve reference to `flash_options' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_l1f124.c:75: warning: argument 'crcl' of command @param is not found in the argument list of spi_init_master(uint32_t spi, uint32_t br, uint32_t cpol, uint32_t cpha, uint32_t dff, uint32_t lsbfirst)
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/spi_common_l1f124.c:86: warning: unable to resolve reference to `spi_crcl' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/timer_common_f0234.c:34: warning: explicit link request to 'tim_ic_pol' could not be resolved
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/l1/timer.c:47: warning: The following parameters of timer_set_option(uint32_t timer_peripheral, uint32_t option) are not documented:
   parameter 'option'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:140: warning: Found unknown command `\This'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:105: warning: Found unknown command `\This'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:128: warning: Found unknown command `\This'
-/home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:91: warning: Found unknown command `\This'
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:201: warning: unable to resolve reference to `usart_isr' for \ref command
 /home/esdentem/projects/libopencm3/libopencm3-git/lib/stm32/common/usart_common_v2.c:153: warning: unable to resolve reference to `usart_isr_rtof' for \ref command
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:164: warning: Found unknown command `\list'
-/home/esdentem/projects/libopencm3/libopencm3-git/include/libopencm3/stm32/l1/gpio.h:165: warning: Found unknown command `\list'

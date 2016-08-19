@@ -195,13 +195,14 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a763ebcf54b3996fea95742ecf772f19f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19f">pwr_vos_scale</a> { <a class="el" href="pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19fa6103eef86f1471f041ea7ae1138d202b">PWR_SCALE1</a>, 
 <a class="el" href="pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19fa7210fec0c5b6d36e39a19ff4f3235cce">PWR_SCALE2</a>, 
 <a class="el" href="pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19fa8a1f79e1e14d8083b39a96146d2ba01c">PWR_SCALE3</a>
- }</td></tr>
+ }<tr class="memdesc:a763ebcf54b3996fea95742ecf772f19f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Voltage scales for internal regulator.  <a href="pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19f">More...</a><br /></td></tr>
+</td></tr>
 <tr class="separator:a763ebcf54b3996fea95742ecf772f19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5c20c3e54554d82e05cf53cc02fba118"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwr__common__l01_8h.html#a5c20c3e54554d82e05cf53cc02fba118">pwr_set_vos_scale</a> (enum <a class="el" href="pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19f">pwr_vos_scale</a> scale)</td></tr>
-<tr class="separator:a5c20c3e54554d82e05cf53cc02fba118"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5c20c3e54554d82e05cf53cc02fba118"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__pwr__file.html#ga5c20c3e54554d82e05cf53cc02fba118">pwr_set_vos_scale</a> (enum <a class="el" href="pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19f">pwr_vos_scale</a> scale)</td></tr>
+<tr class="separator:ga5c20c3e54554d82e05cf53cc02fba118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a282ffe109edf2466c2a563784a591ec8"></a>
@@ -286,7 +287,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="pwr__common__l01_8h_source.html#l00048">48</a> of file <a class="el" href="pwr__common__l01_8h_source.html">pwr_common_l01.h</a>.</p>
 
-<p>Referenced by <a class="el" href="pwr__common__l01_8c_source.html#l00027">pwr_set_vos_scale()</a>.</p>
+<p>Referenced by <a class="el" href="pwr__common__l01_8c_source.html#l00028">pwr_set_vos_scale()</a>.</p>
 
 </div>
 </div>
@@ -370,51 +371,21 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Voltage scales for internal regulator. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a763ebcf54b3996fea95742ecf772f19fa6103eef86f1471f041ea7ae1138d202b"></a>PWR_SCALE1&#160;</td><td class="fielddoc">
+<p>high performance, highest voltage </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a763ebcf54b3996fea95742ecf772f19fa7210fec0c5b6d36e39a19ff4f3235cce"></a>PWR_SCALE2&#160;</td><td class="fielddoc">
+<p>medium performance, flash operational but slow </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a763ebcf54b3996fea95742ecf772f19fa8a1f79e1e14d8083b39a96146d2ba01c"></a>PWR_SCALE3&#160;</td><td class="fielddoc">
+<p>low performance, no flash erase/program </p>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="pwr__common__l01_8h_source.html#l00080">80</a> of file <a class="el" href="pwr__common__l01_8h_source.html">pwr_common_l01.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a5c20c3e54554d82e05cf53cc02fba118"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void pwr_set_vos_scale </td>
-          <td>(</td>
-          <td class="paramtype">enum <a class="el" href="pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19f">pwr_vos_scale</a>&#160;</td>
-          <td class="paramname"><em>scale</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="pwr__common__l01_8c_source.html#l00027">27</a> of file <a class="el" href="pwr__common__l01_8c_source.html">pwr_common_l01.c</a>.</p>
-
-<p>References <a class="el" href="pwr__common__all_8h_source.html#l00041">PWR_CR</a>, <a class="el" href="pwr__common__l01_8h_source.html#l00048">PWR_CR_VOS_MASK</a>, <a class="el" href="pwr__common__l01_8h_source.html#l00044">PWR_CR_VOS_RANGE1</a>, <a class="el" href="pwr__common__l01_8h_source.html#l00045">PWR_CR_VOS_RANGE2</a>, <a class="el" href="pwr__common__l01_8h_source.html#l00046">PWR_CR_VOS_RANGE3</a>, <a class="el" href="pwr__common__l01_8h_source.html#l00081">PWR_SCALE1</a>, <a class="el" href="pwr__common__l01_8h_source.html#l00082">PWR_SCALE2</a>, and <a class="el" href="pwr__common__l01_8h_source.html#l00083">PWR_SCALE3</a>.</p>
-
-<p>Referenced by <a class="el" href="rcc_8c_source.html#l00493">rcc_clock_setup_hsi()</a>, <a class="el" href="rcc_8c_source.html#l00455">rcc_clock_setup_msi()</a>, and <a class="el" href="rcc_8c_source.html#l00525">rcc_clock_setup_pll()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="pwr__common__l01_8h_a5c20c3e54554d82e05cf53cc02fba118_icgraph.png" border="0" usemap="#pwr__common__l01_8h_a5c20c3e54554d82e05cf53cc02fba118_icgraph" alt=""/></div>
-<map name="pwr__common__l01_8h_a5c20c3e54554d82e05cf53cc02fba118_icgraph" id="pwr__common__l01_8h_a5c20c3e54554d82e05cf53cc02fba118_icgraph">
-<area shape="rect" id="node2" href="group__STM32L1xx-rcc-file.html#gafebecc597753020e983a9c2eb52ffb86" title="rcc_clock_setup_hsi" alt="" coords="190,5,331,32"/>
-<area shape="rect" id="node3" href="group__STM32L1xx-rcc-file.html#ga1e7007a97265f845a0e55d46e3076288" title="rcc_clock_setup_msi" alt="" coords="188,56,333,83"/>
-<area shape="rect" id="node4" href="group__STM32L1xx-rcc-file.html#ga4bbf49936af50688a96ec4f309f710c6" title="rcc_clock_setup_pll" alt="" coords="192,107,329,133"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="pwr__common__l01_8h_source.html#l00082">82</a> of file <a class="el" href="pwr__common__l01_8h_source.html">pwr_common_l01.h</a>.</p>
 
 </div>
 </div>
@@ -424,7 +395,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_9417be1a17550340f19505b8a524537b.html">stm32</a></li><li class="navelem"><a class="el" href="dir_f1e5530a7e66c302e9dbc049fc6df9a4.html">common</a></li><li class="navelem"><a class="el" href="pwr__common__l01_8h.html">pwr_common_l01.h</a></li>
-    <li class="footer">Generated on Fri Aug 19 2016 01:22:24 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 19 2016 02:22:15 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -14,6 +14,7 @@ var group__STM32F1xx_rcc_file =
     [ "rcc_css_int_clear", "group__STM32F1xx-rcc-file.html#gab1b45443e00d0774628de632257ba9f4", null ],
     [ "rcc_css_int_flag", "group__STM32F1xx-rcc-file.html#ga0d3d34d807e0934127960914833a1b4d", null ],
     [ "rcc_enable_rtc_clock", "group__STM32F1xx-rcc-file.html#gabd376925e81df9e2f78110fabcdbd893", null ],
+    [ "rcc_is_osc_ready", "group__STM32F1xx-rcc-file.html#ga2706213ae449214826f797ac93c51d52", null ],
     [ "rcc_osc_bypass_disable", "group__STM32F1xx-rcc-file.html#ga5fbe4bc4ca1447fff06e4490f655367e", null ],
     [ "rcc_osc_bypass_enable", "group__STM32F1xx-rcc-file.html#ga3bccfeb2f4364e18997cbd88e2476270", null ],
     [ "rcc_osc_off", "group__STM32F1xx-rcc-file.html#ga89d079556639549018fbd8d66cf5fc20", null ],

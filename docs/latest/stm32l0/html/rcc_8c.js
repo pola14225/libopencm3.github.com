@@ -1,5 +1,6 @@
 var rcc_8c =
 [
+    [ "rcc_is_osc_ready", "group__STM32L0xx-rcc-file.html#ga2706213ae449214826f797ac93c51d52", null ],
     [ "rcc_osc_bypass_disable", "group__STM32L0xx-rcc-file.html#ga5fbe4bc4ca1447fff06e4490f655367e", null ],
     [ "rcc_osc_bypass_enable", "group__STM32L0xx-rcc-file.html#ga3bccfeb2f4364e18997cbd88e2476270", null ],
     [ "rcc_osc_off", "group__STM32L0xx-rcc-file.html#ga89d079556639549018fbd8d66cf5fc20", null ],

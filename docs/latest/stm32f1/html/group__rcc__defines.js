@@ -301,6 +301,7 @@ var group__rcc__defines =
     [ "rcc_css_int_clear", "group__rcc__defines.html#gab1b45443e00d0774628de632257ba9f4", null ],
     [ "rcc_css_int_flag", "group__rcc__defines.html#ga0d3d34d807e0934127960914833a1b4d", null ],
     [ "rcc_enable_rtc_clock", "group__rcc__defines.html#gabd376925e81df9e2f78110fabcdbd893", null ],
+    [ "rcc_is_osc_ready", "group__rcc__defines.html#ga2706213ae449214826f797ac93c51d52", null ],
     [ "rcc_osc_bypass_disable", "group__rcc__defines.html#ga5fbe4bc4ca1447fff06e4490f655367e", null ],
     [ "rcc_osc_bypass_enable", "group__rcc__defines.html#ga3bccfeb2f4364e18997cbd88e2476270", null ],
     [ "rcc_osc_off", "group__rcc__defines.html#ga89d079556639549018fbd8d66cf5fc20", null ],

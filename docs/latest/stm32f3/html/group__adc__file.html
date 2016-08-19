@@ -183,7 +183,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:gac59be11190b92659467a130485ed3083"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Analog Watchdog for a Selected Channel.  <a href="#gac59be11190b92659467a130485ed3083">More...</a><br /></td></tr>
 <tr class="separator:gac59be11190b92659467a130485ed3083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab2b359caa41226508e5414a9fdf18fcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#gab2b359caa41226508e5414a9fdf18fcd">adc_enable_eoc_interrupt_injected</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:gab2b359caa41226508e5414a9fdf18fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set Scan Mode.  <a href="#gab2b359caa41226508e5414a9fdf18fcd">More...</a><br /></td></tr>
+<tr class="memdesc:gab2b359caa41226508e5414a9fdf18fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Injected End-Of-Conversion Interrupt.  <a href="#gab2b359caa41226508e5414a9fdf18fcd">More...</a><br /></td></tr>
 <tr class="separator:gab2b359caa41226508e5414a9fdf18fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga59b482216ccaeeeaf22d7c5cfed7f3e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga59b482216ccaeeeaf22d7c5cfed7f3e2">adc_disable_eoc_interrupt_injected</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:ga59b482216ccaeeeaf22d7c5cfed7f3e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable Injected End-Of-Conversion Interrupt.  <a href="#ga59b482216ccaeeeaf22d7c5cfed7f3e2">More...</a><br /></td></tr>
@@ -249,7 +249,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga8b130efffc0025a70451ea3f26c714b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable an External Trigger for Injected Channels.  <a href="#ga8b130efffc0025a70451ea3f26c714b6">More...</a><br /></td></tr>
 <tr class="separator:ga8b130efffc0025a70451ea3f26c714b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaaecf7b26e7d55235fa4e99c93fc4da9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#gaaecf7b26e7d55235fa4e99c93fc4da9d">adc_awd</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:gaaecf7b26e7d55235fa4e99c93fc4da9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set DMA to Continue.  <a href="#gaaecf7b26e7d55235fa4e99c93fc4da9d">More...</a><br /></td></tr>
+<tr class="memdesc:gaaecf7b26e7d55235fa4e99c93fc4da9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Read the Analog Watchdog Flag.  <a href="#gaaecf7b26e7d55235fa4e99c93fc4da9d">More...</a><br /></td></tr>
 <tr class="separator:gaaecf7b26e7d55235fa4e99c93fc4da9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaacaa93447c7767aa01b098491a271245"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#gaacaa93447c7767aa01b098491a271245">adc_enable_regulator</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:gaacaa93447c7767aa01b098491a271245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the ADC Voltage regulator Before any use of the ADC, the ADC Voltage regulator must be enabled.  <a href="#gaacaa93447c7767aa01b098491a271245">More...</a><br /></td></tr>
@@ -257,63 +257,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga392863de891d13da5a318a133f32b6a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga392863de891d13da5a318a133f32b6a1">adc_disable_regulator</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:ga392863de891d13da5a318a133f32b6a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the ADC Voltage regulator You can disable the adc vreg when not in use to save power.  <a href="#ga392863de891d13da5a318a133f32b6a1">More...</a><br /></td></tr>
 <tr class="separator:ga392863de891d13da5a318a133f32b6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga1ac745d1052240adb5cf55d3ed8b5aad">adc_power_off</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Off.  <a href="#ga1ac745d1052240adb5cf55d3ed8b5aad">More...</a><br /></td></tr>
-<tr class="separator:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf599bfe1fc547a24acbfc573995a4688"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#gaf599bfe1fc547a24acbfc573995a4688">adc_enable_scan_mode</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:gaf599bfe1fc547a24acbfc573995a4688"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set Scan Mode.  <a href="#gaf599bfe1fc547a24acbfc573995a4688">More...</a><br /></td></tr>
-<tr class="separator:gaf599bfe1fc547a24acbfc573995a4688"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7ec33198b40d7c344d9ed3fb5ee07eb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga7ec33198b40d7c344d9ed3fb5ee07eb3">adc_disable_scan_mode</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga7ec33198b40d7c344d9ed3fb5ee07eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable Scan Mode.  <a href="#ga7ec33198b40d7c344d9ed3fb5ee07eb3">More...</a><br /></td></tr>
-<tr class="separator:ga7ec33198b40d7c344d9ed3fb5ee07eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0b700b6e953c56968935b00e335978be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga0b700b6e953c56968935b00e335978be">adc_enable_awd_interrupt</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga0b700b6e953c56968935b00e335978be"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Analog Watchdog Interrupt.  <a href="#ga0b700b6e953c56968935b00e335978be">More...</a><br /></td></tr>
-<tr class="separator:ga0b700b6e953c56968935b00e335978be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga069b1bda1850860eae190ecfb28fd9f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga069b1bda1850860eae190ecfb28fd9f4">adc_disable_awd_interrupt</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga069b1bda1850860eae190ecfb28fd9f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable Analog Watchdog Interrupt.  <a href="#ga069b1bda1850860eae190ecfb28fd9f4">More...</a><br /></td></tr>
-<tr class="separator:ga069b1bda1850860eae190ecfb28fd9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga676a51c5de3ef536538c89d7cdab0e1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga676a51c5de3ef536538c89d7cdab0e1c">adc_enable_eoc_interrupt</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga676a51c5de3ef536538c89d7cdab0e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Regular End-Of-Conversion Interrupt.  <a href="#ga676a51c5de3ef536538c89d7cdab0e1c">More...</a><br /></td></tr>
-<tr class="separator:ga676a51c5de3ef536538c89d7cdab0e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6cb3d778d07c0d1622a56fb2aa377ec8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga6cb3d778d07c0d1622a56fb2aa377ec8">adc_disable_eoc_interrupt</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga6cb3d778d07c0d1622a56fb2aa377ec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable Regular End-Of-Conversion Interrupt.  <a href="#ga6cb3d778d07c0d1622a56fb2aa377ec8">More...</a><br /></td></tr>
-<tr class="separator:ga6cb3d778d07c0d1622a56fb2aa377ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga87e3c678306379082761a3b096ab8ccb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga87e3c678306379082761a3b096ab8ccb">adc_set_left_aligned</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga87e3c678306379082761a3b096ab8ccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set the Data as Left Aligned.  <a href="#ga87e3c678306379082761a3b096ab8ccb">More...</a><br /></td></tr>
-<tr class="separator:ga87e3c678306379082761a3b096ab8ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga923b0eb25e1ba298000bdc80cab9702a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga923b0eb25e1ba298000bdc80cab9702a">adc_set_right_aligned</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga923b0eb25e1ba298000bdc80cab9702a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set the Data as Right Aligned.  <a href="#ga923b0eb25e1ba298000bdc80cab9702a">More...</a><br /></td></tr>
-<tr class="separator:ga923b0eb25e1ba298000bdc80cab9702a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf297c53a2e00673df5b85eeb87683ba2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#gaf297c53a2e00673df5b85eeb87683ba2">adc_eoc</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:gaf297c53a2e00673df5b85eeb87683ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Read the End-of-Conversion Flag.  <a href="#gaf297c53a2e00673df5b85eeb87683ba2">More...</a><br /></td></tr>
 <tr class="separator:gaf297c53a2e00673df5b85eeb87683ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga52c4b90afb2a3aa032794342b8eaf38e"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga52c4b90afb2a3aa032794342b8eaf38e">adc_read_regular</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga52c4b90afb2a3aa032794342b8eaf38e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Read from the Regular Conversion Result Register.  <a href="#ga52c4b90afb2a3aa032794342b8eaf38e">More...</a><br /></td></tr>
-<tr class="separator:ga52c4b90afb2a3aa032794342b8eaf38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga366654c02369a57e3a79cb395966fbeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga366654c02369a57e3a79cb395966fbeb">adc_set_continuous_conversion_mode</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga366654c02369a57e3a79cb395966fbeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Continuous Conversion Mode.  <a href="#ga366654c02369a57e3a79cb395966fbeb">More...</a><br /></td></tr>
-<tr class="separator:ga366654c02369a57e3a79cb395966fbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3b730353f6e1bb97b546101edb6c80c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga3b730353f6e1bb97b546101edb6c80c0">adc_set_single_conversion_mode</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga3b730353f6e1bb97b546101edb6c80c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Single Conversion Mode.  <a href="#ga3b730353f6e1bb97b546101edb6c80c0">More...</a><br /></td></tr>
-<tr class="separator:ga3b730353f6e1bb97b546101edb6c80c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1385e9ff5bd39f15330d2c8d88ef54e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga1385e9ff5bd39f15330d2c8d88ef54e6">adc_set_watchdog_high_threshold</a> (uint32_t adc, uint16_t threshold)</td></tr>
-<tr class="memdesc:ga1385e9ff5bd39f15330d2c8d88ef54e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set Analog Watchdog Upper Threshold.  <a href="#ga1385e9ff5bd39f15330d2c8d88ef54e6">More...</a><br /></td></tr>
-<tr class="separator:ga1385e9ff5bd39f15330d2c8d88ef54e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad625ff5ca8d177b0df9673274623f927"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#gad625ff5ca8d177b0df9673274623f927">adc_set_watchdog_low_threshold</a> (uint32_t adc, uint16_t threshold)</td></tr>
-<tr class="memdesc:gad625ff5ca8d177b0df9673274623f927"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set Analog Watchdog Lower Threshold.  <a href="#gad625ff5ca8d177b0df9673274623f927">More...</a><br /></td></tr>
-<tr class="separator:gad625ff5ca8d177b0df9673274623f927"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gace14daa8c089f21f710eeeebce100227"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#gace14daa8c089f21f710eeeebce100227">adc_set_regular_sequence</a> (uint32_t adc, uint8_t length, uint8_t channel[])</td></tr>
-<tr class="memdesc:gace14daa8c089f21f710eeeebce100227"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set a Regular Channel Conversion Sequence.  <a href="#gace14daa8c089f21f710eeeebce100227">More...</a><br /></td></tr>
-<tr class="separator:gace14daa8c089f21f710eeeebce100227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0b3b2251b860a0370967c2ee326ad338"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga0b3b2251b860a0370967c2ee326ad338">adc_start_conversion_regular</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga0b3b2251b860a0370967c2ee326ad338"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Software Triggered Conversion on Regular Channels.  <a href="#ga0b3b2251b860a0370967c2ee326ad338">More...</a><br /></td></tr>
-<tr class="separator:ga0b3b2251b860a0370967c2ee326ad338"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac33cd693a63bc2ae46110c758c49308f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#gac33cd693a63bc2ae46110c758c49308f">adc_enable_dma</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:gac33cd693a63bc2ae46110c758c49308f"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable DMA Transfers.  <a href="#gac33cd693a63bc2ae46110c758c49308f">More...</a><br /></td></tr>
-<tr class="separator:gac33cd693a63bc2ae46110c758c49308f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8743bf8b2acc4299a15480e2c5d0c54f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga8743bf8b2acc4299a15480e2c5d0c54f">adc_disable_dma</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga8743bf8b2acc4299a15480e2c5d0c54f"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable DMA Transfers.  <a href="#ga8743bf8b2acc4299a15480e2c5d0c54f">More...</a><br /></td></tr>
-<tr class="separator:ga8743bf8b2acc4299a15480e2c5d0c54f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga72cafc5c71fd0cf6b239547fdab49930"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga72cafc5c71fd0cf6b239547fdab49930">adc_eos</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:ga72cafc5c71fd0cf6b239547fdab49930"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Read the End-of-Sequence Flag for Regular Conversions.  <a href="#ga72cafc5c71fd0cf6b239547fdab49930">More...</a><br /></td></tr>
 <tr class="separator:ga72cafc5c71fd0cf6b239547fdab49930"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -332,9 +278,30 @@ Functions</h2></td></tr>
 <tr class="memitem:gae55af0a75a5724cb3776a283f786e939"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#gae55af0a75a5724cb3776a283f786e939">adc_is_power_off</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:gae55af0a75a5724cb3776a283f786e939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the ADC powered down?  <a href="#gae55af0a75a5724cb3776a283f786e939">More...</a><br /></td></tr>
 <tr class="separator:gae55af0a75a5724cb3776a283f786e939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga1ac745d1052240adb5cf55d3ed8b5aad">adc_power_off</a> (uint32_t adc)</td></tr>
+<tr class="memdesc:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn off the ADC This will actually block if it needs to turn off a currently running conversion, as per ref man.  <a href="#ga1ac745d1052240adb5cf55d3ed8b5aad">More...</a><br /></td></tr>
+<tr class="separator:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga366654c02369a57e3a79cb395966fbeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga366654c02369a57e3a79cb395966fbeb">adc_set_continuous_conversion_mode</a> (uint32_t adc)</td></tr>
+<tr class="memdesc:ga366654c02369a57e3a79cb395966fbeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Continuous Conversion Mode In this mode the ADC starts a new conversion of a single channel or a channel group immediately following completion of the previous channel group conversion.  <a href="#ga366654c02369a57e3a79cb395966fbeb">More...</a><br /></td></tr>
+<tr class="separator:ga366654c02369a57e3a79cb395966fbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3b730353f6e1bb97b546101edb6c80c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga3b730353f6e1bb97b546101edb6c80c0">adc_set_single_conversion_mode</a> (uint32_t adc)</td></tr>
+<tr class="memdesc:ga3b730353f6e1bb97b546101edb6c80c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Single Conversion Mode In this mode the ADC performs a conversion of one channel or a channel group and stops.  <a href="#ga3b730353f6e1bb97b546101edb6c80c0">More...</a><br /></td></tr>
+<tr class="separator:ga3b730353f6e1bb97b546101edb6c80c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga459708aeaf8e709264c4b96fed706ae3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga459708aeaf8e709264c4b96fed706ae3">adc_set_resolution</a> (uint32_t adc, uint16_t resolution)</td></tr>
 <tr class="memdesc:ga459708aeaf8e709264c4b96fed706ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set Resolution.  <a href="#ga459708aeaf8e709264c4b96fed706ae3">More...</a><br /></td></tr>
 <tr class="separator:ga459708aeaf8e709264c4b96fed706ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga87e3c678306379082761a3b096ab8ccb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga87e3c678306379082761a3b096ab8ccb">adc_set_left_aligned</a> (uint32_t adc)</td></tr>
+<tr class="memdesc:ga87e3c678306379082761a3b096ab8ccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set the Data as Left Aligned.  <a href="#ga87e3c678306379082761a3b096ab8ccb">More...</a><br /></td></tr>
+<tr class="separator:ga87e3c678306379082761a3b096ab8ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga923b0eb25e1ba298000bdc80cab9702a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga923b0eb25e1ba298000bdc80cab9702a">adc_set_right_aligned</a> (uint32_t adc)</td></tr>
+<tr class="memdesc:ga923b0eb25e1ba298000bdc80cab9702a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set the Data as Right Aligned.  <a href="#ga923b0eb25e1ba298000bdc80cab9702a">More...</a><br /></td></tr>
+<tr class="separator:ga923b0eb25e1ba298000bdc80cab9702a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac33cd693a63bc2ae46110c758c49308f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#gac33cd693a63bc2ae46110c758c49308f">adc_enable_dma</a> (uint32_t adc)</td></tr>
+<tr class="memdesc:gac33cd693a63bc2ae46110c758c49308f"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable DMA Transfers.  <a href="#gac33cd693a63bc2ae46110c758c49308f">More...</a><br /></td></tr>
+<tr class="separator:gac33cd693a63bc2ae46110c758c49308f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8743bf8b2acc4299a15480e2c5d0c54f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga8743bf8b2acc4299a15480e2c5d0c54f">adc_disable_dma</a> (uint32_t adc)</td></tr>
+<tr class="memdesc:ga8743bf8b2acc4299a15480e2c5d0c54f"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable DMA Transfers.  <a href="#ga8743bf8b2acc4299a15480e2c5d0c54f">More...</a><br /></td></tr>
+<tr class="separator:ga8743bf8b2acc4299a15480e2c5d0c54f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9f618863d8b3ae15dc18035ce894e746"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga9f618863d8b3ae15dc18035ce894e746">adc_enable_overrun_interrupt</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:ga9f618863d8b3ae15dc18035ce894e746"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable the Overrun Interrupt.  <a href="#ga9f618863d8b3ae15dc18035ce894e746">More...</a><br /></td></tr>
 <tr class="separator:ga9f618863d8b3ae15dc18035ce894e746"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -347,6 +314,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ga397913c6f9e83653e20fd54233a77dac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga397913c6f9e83653e20fd54233a77dac">adc_clear_overrun_flag</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:ga397913c6f9e83653e20fd54233a77dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Clear Overrun Flags.  <a href="#ga397913c6f9e83653e20fd54233a77dac">More...</a><br /></td></tr>
 <tr class="separator:ga397913c6f9e83653e20fd54233a77dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga676a51c5de3ef536538c89d7cdab0e1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga676a51c5de3ef536538c89d7cdab0e1c">adc_enable_eoc_interrupt</a> (uint32_t adc)</td></tr>
+<tr class="memdesc:ga676a51c5de3ef536538c89d7cdab0e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Regular End-Of-Conversion Interrupt.  <a href="#ga676a51c5de3ef536538c89d7cdab0e1c">More...</a><br /></td></tr>
+<tr class="separator:ga676a51c5de3ef536538c89d7cdab0e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6cb3d778d07c0d1622a56fb2aa377ec8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga6cb3d778d07c0d1622a56fb2aa377ec8">adc_disable_eoc_interrupt</a> (uint32_t adc)</td></tr>
+<tr class="memdesc:ga6cb3d778d07c0d1622a56fb2aa377ec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Disable Regular End-Of-Conversion Interrupt.  <a href="#ga6cb3d778d07c0d1622a56fb2aa377ec8">More...</a><br /></td></tr>
+<tr class="separator:ga6cb3d778d07c0d1622a56fb2aa377ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga52c4b90afb2a3aa032794342b8eaf38e"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga52c4b90afb2a3aa032794342b8eaf38e">adc_read_regular</a> (uint32_t adc)</td></tr>
+<tr class="memdesc:ga52c4b90afb2a3aa032794342b8eaf38e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Read from the Regular Conversion Result Register.  <a href="#ga52c4b90afb2a3aa032794342b8eaf38e">More...</a><br /></td></tr>
+<tr class="separator:ga52c4b90afb2a3aa032794342b8eaf38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7728b2073c9f35ec8dc86e4464a80d14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga7728b2073c9f35ec8dc86e4464a80d14">adc_enable_temperature_sensor</a> (void)</td></tr>
 <tr class="memdesc:ga7728b2073c9f35ec8dc86e4464a80d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the temperature sensor (only) The channel this is available on is unfortunately not consistent, even though the bit used to enable it is.  <a href="#ga7728b2073c9f35ec8dc86e4464a80d14">More...</a><br /></td></tr>
 <tr class="separator:ga7728b2073c9f35ec8dc86e4464a80d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -359,12 +335,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ga358a386b41f5f1de40e1db58fcbcf883"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga358a386b41f5f1de40e1db58fcbcf883">adc_disable_vrefint</a> (void)</td></tr>
 <tr class="memdesc:ga358a386b41f5f1de40e1db58fcbcf883"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the internal voltage reference (only)  <a href="#ga358a386b41f5f1de40e1db58fcbcf883">More...</a><br /></td></tr>
 <tr class="separator:ga358a386b41f5f1de40e1db58fcbcf883"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0b3b2251b860a0370967c2ee326ad338"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga0b3b2251b860a0370967c2ee326ad338">adc_start_conversion_regular</a> (uint32_t adc)</td></tr>
+<tr class="memdesc:ga0b3b2251b860a0370967c2ee326ad338"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Software Triggered Conversion on Regular Channels.  <a href="#ga0b3b2251b860a0370967c2ee326ad338">More...</a><br /></td></tr>
+<tr class="separator:ga0b3b2251b860a0370967c2ee326ad338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0350c814893ca4055629da6498d1dfad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga0350c814893ca4055629da6498d1dfad">adc_set_sample_time</a> (uint32_t adc, uint8_t channel, uint8_t time)</td></tr>
 <tr class="memdesc:ga0350c814893ca4055629da6498d1dfad"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set the Sample Time for a Single Channel.  <a href="#ga0350c814893ca4055629da6498d1dfad">More...</a><br /></td></tr>
 <tr class="separator:ga0350c814893ca4055629da6498d1dfad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga028c905528d6187936c2d2ed61967d73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#ga028c905528d6187936c2d2ed61967d73">adc_set_sample_time_on_all_channels</a> (uint32_t adc, uint8_t time)</td></tr>
 <tr class="memdesc:ga028c905528d6187936c2d2ed61967d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set the Sample Time for All Channels.  <a href="#ga028c905528d6187936c2d2ed61967d73">More...</a><br /></td></tr>
 <tr class="separator:ga028c905528d6187936c2d2ed61967d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gace14daa8c089f21f710eeeebce100227"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__file.html#gace14daa8c089f21f710eeeebce100227">adc_set_regular_sequence</a> (uint32_t adc, uint8_t length, uint8_t channel[])</td></tr>
+<tr class="memdesc:gace14daa8c089f21f710eeeebce100227"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set a Regular Channel Conversion Sequence.  <a href="#gace14daa8c089f21f710eeeebce100227">More...</a><br /></td></tr>
+<tr class="separator:gace14daa8c089f21f710eeeebce100227"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p><b>libopencm3 STM32F3xx Analog to Digital Converters</b> </p>
@@ -383,27 +365,7 @@ Functions</h2></td></tr>
 <h1><a class="anchor" id="adc_f3_api_ex"></a>
 Basic ADC Handling API.</h1>
 <p>Example 1: Simple single channel conversion polled. Enable the peripheral clock and ADC, reset ADC and set the prescaler divider. Set multiple mode to independent.</p>
-<div class="fragment"><div class="line"><a class="code" href="group__gpio__defines.html#ga733d745a0b6840f22b516979ce7a92c9">gpio_mode_setup</a>(<a class="code" href="group__gpio__port__id.html#gac485358099728ddae050db37924dd6b7">GPIOA</a>, <a class="code" href="group__gpio__mode.html#ga7a04f9ab65ad572ad20791a35009220c">GPIO_MODE_ANALOG</a>, <a class="code" href="group__gpio__pup.html#gad53ebddfcc3973120b1c0271423f131e">GPIO_PUPD_NONE</a>, <a class="code" href="group__gpio__pin__id.html#gabe59d3a7ce7a18e9440bd54cae1f3fc8">GPIO1</a>);</div><div class="line"><a class="code" href="group__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="rcc_8h.html#a6d4cd87f49d551c356fed82cbbddc5a4">RCC_APB2ENR</a>, RCC_APB2ENR_ADC1EN);</div><div class="line"><a class="code" href="group__adc__file.html#gaa13f44a0450640bfab057bd8bb64dd94">adc_set_clk_prescale</a>(RCC_CFGR_ADCPRE_BY2);</div><div class="line"><a class="code" href="group__adc__channel.html#ga7ec33198b40d7c344d9ed3fb5ee07eb3">adc_disable_scan_mode</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line"><a class="code" href="group__adc__channel.html#ga3b730353f6e1bb97b546101edb6c80c0">adc_set_single_conversion_mode</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line"><a class="code" href="group__adc__channel.html#ga0350c814893ca4055629da6498d1dfad">adc_set_sample_time</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, <a class="code" href="group__adc__channel.html#ga9624905d53d0560f4b4a6e5983e11ae0">ADC_CHANNEL0</a>, ADC_SMPR1_SMP_1DOT5CYC);</div><div class="line">uint8_t channels[] = <a class="code" href="group__adc__channel.html#ga9624905d53d0560f4b4a6e5983e11ae0">ADC_CHANNEL0</a>;</div><div class="line"><a class="code" href="group__adc__channel.html#gace14daa8c089f21f710eeeebce100227">adc_set_regular_sequence</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, 1, channels);</div><div class="line"><a class="code" href="group__adc__file.html#gaa6b95e470c2454150c6157a1a18a43a1">adc_set_multi_mode</a>(ADC_CCR_MULTI_INDEPENDENT);</div><div class="line"><a class="code" href="group__adc__channel.html#ga51f01f6dedbcfc4231e0fc1d8943d956">adc_power_on</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line"><a class="code" href="group__adc__channel.html#ga0b3b2251b860a0370967c2ee326ad338">adc_start_conversion_regular</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line"><span class="keywordflow">while</span> (! <a class="code" href="group__adc__channel.html#gaf297c53a2e00673df5b85eeb87683ba2">adc_eoc</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>));</div><div class="line">reg16 = <a class="code" href="group__adc__channel.html#ga52c4b90afb2a3aa032794342b8eaf38e">adc_read_regular</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div></div><!-- fragment --><p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a></p>
-<dl class="section author"><dt>Author</dt><dd> &copy;  2009 Edward Cheeseman <a href="#" onclick="location.href='mai'+'lto:'+'evb'+'ui'+'lde'+'r@'+'use'+'rs'+'.so'+'ur'+'cef'+'or'+'ge.'+'ne'+'t'; return false;">evbui<span style="display: none;">.nosp@m.</span>lder<span style="display: none;">.nosp@m.</span>@user<span style="display: none;">.nosp@m.</span>s.so<span style="display: none;">.nosp@m.</span>urcef<span style="display: none;">.nosp@m.</span>orge<span style="display: none;">.nosp@m.</span>.net</a> </dd>
-<dd>
- &copy;  2012 Ken Sarkies <a href="#" onclick="location.href='mai'+'lto:'+'ksa'+'rk'+'ies'+'@i'+'nte'+'rn'+'ode'+'.o'+'n.n'+'et'; return false;">ksark<span style="display: none;">.nosp@m.</span>ies@<span style="display: none;">.nosp@m.</span>inter<span style="display: none;">.nosp@m.</span>node<span style="display: none;">.nosp@m.</span>.on.n<span style="display: none;">.nosp@m.</span>et</a> </dd>
-<dd>
- &copy;  2014 Karl Palsson <a href="#" onclick="location.href='mai'+'lto:'+'kar'+'lp'+'@tw'+'ea'+'k.n'+'et'+'.au'; return false;">karlp<span style="display: none;">.nosp@m.</span>@twe<span style="display: none;">.nosp@m.</span>ak.ne<span style="display: none;">.nosp@m.</span>t.au</a></dd></dl>
-<p>This library supports one style of the Analog to Digital Conversion System in the STM32 series of ARM Cortex Microcontrollers by ST Microelectronics.</p>
-<p>The style of ADC Peripheral supported by this code is found in the F1, F2, F37x, F38x, F4, and L1 series devices (at the time of writing) but is quite different to the style found on the F0 and F30x and F31x. Devices can have up to three A/D converters each with their own set of registers. However all the A/D converters share a common clock. On most devices, this is prescaled from the APB2 clock by default by a minimum factor of 2 to a maximum of 8, though on the L1 this is always a divider from the HSI. (And therefore HSI <em>must</em> be enabled before attempting to enable the ADC)</p>
-<p>Each A/D converter has up to ADC_MAX_CHANNELS channels: </p><ul>
-<li>On ADC1 the analog channels 16 and 17 are internally connected to the temperature sensor and V<sub>REFINT</sub>, respectively. </li>
-<li>On ADC2 (if available) the analog channels 16 and 17 are internally connected to V<sub>SS</sub>. </li>
-<li>On ADC3 (if available) the analog channels 9, 14, 15, 16 and 17 are internally connected to V<sub>SS</sub>.</li>
-</ul>
-<p>The conversions can occur as a one-off conversion whereby the process stops once conversion is complete. The conversions can also be continuous wherein a new conversion starts immediately the previous conversion has ended.</p>
-<p>Conversion can occur as a single channel conversion or a scan of a group of channels in either continuous or one-off mode. If more than one channel is converted in a scan group, DMA must be used to transfer the data as there is only one result register available. An interrupt can be set to occur at the end of conversion, which occurs after all channels have been scanned.</p>
-<p>A discontinuous mode allows a subgroup of group of a channels to be converted in bursts of a given length.</p>
-<p>Injected conversions allow a second group of channels to be converted separately from the regular group. An interrupt can be set to occur at the end of conversion, which occurs after all channels have been scanned.</p>
-<h1><a class="anchor" id="adc_api_ex"></a>
-Basic ADC Handling API.</h1>
-<p>Example 1: Simple single channel conversion polled. Enable the peripheral clock and ADC, reset ADC and set the prescaler divider. Set dual mode to independent (default). Enable triggering for a software trigger.</p>
-<div class="fragment"><div class="line"><a class="code" href="group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c">rcc_periph_clock_enable</a>(RCC_ADC1);</div><div class="line"><a class="code" href="group__adc__channel.html#ga1ac745d1052240adb5cf55d3ed8b5aad">adc_power_off</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line"><a class="code" href="group__rcc__defines.html#gae8846a0bf49a46bcdc10a412bc69ee58">rcc_periph_reset_pulse</a>(RST_ADC1);</div><div class="line">rcc_set_adcpre(RCC_CFGR_ADCPRE_PCLK2_DIV2);</div><div class="line">adc_set_dual_mode(ADC_CR1_DUALMOD_IND);</div><div class="line"><a class="code" href="group__adc__channel.html#ga7ec33198b40d7c344d9ed3fb5ee07eb3">adc_disable_scan_mode</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line"><a class="code" href="group__adc__channel.html#ga3b730353f6e1bb97b546101edb6c80c0">adc_set_single_conversion_mode</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line"><a class="code" href="group__adc__channel.html#ga0350c814893ca4055629da6498d1dfad">adc_set_sample_time</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, <a class="code" href="group__adc__channel.html#ga9624905d53d0560f4b4a6e5983e11ae0">ADC_CHANNEL0</a>, ADC_SMPR1_SMP_1DOT5CYC);</div><div class="line">adc_enable_trigger(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, ADC_CR2_EXTSEL_SWSTART);</div><div class="line"><a class="code" href="group__adc__channel.html#ga51f01f6dedbcfc4231e0fc1d8943d956">adc_power_on</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line">adc_reset_calibration(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line">adc_calibration(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line"><a class="code" href="group__adc__channel.html#ga0b3b2251b860a0370967c2ee326ad338">adc_start_conversion_regular</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line"><span class="keywordflow">while</span> (! <a class="code" href="group__adc__channel.html#gaf297c53a2e00673df5b85eeb87683ba2">adc_eoc</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>));</div><div class="line">reg16 = <a class="code" href="group__adc__channel.html#ga52c4b90afb2a3aa032794342b8eaf38e">adc_read_regular</a>(<a class="code" href="adc_8h.html#a90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div></div><!-- fragment --><p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a></p>
+<div class="fragment"><div class="line"><a class="code" href="group__gpio__defines.html#ga733d745a0b6840f22b516979ce7a92c9">gpio_mode_setup</a>(<a class="code" href="group__gpio__port__id.html#gac485358099728ddae050db37924dd6b7">GPIOA</a>, <a class="code" href="group__gpio__mode.html#ga7a04f9ab65ad572ad20791a35009220c">GPIO_MODE_ANALOG</a>, <a class="code" href="group__gpio__pup.html#gad53ebddfcc3973120b1c0271423f131e">GPIO_PUPD_NONE</a>, <a class="code" href="group__gpio__pin__id.html#gabe59d3a7ce7a18e9440bd54cae1f3fc8">GPIO1</a>);</div><div class="line"><a class="code" href="group__rcc__defines.html#gaaf3dd53c1ced02082fce0076976547a8">rcc_peripheral_enable_clock</a>(&amp;<a class="code" href="rcc_8h.html#a6d4cd87f49d551c356fed82cbbddc5a4">RCC_APB2ENR</a>, RCC_APB2ENR_ADC1EN);</div><div class="line"><a class="code" href="group__adc__file.html#gaa13f44a0450640bfab057bd8bb64dd94">adc_set_clk_prescale</a>(RCC_CFGR_ADCPRE_BY2);</div><div class="line">adc_disable_scan_mode(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line"><a class="code" href="group__adc__defines.html#ga3b730353f6e1bb97b546101edb6c80c0">adc_set_single_conversion_mode</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line"><a class="code" href="group__adc__defines.html#ga0350c814893ca4055629da6498d1dfad">adc_set_sample_time</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, ADC_CHANNEL0, ADC_SMPR1_SMP_1DOT5CYC);</div><div class="line">uint8_t channels[] = ADC_CHANNEL0;</div><div class="line"><a class="code" href="group__adc__defines.html#gace14daa8c089f21f710eeeebce100227">adc_set_regular_sequence</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>, 1, channels);</div><div class="line"><a class="code" href="group__adc__file.html#gaa6b95e470c2454150c6157a1a18a43a1">adc_set_multi_mode</a>(ADC_CCR_MULTI_INDEPENDENT);</div><div class="line"><a class="code" href="group__adc__defines.html#ga51f01f6dedbcfc4231e0fc1d8943d956">adc_power_on</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line"><a class="code" href="group__adc__defines.html#ga0b3b2251b860a0370967c2ee326ad338">adc_start_conversion_regular</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div><div class="line"><span class="keywordflow">while</span> (! <a class="code" href="group__adc__defines.html#gaf297c53a2e00673df5b85eeb87683ba2">adc_eoc</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>));</div><div class="line">reg16 = <a class="code" href="group__adc__defines.html#ga52c4b90afb2a3aa032794342b8eaf38e">adc_read_regular</a>(<a class="code" href="group__adc__reg__base.html#ga90d2d5c526ce5c0a551f533eccbee71a">ADC1</a>);</div></div><!-- fragment --><p>LGPL License Terms <a class="el" href="lgpl_license.html">libopencm3 License</a></p>
 <dl class="section author"><dt>Author</dt><dd> &copy;  2015 Karl Palsson <a href="#" onclick="location.href='mai'+'lto:'+'kar'+'lp'+'@tw'+'ea'+'k.n'+'et'+'.au'; return false;">karlp<span style="display: none;">.nosp@m.</span>@twe<span style="display: none;">.nosp@m.</span>ak.ne<span style="display: none;">.nosp@m.</span>t.au</a></dd></dl>
 <p>This library supports one style of the Analog to Digital Conversion System in the STM32 series of ARM Cortex Microcontrollers by ST Microelectronics.</p>
 <p>The style of ADC Peripheral supported by this code is found in the F0, L0 and F30x series devices (at the time of writing)</p>
@@ -426,21 +388,7 @@ Basic ADC Handling API.</h1>
       </table>
 </div><div class="memdoc">
 
-<p>ADC Set DMA to Continue. </p>
-<p>This must be set to allow DMA to continue to operate after the last conversion in the DMA sequence. This allows DMA to be used in continuous circular mode.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base adc_reg_baseADC Set DMA to Terminate</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>This must be set to allow DMA to terminate after the last conversion in the DMA sequence. This can avoid overrun errors.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base adc_reg_baseADC Read the Analog Watchdog Flag</td></tr>
-  </table>
-  </dd>
-</dl>
+<p>ADC Read the Analog Watchdog Flag. </p>
 <p>This flag is set when the converted voltage crosses the high or low thresholds.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -450,7 +398,7 @@ Basic ADC Handling API.</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool. AWD flag. </dd></dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00772">772</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00706">706</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00040">ADC_ISR</a>, <a class="el" href="adc__common__v2_8h_source.html#l00065">ADC_ISR_AWD1</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00096">ADC_ISR_AWD2</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00094">ADC_ISR_AWD3</a>.</p>
 
@@ -507,7 +455,7 @@ Basic ADC Handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00401">401</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00369">369</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, <a class="el" href="adc__common__v2_8h_source.html#l00076">ADC_IER_AWD1IE</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00109">ADC_IER_AWD2IE</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00107">ADC_IER_AWD3IE</a>.</p>
 
@@ -537,7 +485,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00145">145</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00130">ADC_CFGR1_JAWD1EN</a>, <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00201">ADC_CR1_JAWDEN</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00130">ADC_CFGR1_JAWD1EN</a>.</p>
 
 </div>
 </div>
@@ -556,19 +504,17 @@ Basic ADC Handling API.</h1>
 </div><div class="memdoc">
 
 <p>ADC Enable Analog Watchdog for Regular Conversions. </p>
-<p>ADC Disable Analog Watchdog for Regular Conversions.</p>
 <p>The analog watchdog allows the monitoring of an analog signal between two threshold levels. The thresholds must be preset. Comparison is done before data alignment takes place, so the thresholds are left-aligned.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00117">117</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00110">ADC_CFGR1_AWD1EN</a>, <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00198">ADC_CR1_AWDEN</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00110">ADC_CFGR1_AWD1EN</a>.</p>
 
 </div>
 </div>
@@ -596,35 +542,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00239">239</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00127">ADC_CFGR1_JAUTO</a>, <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00231">ADC_CR1_JAUTO</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga069b1bda1850860eae190ecfb28fd9f4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void adc_disable_awd_interrupt </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>adc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>ADC Disable Analog Watchdog Interrupt. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00372">372</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
-
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00243">ADC_CR1_AWDIE</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00127">ADC_CFGR1_JAUTO</a>.</p>
 
 </div>
 </div>
@@ -652,7 +570,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00210">210</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00136">ADC_CFGR1_JDISCEN</a>, <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00225">ADC_CR1_JDISCEN</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00136">ADC_CFGR1_JDISCEN</a>.</p>
 
 </div>
 </div>
@@ -680,7 +598,7 @@ Basic ADC Handling API.</h1>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00182">182</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00116">ADC_CFGR1_DISCEN</a>, <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00228">ADC_CR1_DISCEN</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00116">ADC_CFGR1_DISCEN</a>.</p>
 
 </div>
 </div>
@@ -701,15 +619,14 @@ Basic ADC Handling API.</h1>
 <p>ADC Disable DMA Transfers. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC base address (<a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00746">746</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
+<p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00214">214</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00152">ADC_CFGR1_DMAEN</a>, <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00288">ADC_CR2_DMA</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00152">ADC_CFGR1_DMAEN</a>.</p>
 
 </div>
 </div>
@@ -730,15 +647,14 @@ Basic ADC Handling API.</h1>
 <p>ADC Disable Regular End-Of-Conversion Interrupt. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC base address (<a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00395">395</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
+<p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00281">281</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, <a class="el" href="adc__common__v1_8h_source.html#l00246">ADC_CR1_EOCIE</a>, <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00083">ADC_IER_EOCIE</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00083">ADC_IER_EOCIE</a>.</p>
 
 </div>
 </div>
@@ -764,9 +680,9 @@ Basic ADC Handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00350">350</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00318">318</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, <a class="el" href="adc__common__v1_8h_source.html#l00240">ADC_CR1_JEOCIE</a>, <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00113">ADC_IER_JEOCIE</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00113">ADC_IER_JEOCIE</a>.</p>
 
 </div>
 </div>
@@ -792,7 +708,7 @@ Basic ADC Handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00427">427</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00395">395</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00080">ADC_IER_EOSIE</a>.</p>
 
@@ -820,7 +736,7 @@ Basic ADC Handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00374">374</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00342">342</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00111">ADC_IER_JEOSIE</a>.</p>
 
@@ -848,9 +764,9 @@ Basic ADC Handling API.</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00721">721</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00689">689</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2__multi_8h_source.html#l00059">ADC_JSQR</a>, and <a class="el" href="adc_8h_source.html#l00272">ADC_JSQR_JEXTEN_MASK</a>.</p>
+<p>References <a class="el" href="adc__common__v2__multi_8h_source.html#l00059">ADC_JSQR</a>, and <a class="el" href="adc_8h_source.html#l00276">ADC_JSQR_JEXTEN_MASK</a>.</p>
 
 <p>Referenced by <a class="el" href="adc_8c_source.html#l00226">adc_enable_automatic_injected_group_conversion()</a>.</p>
 
@@ -888,7 +804,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00685">685</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00653">653</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00136">ADC_CFGR1_EXTEN_MASK</a>.</p>
 
@@ -945,37 +861,9 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__adc__file.html#gaacaa93447c7767aa01b098491a271245" title="Enable the ADC Voltage regulator Before any use of the ADC, the ADC Voltage regulator must be enabled...">adc_enable_regulator</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00799">799</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00733">733</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00044">ADC_CR</a>, <a class="el" href="adc_8h_source.html#l00203">ADC_CR_ADVREGEN_DISABLE</a>, and <a class="el" href="adc_8h_source.html#l00204">ADC_CR_ADVREGEN_MASK</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga7ec33198b40d7c344d9ed3fb5ee07eb3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void adc_disable_scan_mode </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>adc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>ADC Disable Scan Mode. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00328">328</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
-
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00237">ADC_CR1_SCAN</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00044">ADC_CR</a>, <a class="el" href="adc_8h_source.html#l00207">ADC_CR_ADVREGEN_DISABLE</a>, and <a class="el" href="adc_8h_source.html#l00208">ADC_CR_ADVREGEN_MASK</a>.</p>
 
 </div>
 </div>
@@ -998,7 +886,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00315">315</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00040">ADC1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00058">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00457">ADC_CCR_TSEN</a>.</p>
+<p>References <a class="el" href="adc_8h_source.html#l00043">ADC1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00058">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00461">ADC_CCR_TSEN</a>.</p>
 
 </div>
 </div>
@@ -1021,7 +909,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00336">336</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00040">ADC1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00058">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00460">ADC_CCR_VREFEN</a>.</p>
+<p>References <a class="el" href="adc_8h_source.html#l00043">ADC1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00058">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00464">ADC_CCR_VREFEN</a>.</p>
 
 </div>
 </div>
@@ -1047,7 +935,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00387">387</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00355">355</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, <a class="el" href="adc__common__v2_8h_source.html#l00076">ADC_IER_AWD1IE</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00109">ADC_IER_AWD2IE</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00107">ADC_IER_AWD3IE</a>.</p>
 
@@ -1078,7 +966,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00133">133</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00130">ADC_CFGR1_JAWD1EN</a>, <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00201">ADC_CR1_JAWDEN</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00130">ADC_CFGR1_JAWD1EN</a>.</p>
 
 </div>
 </div>
@@ -1109,7 +997,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00261">261</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00113">ADC_CFGR1_AWD1SGL</a>, <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00234">ADC_CR1_AWDSGL</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00113">ADC_CFGR1_AWD1SGL</a>.</p>
 
 </div>
 </div>
@@ -1143,23 +1031,14 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>Unsigned int8. ADC channel numbe <a class="el" href="group__adc__watchdog__channel.html">ADC watchdog channel</a></td></tr>
-  </table>
-  </dd>
-</dl>
-<p>The analog watchdog allows the monitoring of an analog signal between two threshold levels. The thresholds must be preset. Comparison is done before data alignment takes place, so the thresholds are left-aligned.</p>
-<dl class="section note"><dt>Note</dt><dd>The analog watchdog must be enabled for either or both of the regular or injected channels. If neither are enabled, the analog watchdog feature will be disabled. If both are enabled, the same channel number is monitored. <a class="el" href="group__adc__file.html#gab4cc03bbad2f235b9fb8ed1b89e24d25">adc_enable_analog_watchdog_injected</a>, <a class="el" href="group__adc__file.html#gad184024fbe1151c8d15fb09aaaf05328">adc_enable_analog_watchdog_regular</a>.</dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>Unsigned int8. ADC channel number <a class="el" href="group__adc__watchdog__channel.html">ADC watchdog channel</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>Unsigned int8. ADC channel numbe adc_watchdog_channel </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00285">285</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00106">ADC_CFGR1_AWD1CH</a>, <a class="el" href="adc__common__v2_8h_source.html#l00113">ADC_CFGR1_AWD1SGL</a>, <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, <a class="el" href="adc__common__v1_8h_source.html#l00277">ADC_CR1_AWDCH_MASK</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00234">ADC_CR1_AWDSGL</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00106">ADC_CFGR1_AWD1CH</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00113">ADC_CFGR1_AWD1SGL</a>.</p>
 
 </div>
 </div>
@@ -1181,21 +1060,14 @@ Here is the caller graph for this function:</div>
 <p>The analog watchdog allows the monitoring of an analog signal between two threshold levels. The thresholds must be preset. Comparison is done before data alignment takes place, so the thresholds are left-aligned.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a></td></tr>
-  </table>
-  </dd>
-</dl>
-<p>The analog watchdog allows the monitoring of an analog signal between two threshold levels. The thresholds must be preset. Comparison is done before data alignment takes place, so the thresholds are left-aligned.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00102">102</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00110">ADC_CFGR1_AWD1EN</a>, <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00198">ADC_CR1_AWDEN</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00110">ADC_CFGR1_AWD1EN</a>.</p>
 
 </div>
 </div>
@@ -1224,7 +1096,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00226">226</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00127">ADC_CFGR1_JAUTO</a>, <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, <a class="el" href="adc__common__v1_8h_source.html#l00231">ADC_CR1_JAUTO</a>, and <a class="el" href="adc_8c_source.html#l00721">adc_disable_external_trigger_injected()</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00127">ADC_CFGR1_JAUTO</a>, and <a class="el" href="adc_8c_source.html#l00689">adc_disable_external_trigger_injected()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1235,34 +1107,6 @@ Here is the call graph for this function:</div>
 </map>
 </div>
 </p>
-
-</div>
-</div>
-<a class="anchor" id="ga0b700b6e953c56968935b00e335978be"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void adc_enable_awd_interrupt </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>adc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>ADC Enable Analog Watchdog Interrupt. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00361">361</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
-
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00243">ADC_CR1_AWDIE</a>.</p>
 
 </div>
 </div>
@@ -1291,7 +1135,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00198">198</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00136">ADC_CFGR1_JDISCEN</a>, <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00225">ADC_CR1_JDISCEN</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00136">ADC_CFGR1_JDISCEN</a>.</p>
 
 </div>
 </div>
@@ -1324,22 +1168,14 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">length</td><td>Unsigned int8. Number of channels in the group <a class="el" href="group__adc__cr1__discnum.html">ADC Number of channels in discontinuous mode.</a></td></tr>
-  </table>
-  </dd>
-</dl>
-<p>In this mode the ADC converts, on each trigger, a subgroup of up to 8 of the defined regular channel group. The subgroup is defined by the number of consecutive channels to be converted. After a subgroup has been converted the next trigger will start conversion of the immediately following subgroup of the same length or until the whole group has all been converted. When the the whole group has been converted, the next trigger will restart conversion of the subgroup at the beginning of the whole group.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">length</td><td>Unsigned int8. Number of channels in the group <a class="el" href="group__adc__cr1__discnum.html">ADC Number of channels in discontinuous mode.</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">length</td><td>Unsigned int8. Number of channels in the group adc_cr1_discnum </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="adc_8c_source.html#l00166">166</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00116">ADC_CFGR1_DISCEN</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00139">ADC_CFGR1_DISCNUM_SHIFT</a>, <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, <a class="el" href="adc__common__v1_8h_source.html#l00228">ADC_CR1_DISCEN</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00222">ADC_CR1_DISCNUM_SHIFT</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00116">ADC_CFGR1_DISCEN</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00139">ADC_CFGR1_DISCNUM_SHIFT</a>.</p>
 
 </div>
 </div>
@@ -1360,15 +1196,14 @@ Here is the call graph for this function:</div>
 <p>ADC Enable DMA Transfers. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC base address (<a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00735">735</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
+<p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00205">205</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00152">ADC_CFGR1_DMAEN</a>, <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00288">ADC_CR2_DMA</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00152">ADC_CFGR1_DMAEN</a>.</p>
 
 </div>
 </div>
@@ -1389,15 +1224,14 @@ Here is the call graph for this function:</div>
 <p>ADC Enable Regular End-Of-Conversion Interrupt. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC base address (<a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00384">384</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
+<p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00272">272</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, <a class="el" href="adc__common__v1_8h_source.html#l00246">ADC_CR1_EOCIE</a>, <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00083">ADC_IER_EOCIE</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00083">ADC_IER_EOCIE</a>.</p>
 
 </div>
 </div>
@@ -1415,22 +1249,17 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>ADC Set Scan Mode. </p>
-<p>ADC Enable Injected End-Of-Conversion Interrupt.</p>
-<p>In this mode a conversion consists of a scan of the predefined set of channels, regular and injected, each channel conversion immediately following the previous one. It can use single, continuous or discontinuous mode.</p>
+<p>ADC Enable Injected End-Of-Conversion Interrupt. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base adc_reg_baseADC Disable Scan Mode</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base adc_reg_baseADC Enable Injected End-Of-Conversion Interrupt</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00338">338</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00306">306</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, <a class="el" href="adc__common__v1_8h_source.html#l00240">ADC_CR1_JEOCIE</a>, <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00113">ADC_IER_JEOCIE</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00113">ADC_IER_JEOCIE</a>.</p>
 
 </div>
 </div>
@@ -1456,7 +1285,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00415">415</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00383">383</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00080">ADC_IER_EOSIE</a>.</p>
 
@@ -1484,7 +1313,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00362">362</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00330">330</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00042">ADC_IER</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00111">ADC_IER_JEOSIE</a>.</p>
 
@@ -1531,9 +1360,9 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00704">704</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00672">672</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2__multi_8h_source.html#l00059">ADC_JSQR</a>, <a class="el" href="adc_8h_source.html#l00272">ADC_JSQR_JEXTEN_MASK</a>, and <a class="el" href="adc_8h_source.html#l00292">ADC_JSQR_JEXTSEL_MASK</a>.</p>
+<p>References <a class="el" href="adc__common__v2__multi_8h_source.html#l00059">ADC_JSQR</a>, <a class="el" href="adc_8h_source.html#l00276">ADC_JSQR_JEXTEN_MASK</a>, and <a class="el" href="adc_8h_source.html#l00296">ADC_JSQR_JEXTSEL_MASK</a>.</p>
 
 </div>
 </div>
@@ -1578,7 +1407,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00668">668</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00636">636</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00136">ADC_CFGR1_EXTEN_MASK</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00145">ADC_CFGR1_EXTSEL_MASK</a>.</p>
 
@@ -1636,38 +1465,9 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__adc__file.html#ga392863de891d13da5a318a133f32b6a1" title="Disable the ADC Voltage regulator You can disable the adc vreg when not in use to save power...">adc_disable_regulator</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00787">787</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00721">721</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00044">ADC_CR</a>, <a class="el" href="adc_8h_source.html#l00202">ADC_CR_ADVREGEN_ENABLE</a>, and <a class="el" href="adc_8h_source.html#l00204">ADC_CR_ADVREGEN_MASK</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="gaf599bfe1fc547a24acbfc573995a4688"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void adc_enable_scan_mode </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>adc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>ADC Set Scan Mode. </p>
-<p>In this mode a conversion consists of a scan of the predefined set of channels, regular and injected, each channel conversion immediately following the previous one. It can use single, continuous or discontinuous mode.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00317">317</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
-
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00055">ADC_CR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00237">ADC_CR1_SCAN</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00044">ADC_CR</a>, <a class="el" href="adc_8h_source.html#l00206">ADC_CR_ADVREGEN_ENABLE</a>, and <a class="el" href="adc_8h_source.html#l00208">ADC_CR_ADVREGEN_MASK</a>.</p>
 
 </div>
 </div>
@@ -1690,7 +1490,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00306">306</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00040">ADC1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00058">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00457">ADC_CCR_TSEN</a>.</p>
+<p>References <a class="el" href="adc_8h_source.html#l00043">ADC1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00058">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00461">ADC_CCR_TSEN</a>.</p>
 
 </div>
 </div>
@@ -1713,7 +1513,7 @@ Here is the call graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00327">327</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc_8h_source.html#l00040">ADC1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00058">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00460">ADC_CCR_VREFEN</a>.</p>
+<p>References <a class="el" href="adc_8h_source.html#l00043">ADC1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00058">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00464">ADC_CCR_VREFEN</a>.</p>
 
 </div>
 </div>
@@ -1732,14 +1532,6 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>ADC Read the End-of-Conversion Flag. </p>
-<p>This flag is set after all channels of a regular or injected group have been converted.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>bool. End of conversion flag.</dd></dl>
 <p>This flag is set by hardware at the end of each regular conversion of a channel when a new data is available in the ADCx_DR register.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1749,9 +1541,9 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool. End of conversion flag. </dd></dl>
 
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00435">435</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
+<p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00048">48</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00040">ADC_ISR</a>, <a class="el" href="adc__common__v2_8h_source.html#l00069">ADC_ISR_EOC</a>, <a class="el" href="adc__common__v1_8h_source.html#l00052">ADC_SR</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00192">ADC_SR_EOC</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00040">ADC_ISR</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00069">ADC_ISR_EOC</a>.</p>
 
 </div>
 </div>
@@ -1777,19 +1569,11 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>bool. End of conversion flag.</dd></dl>
-<p>This flag is set after all channels of an injected group have been converted.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="section return"><dt>Returns</dt><dd>bool. End of conversion flag. </dd></dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00536">536</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00504">504</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00040">ADC_ISR</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00100">ADC_ISR_JEOC</a>, <a class="el" href="adc__common__v1_8h_source.html#l00052">ADC_SR</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00191">ADC_SR_JEOC</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00040">ADC_ISR</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00100">ADC_ISR_JEOC</a>.</p>
 
 </div>
 </div>
@@ -1847,7 +1631,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool. End of conversion flag. </dd></dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00551">551</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00519">519</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00040">ADC_ISR</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00098">ADC_ISR_JEOS</a>.</p>
 
@@ -1916,7 +1700,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__adc__file_gae55af0a75a5724cb3776a283f786e939_icgraph.png" border="0" usemap="#group__adc__file_gae55af0a75a5724cb3776a283f786e939_icgraph" alt=""/></div>
 <map name="group__adc__file_gae55af0a75a5724cb3776a283f786e939_icgraph" id="group__adc__file_gae55af0a75a5724cb3776a283f786e939_icgraph">
-<area shape="rect" id="node2" href="group__adc__channel.html#ga1ac745d1052240adb5cf55d3ed8b5aad" title="Turn off the ADC This will actually block if it needs to turn off a currently running conversion..." alt="" coords="177,5,284,32"/>
+<area shape="rect" id="node2" href="group__adc__file.html#ga1ac745d1052240adb5cf55d3ed8b5aad" title="Turn off the ADC This will actually block if it needs to turn off a currently running conversion..." alt="" coords="177,5,284,32"/>
 </map>
 </div>
 </p>
@@ -1979,15 +1763,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>ADC Off. </p>
-<p>Turn off the ADC This will actually block if it needs to turn off a currently running conversion, as per ref man.</p>
-<p>Turn off the ADC to reduce power consumption to a few microamps.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>.</td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Turn off the ADC This will actually block if it needs to turn off a currently running conversion, as per ref man. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__adc__file.html#ga8bc7f5a8d119376087ff5b73db34b013" title="Turn off the ADC (async) This will actually block if it needs to turn off a currently running convers...">adc_power_off_async</a> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1996,9 +1772,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00107">107</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
+<p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00139">139</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, <a class="el" href="adc__common__v1_8h_source.html#l00299">ADC_CR2_ADON</a>, <a class="el" href="adc__common__v2_8c_source.html#l00127">adc_is_power_off()</a>, and <a class="el" href="adc__common__v2_8c_source.html#l00107">adc_power_off_async()</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8c_source.html#l00127">adc_is_power_off()</a>, and <a class="el" href="adc__common__v2_8c_source.html#l00107">adc_power_off_async()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -2047,7 +1823,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__adc__file_ga8bc7f5a8d119376087ff5b73db34b013_icgraph.png" border="0" usemap="#group__adc__file_ga8bc7f5a8d119376087ff5b73db34b013_icgraph" alt=""/></div>
 <map name="group__adc__file_ga8bc7f5a8d119376087ff5b73db34b013_icgraph" id="group__adc__file_ga8bc7f5a8d119376087ff5b73db34b013_icgraph">
-<area shape="rect" id="node2" href="group__adc__channel.html#ga1ac745d1052240adb5cf55d3ed8b5aad" title="Turn off the ADC This will actually block if it needs to turn off a currently running conversion..." alt="" coords="203,5,309,32"/>
+<area shape="rect" id="node2" href="group__adc__file.html#ga1ac745d1052240adb5cf55d3ed8b5aad" title="Turn off the ADC This will actually block if it needs to turn off a currently running conversion..." alt="" coords="203,5,309,32"/>
 </map>
 </div>
 </p>
@@ -2170,7 +1946,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Unsigned int32 conversion result. </dd></dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00571">571</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00539">539</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2__multi_8h_source.html#l00068">ADC_JDR1</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00069">ADC_JDR2</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00070">ADC_JDR3</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00071">ADC_JDR4</a>.</p>
 
@@ -2191,14 +1967,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>ADC Read from the Regular Conversion Result Register. </p>
-<p>The result read back is 12 bits, right or left aligned within the first 16 bits. For ADC1 only, the higher 16 bits will hold the result from ADC2 if an appropriate dual mode has been set </p><dl class="section see"><dt>See also</dt><dd>adc_set_dual_mode.</dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Unsigned int32 conversion result.</dd></dl>
 <p>The result read back is 12 bits, right or left aligned within the first 16 bits.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2208,7 +1976,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Unsigned int32 conversion result. </dd></dl>
 
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00465">465</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
+<p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00295">295</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00054">ADC_DR</a>.</p>
 
@@ -2247,9 +2015,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00630">630</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00598">598</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00058">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00468">ADC_CCR_CKMODE_MASK</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00058">ADC_CCR</a>, and <a class="el" href="adc_8h_source.html#l00472">ADC_CCR_CKMODE_MASK</a>.</p>
 
 </div>
 </div>
@@ -2267,20 +2035,17 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>ADC Enable Continuous Conversion Mode. </p>
-<p>Enable Continuous Conversion Mode In this mode the ADC starts a new conversion of a single channel or a channel group immediately following completion of the previous channel group conversion.</p>
-<p>In this mode the ADC starts a new conversion of a single channel or a channel group immediately following completion of the previous channel group conversion.</p>
+<p>Enable Continuous Conversion Mode In this mode the ADC starts a new conversion of a single channel or a channel group immediately following completion of the previous channel group conversion. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00507">507</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
+<p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00153">153</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00122">ADC_CFGR1_CONT</a>, <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00291">ADC_CR2_CONT</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00122">ADC_CFGR1_CONT</a>.</p>
 
 </div>
 </div>
@@ -2325,9 +2090,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00599">599</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00567">567</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2__multi_8h_source.html#l00062">ADC_OFR1</a>, <a class="el" href="adc_8h_source.html#l00304">ADC_OFR1_OFFSET1_EN</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00063">ADC_OFR2</a>, <a class="el" href="adc_8h_source.html#l00317">ADC_OFR2_OFFSET2_EN</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00064">ADC_OFR3</a>, <a class="el" href="adc_8h_source.html#l00330">ADC_OFR3_OFFSET3_EN</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00065">ADC_OFR4</a>, and <a class="el" href="adc_8h_source.html#l00343">ADC_OFR4_OFFSET4_EN</a>.</p>
+<p>References <a class="el" href="adc__common__v2__multi_8h_source.html#l00062">ADC_OFR1</a>, <a class="el" href="adc_8h_source.html#l00308">ADC_OFR1_OFFSET1_EN</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00063">ADC_OFR2</a>, <a class="el" href="adc_8h_source.html#l00321">ADC_OFR2_OFFSET2_EN</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00064">ADC_OFR3</a>, <a class="el" href="adc_8h_source.html#l00334">ADC_OFR3_OFFSET3_EN</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00065">ADC_OFR4</a>, and <a class="el" href="adc_8h_source.html#l00347">ADC_OFR4_OFFSET4_EN</a>.</p>
 
 </div>
 </div>
@@ -2372,9 +2137,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00506">506</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00474">474</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2__multi_8h_source.html#l00059">ADC_JSQR</a>, <a class="el" href="adc_8h_source.html#l00253">ADC_JSQR_JL_VAL</a>, and <a class="el" href="adc_8h_source.html#l00252">ADC_JSQR_JSQ_VAL</a>.</p>
+<p>References <a class="el" href="adc__common__v2__multi_8h_source.html#l00059">ADC_JSQR</a>, <a class="el" href="adc_8h_source.html#l00257">ADC_JSQR_JL_VAL</a>, and <a class="el" href="adc_8h_source.html#l00256">ADC_JSQR_JSQ_VAL</a>.</p>
 
 </div>
 </div>
@@ -2395,15 +2160,14 @@ Here is the caller graph for this function:</div>
 <p>ADC Set the Data as Left Aligned. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>.</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC base address (<a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00408">408</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
+<p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00187">187</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00139">ADC_CFGR1_ALIGN</a>, <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00285">ADC_CR2_ALIGN</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00139">ADC_CFGR1_ALIGN</a>.</p>
 
 </div>
 </div>
@@ -2441,7 +2205,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00648">648</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00616">616</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00058">ADC_CCR</a>.</p>
 
@@ -2478,15 +2242,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>ADC Set a Regular Channel Conversion Sequence. </p>
-<p>Define a sequence of channels to be converted as a regular group with a length from 1 to ADC_REGULAR_SEQUENCE_MAX channels. If this is called during conversion, the current conversion is reset and conversion begins again with the newly defined group.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block base address <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">length</td><td>Unsigned int8. Number of channels in the group. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">channel</td><td>Unsigned int8[]. Set of channels in sequence, integers 0..31.</td></tr>
-  </table>
-  </dd>
-</dl>
 <p>Define a sequence of channels to be converted as a regular group with a length from 1 to 16 channels. If this is called during conversion, the current conversion is reset and conversion begins again with the newly defined group.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2497,9 +2252,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00574">574</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
+<p>Definition at line <a class="el" href="adc__common__v2__multi_8c_source.html#l00099">99</a> of file <a class="el" href="adc__common__v2__multi_8c_source.html">adc_common_v2_multi.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2__multi_8h_source.html#l00053">ADC_SQR1</a>, <a class="el" href="adc__common__v1_8h_source.html#l00313">ADC_SQR1_L_LSB</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00150">ADC_SQR1_L_SHIFT</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00054">ADC_SQR2</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00055">ADC_SQR3</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00056">ADC_SQR4</a>.</p>
+<p>References <a class="el" href="adc__common__v2__multi_8h_source.html#l00053">ADC_SQR1</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00150">ADC_SQR1_L_SHIFT</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00054">ADC_SQR2</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00055">ADC_SQR3</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00056">ADC_SQR4</a>.</p>
 
 </div>
 </div>
@@ -2560,15 +2315,14 @@ Here is the caller graph for this function:</div>
 <p>ADC Set the Data as Right Aligned. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>.</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC base address (<a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00420">420</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
+<p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00196">196</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00139">ADC_CFGR1_ALIGN</a>, <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00285">ADC_CR2_ALIGN</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00139">ADC_CFGR1_ALIGN</a>.</p>
 
 </div>
 </div>
@@ -2615,7 +2369,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc__common__v2__multi_8c_source.html#l00046">46</a> of file <a class="el" href="adc__common__v2__multi_8c_source.html">adc_common_v2_multi.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00061">ADC_SMPR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00064">ADC_SMPR2</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00050">ADC_SMPR1</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00047">ADC_SMPR2</a>.</p>
 
 </div>
 </div>
@@ -2655,7 +2409,7 @@ Here is the caller graph for this function:</div>
 
 <p>Definition at line <a class="el" href="adc__common__v2__multi_8c_source.html#l00071">71</a> of file <a class="el" href="adc__common__v2__multi_8c_source.html">adc_common_v2_multi.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00061">ADC_SMPR1</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00064">ADC_SMPR2</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00050">ADC_SMPR1</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00047">ADC_SMPR2</a>.</p>
 
 </div>
 </div>
@@ -2673,20 +2427,17 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>ADC Enable Single Conversion Mode. </p>
-<p>Enable Single Conversion Mode In this mode the ADC performs a conversion of one channel or a channel group and stops.</p>
-<p>In this mode the ADC performs a conversion of one channel or a channel group and stops.</p>
+<p>Enable Single Conversion Mode In this mode the ADC performs a conversion of one channel or a channel group and stops. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>.</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00523">523</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
+<p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00165">165</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, <a class="el" href="adc__common__v2_8h_source.html#l00122">ADC_CFGR1_CONT</a>, <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc__common__v1_8h_source.html#l00291">ADC_CR2_CONT</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00046">ADC_CFGR1</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00122">ADC_CFGR1_CONT</a>.</p>
 
 </div>
 </div>
@@ -2723,48 +2474,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00461">461</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00429">429</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00052">ADC_TR1</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00049">ADC_TR2</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00051">ADC_TR3</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ga1385e9ff5bd39f15330d2c8d88ef54e6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void adc_set_watchdog_high_threshold </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>adc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>threshold</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>ADC Set Analog Watchdog Upper Threshold. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">threshold</td><td>Unsigned int8. Upper threshold value </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00535">535</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
-
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00306">ADC_HT_MSK</a>.</p>
 
 </div>
 </div>
@@ -2801,48 +2513,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00480">480</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00448">448</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
 <p>References <a class="el" href="adc__common__v2_8h_source.html#l00052">ADC_TR1</a>, <a class="el" href="adc__common__v2__multi_8h_source.html#l00049">ADC_TR2</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00051">ADC_TR3</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="gad625ff5ca8d177b0df9673274623f927"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void adc_set_watchdog_low_threshold </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>adc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>threshold</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>ADC Set Analog Watchdog Lower Threshold. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">threshold</td><td>Unsigned int8. Lower threshold value </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00551">551</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
-
-<p>References <a class="el" href="adc__common__v1_8h_source.html#l00308">ADC_LT_MSK</a>.</p>
 
 </div>
 </div>
@@ -2864,22 +2537,14 @@ Here is the caller graph for this function:</div>
 <p>This starts conversion on a set of defined injected channels. It is cleared by hardware once conversion starts.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a></td></tr>
-  </table>
-  </dd>
-</dl>
-<p>This starts conversion on a set of defined injected channels if the ADC trigger is set to be a software trigger. It is cleared by hardware once conversion starts.</p>
-<p>Special F1 Note this is a software trigger and requires triggering to be enabled and the trigger source to be set appropriately otherwise conversion will not start. This is not the same as the ADC start conversion operation.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a> </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc_8c_source.html#l00443">443</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<p>Definition at line <a class="el" href="adc_8c_source.html#l00411">411</a> of file <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00044">ADC_CR</a>, <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00122">ADC_CR_JADSTART</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00044">ADC_CR</a>, and <a class="el" href="adc__common__v2__multi_8h_source.html#l00122">ADC_CR_JADSTART</a>.</p>
 
 </div>
 </div>
@@ -2898,14 +2563,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>ADC Software Triggered Conversion on Regular Channels. </p>
-<p>This starts conversion on a set of defined regular channels if the ADC trigger is set to be a software trigger. It is cleared by hardware once conversion starts.</p>
-<p>Special F1 Note this is a software trigger and requires triggering to be enabled and the trigger source to be set appropriately otherwise conversion will not start. This is not the same as the ADC start conversion operation.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adc</td><td>Unsigned int32. ADC block register address base <a class="el" href="group__adc__reg__base.html">ADC register base addresses</a>.</td></tr>
-  </table>
-  </dd>
-</dl>
 <p>This starts conversion on a set of defined regular channels. It is cleared by hardware once conversion starts.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2914,9 +2571,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="adc__common__v1_8c_source.html#l00695">695</a> of file <a class="el" href="adc__common__v1_8c_source.html">adc_common_v1.c</a>.</p>
+<p>Definition at line <a class="el" href="adc__common__v2_8c_source.html#l00348">348</a> of file <a class="el" href="adc__common__v2_8c_source.html">adc_common_v2.c</a>.</p>
 
-<p>References <a class="el" href="adc__common__v2_8h_source.html#l00044">ADC_CR</a>, <a class="el" href="adc__common__v1_8h_source.html#l00058">ADC_CR2</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00096">ADC_CR_ADSTART</a>.</p>
+<p>References <a class="el" href="adc__common__v2_8h_source.html#l00044">ADC_CR</a>, and <a class="el" href="adc__common__v2_8h_source.html#l00096">ADC_CR_ADSTART</a>.</p>
 
 </div>
 </div>
@@ -2925,7 +2582,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 19 2016 01:21:51 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 19 2016 02:21:43 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -19,5 +19,5 @@ var pwr__common__l01_8h =
       [ "PWR_SCALE2", "pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19fa7210fec0c5b6d36e39a19ff4f3235cce", null ],
       [ "PWR_SCALE3", "pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19fa8a1f79e1e14d8083b39a96146d2ba01c", null ]
     ] ],
-    [ "pwr_set_vos_scale", "pwr__common__l01_8h.html#a5c20c3e54554d82e05cf53cc02fba118", null ]
+    [ "pwr_set_vos_scale", "group__pwr__file.html#ga5c20c3e54554d82e05cf53cc02fba118", null ]
 ];

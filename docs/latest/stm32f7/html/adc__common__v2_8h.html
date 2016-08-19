@@ -275,16 +275,16 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga8bc7f5a8d119376087ff5b73db34b013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn off the ADC (async) This will actually block if it needs to turn off a currently running conversion, as per ref man.  <a href="group__adc__defines.html#ga8bc7f5a8d119376087ff5b73db34b013">More...</a><br /></td></tr>
 <tr class="separator:ga8bc7f5a8d119376087ff5b73db34b013"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#ga1ac745d1052240adb5cf55d3ed8b5aad">adc_power_off</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Off.  <a href="group__adc__defines.html#ga1ac745d1052240adb5cf55d3ed8b5aad">More...</a><br /></td></tr>
+<tr class="memdesc:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn off the ADC This will actually block if it needs to turn off a currently running conversion, as per ref man.  <a href="group__adc__defines.html#ga1ac745d1052240adb5cf55d3ed8b5aad">More...</a><br /></td></tr>
 <tr class="separator:ga1ac745d1052240adb5cf55d3ed8b5aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae55af0a75a5724cb3776a283f786e939"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#gae55af0a75a5724cb3776a283f786e939">adc_is_power_off</a> (uint32_t adc)</td></tr>
 <tr class="memdesc:gae55af0a75a5724cb3776a283f786e939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the ADC powered down?  <a href="group__adc__defines.html#gae55af0a75a5724cb3776a283f786e939">More...</a><br /></td></tr>
 <tr class="separator:gae55af0a75a5724cb3776a283f786e939"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga366654c02369a57e3a79cb395966fbeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#ga366654c02369a57e3a79cb395966fbeb">adc_set_continuous_conversion_mode</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga366654c02369a57e3a79cb395966fbeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Continuous Conversion Mode.  <a href="group__adc__defines.html#ga366654c02369a57e3a79cb395966fbeb">More...</a><br /></td></tr>
+<tr class="memdesc:ga366654c02369a57e3a79cb395966fbeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Continuous Conversion Mode In this mode the ADC starts a new conversion of a single channel or a channel group immediately following completion of the previous channel group conversion.  <a href="group__adc__defines.html#ga366654c02369a57e3a79cb395966fbeb">More...</a><br /></td></tr>
 <tr class="separator:ga366654c02369a57e3a79cb395966fbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3b730353f6e1bb97b546101edb6c80c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#ga3b730353f6e1bb97b546101edb6c80c0">adc_set_single_conversion_mode</a> (uint32_t adc)</td></tr>
-<tr class="memdesc:ga3b730353f6e1bb97b546101edb6c80c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Enable Single Conversion Mode.  <a href="group__adc__defines.html#ga3b730353f6e1bb97b546101edb6c80c0">More...</a><br /></td></tr>
+<tr class="memdesc:ga3b730353f6e1bb97b546101edb6c80c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Single Conversion Mode In this mode the ADC performs a conversion of one channel or a channel group and stops.  <a href="group__adc__defines.html#ga3b730353f6e1bb97b546101edb6c80c0">More...</a><br /></td></tr>
 <tr class="separator:ga3b730353f6e1bb97b546101edb6c80c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gace14daa8c089f21f710eeeebce100227"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__adc__defines.html#gace14daa8c089f21f710eeeebce100227">adc_set_regular_sequence</a> (uint32_t adc, uint8_t length, uint8_t channel[])</td></tr>
 <tr class="memdesc:gace14daa8c089f21f710eeeebce100227"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Set a Regular Channel Conversion Sequence.  <a href="group__adc__defines.html#gace14daa8c089f21f710eeeebce100227">More...</a><br /></td></tr>
@@ -356,7 +356,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_6a7820b97a7704ff85bcff20dea7ce23.html">libopencm3</a></li><li class="navelem"><a class="el" href="dir_9417be1a17550340f19505b8a524537b.html">stm32</a></li><li class="navelem"><a class="el" href="dir_f1e5530a7e66c302e9dbc049fc6df9a4.html">common</a></li><li class="navelem"><a class="el" href="adc__common__v2_8h.html">adc_common_v2.h</a></li>
-    <li class="footer">Generated on Fri Aug 19 2016 01:22:09 for libopencm3 by
+    <li class="footer">Generated on Fri Aug 19 2016 02:22:00 for libopencm3 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
