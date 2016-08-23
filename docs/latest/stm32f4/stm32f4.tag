@@ -22287,6 +22287,20 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>rcc_pllsai_config</name>
+      <anchorfile>group__rcc__file.html</anchorfile>
+      <anchor>gabcfc614bfe24c5cc65d6bf1332d8dcca</anchor>
+      <arglist>(uint16_t n, uint16_t p, uint16_t q, uint16_t r)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_pllsai_postscalers</name>
+      <anchorfile>group__rcc__file.html</anchorfile>
+      <anchor>ga2dbe8fab0a12558c1786d1fd7d170752</anchor>
+      <arglist>(uint8_t q, uint8_t r)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>rcc_set_sysclk_source</name>
       <anchorfile>group__rcc__file.html</anchorfile>
       <anchor>ga2c291271812c333d975807cd5ec99a36</anchor>
@@ -22331,15 +22345,15 @@
       <type>void</type>
       <name>rcc_set_main_pll_hsi</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>gacfad289e21cd0d348cf2a765ce702aff</anchor>
-      <arglist>(uint32_t pllm, uint32_t plln, uint32_t pllp, uint32_t pllq)</arglist>
+      <anchor>gadd7fcba59e33732e22edfb02a749993c</anchor>
+      <arglist>(uint32_t pllm, uint32_t plln, uint32_t pllp, uint32_t pllq, uint32_t pllr)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_main_pll_hse</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>gac9cad56153485b68efc5c3b444beddd4</anchor>
-      <arglist>(uint32_t pllm, uint32_t plln, uint32_t pllp, uint32_t pllq)</arglist>
+      <anchor>ga90ff5a0ecc1188ac3139fee7db3201bd</anchor>
+      <arglist>(uint32_t pllm, uint32_t plln, uint32_t pllp, uint32_t pllq, uint32_t pllr)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
@@ -25115,6 +25129,34 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIP_DIV2</name>
+      <anchorfile>group__rcc__pllsaicfgr__pllsaip.html</anchorfile>
+      <anchor>ga65a5040f78400e178595e44d973a2ec4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIP_DIV4</name>
+      <anchorfile>group__rcc__pllsaicfgr__pllsaip.html</anchorfile>
+      <anchor>gadd0eedb6ef77988223fdd441bce1b6f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIP_DIV6</name>
+      <anchorfile>group__rcc__pllsaicfgr__pllsaip.html</anchorfile>
+      <anchor>ga709086d0edd20bb2418d31deadddd300</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIP_DIV8</name>
+      <anchorfile>group__rcc__pllsaicfgr__pllsaip.html</anchorfile>
+      <anchor>gac12dc7e1ef24c946b754308e6c3178e2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RCC_PLLSAICFGR_PLLSAIN_SHIFT</name>
       <anchorfile>rcc_8h.html</anchorfile>
       <anchor>a944ebe2ee56cbeea81d19bca9a5912b6</anchor>
@@ -26728,20 +26770,6 @@
       <anchor>ac02ed5c09dba04a01037f1a8283ed18f</anchor>
       <arglist>(void)</arglist>
     </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>rcc_pllsai_config</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a4c139296dba9d8ec9acc581574ec0c03</anchor>
-      <arglist>(uint16_t pllsain, uint16_t pllsaiq, uint16_t pllsair)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static void</type>
-      <name>rcc_ltdc_set_clock_divr</name>
-      <anchorfile>rcc_8h.html</anchorfile>
-      <anchor>a7d0737d87e753df8815f5463236d0039</anchor>
-      <arglist>(uint8_t pllsaidivr)</arglist>
-    </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_osc_ready_int_clear</name>
@@ -26835,6 +26863,20 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>rcc_pllsai_config</name>
+      <anchorfile>group__rcc__file.html</anchorfile>
+      <anchor>gabcfc614bfe24c5cc65d6bf1332d8dcca</anchor>
+      <arglist>(uint16_t n, uint16_t p, uint16_t q, uint16_t r)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_pllsai_postscalers</name>
+      <anchorfile>group__rcc__file.html</anchorfile>
+      <anchor>ga2dbe8fab0a12558c1786d1fd7d170752</anchor>
+      <arglist>(uint8_t q, uint8_t r)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>rcc_set_sysclk_source</name>
       <anchorfile>group__rcc__file.html</anchorfile>
       <anchor>ga2c291271812c333d975807cd5ec99a36</anchor>
@@ -26879,15 +26921,15 @@
       <type>void</type>
       <name>rcc_set_main_pll_hsi</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>gacfad289e21cd0d348cf2a765ce702aff</anchor>
-      <arglist>(uint32_t pllm, uint32_t plln, uint32_t pllp, uint32_t pllq)</arglist>
+      <anchor>gadd7fcba59e33732e22edfb02a749993c</anchor>
+      <arglist>(uint32_t pllm, uint32_t plln, uint32_t pllp, uint32_t pllq, uint32_t pllr)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_main_pll_hse</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>gac9cad56153485b68efc5c3b444beddd4</anchor>
-      <arglist>(uint32_t pllm, uint32_t plln, uint32_t pllp, uint32_t pllq)</arglist>
+      <anchor>ga90ff5a0ecc1188ac3139fee7db3201bd</anchor>
+      <arglist>(uint32_t pllm, uint32_t plln, uint32_t pllp, uint32_t pllq, uint32_t pllr)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>
@@ -38572,6 +38614,13 @@
       <name>pllq</name>
       <anchorfile>structrcc__clock__scale.html</anchorfile>
       <anchor>a2161bf15792f7d00b9943837680b9029</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>uint8_t</type>
+      <name>pllr</name>
+      <anchorfile>structrcc__clock__scale.html</anchorfile>
+      <anchor>aafe0681bc8266d636302d1a24faee77b</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -51463,6 +51512,7 @@
     <name>rcc_defines</name>
     <title>RCC Defines</title>
     <filename>group__rcc__defines.html</filename>
+    <subgroup>rcc_pllsaicfgr_pllsaip</subgroup>
     <member kind="function">
       <type>void</type>
       <name>rcc_peripheral_enable_clock</name>
@@ -51546,6 +51596,39 @@
       <anchorfile>group__rcc__defines.html</anchorfile>
       <anchor>ga1dfd0e0ba16285ce16e782e07af2cafa</anchor>
       <arglist>(enum rcc_osc osc)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>rcc_pllsaicfgr_pllsaip</name>
+    <title>PLLSAICFGR PLLSAIP values</title>
+    <filename>group__rcc__pllsaicfgr__pllsaip.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIP_DIV2</name>
+      <anchorfile>group__rcc__pllsaicfgr__pllsaip.html</anchorfile>
+      <anchor>ga65a5040f78400e178595e44d973a2ec4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIP_DIV4</name>
+      <anchorfile>group__rcc__pllsaicfgr__pllsaip.html</anchorfile>
+      <anchor>gadd0eedb6ef77988223fdd441bce1b6f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIP_DIV6</name>
+      <anchorfile>group__rcc__pllsaicfgr__pllsaip.html</anchorfile>
+      <anchor>ga709086d0edd20bb2418d31deadddd300</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RCC_PLLSAICFGR_PLLSAIP_DIV8</name>
+      <anchorfile>group__rcc__pllsaicfgr__pllsaip.html</anchorfile>
+      <anchor>gac12dc7e1ef24c946b754308e6c3178e2</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="group">
@@ -65369,6 +65452,20 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>rcc_pllsai_config</name>
+      <anchorfile>group__rcc__file.html</anchorfile>
+      <anchor>gabcfc614bfe24c5cc65d6bf1332d8dcca</anchor>
+      <arglist>(uint16_t n, uint16_t p, uint16_t q, uint16_t r)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>rcc_pllsai_postscalers</name>
+      <anchorfile>group__rcc__file.html</anchorfile>
+      <anchor>ga2dbe8fab0a12558c1786d1fd7d170752</anchor>
+      <arglist>(uint8_t q, uint8_t r)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>rcc_set_sysclk_source</name>
       <anchorfile>group__rcc__file.html</anchorfile>
       <anchor>ga2c291271812c333d975807cd5ec99a36</anchor>
@@ -65413,15 +65510,15 @@
       <type>void</type>
       <name>rcc_set_main_pll_hsi</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>gacfad289e21cd0d348cf2a765ce702aff</anchor>
-      <arglist>(uint32_t pllm, uint32_t plln, uint32_t pllp, uint32_t pllq)</arglist>
+      <anchor>gadd7fcba59e33732e22edfb02a749993c</anchor>
+      <arglist>(uint32_t pllm, uint32_t plln, uint32_t pllp, uint32_t pllq, uint32_t pllr)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>rcc_set_main_pll_hse</name>
       <anchorfile>group__rcc__file.html</anchorfile>
-      <anchor>gac9cad56153485b68efc5c3b444beddd4</anchor>
-      <arglist>(uint32_t pllm, uint32_t plln, uint32_t pllp, uint32_t pllq)</arglist>
+      <anchor>ga90ff5a0ecc1188ac3139fee7db3201bd</anchor>
+      <arglist>(uint32_t pllm, uint32_t plln, uint32_t pllp, uint32_t pllq, uint32_t pllr)</arglist>
     </member>
     <member kind="function">
       <type>uint32_t</type>

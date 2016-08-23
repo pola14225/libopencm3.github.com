@@ -1,5 +1,6 @@
 var group__rcc__defines =
 [
+    [ "PLLSAICFGR PLLSAIP values", "group__rcc__pllsaicfgr__pllsaip.html", "group__rcc__pllsaicfgr__pllsaip" ],
     [ "rcc_is_osc_ready", "group__rcc__defines.html#ga2706213ae449214826f797ac93c51d52", null ],
     [ "rcc_periph_clock_disable", "group__rcc__defines.html#ga87325ef1019f246cd84ba8aa73100721", null ],
     [ "rcc_periph_clock_enable", "group__rcc__defines.html#ga90aa2b7801b2b42debc0536d38c5b07c", null ],

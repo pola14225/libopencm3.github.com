@@ -1,3 +1,4 @@
 <map id="RCC Defines" name="RCC Defines">
-<area shape="rect" id="node1" href="$group__STM32F4xx__defines.html" title="Defined Constants and Types for the STM32F4xx series. " alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node1" href="$group__STM32F4xx__defines.html" title="Defined Constants and Types for the STM32F4xx series. " alt="" coords="5,13,148,39"/>
+<area shape="rect" id="node3" href="$group__rcc__pllsaicfgr__pllsaip.html" title="PLLSAICFGR PLLSAIP\l values" alt="" coords="345,5,508,47"/>
 </map>

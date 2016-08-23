@@ -10,6 +10,7 @@ var searchData=
   ['plln',['plln',['../structrcc__clock__scale.html#a94dcd6599cd32825ba32f3239f7ea194',1,'rcc_clock_scale']]],
   ['pllp',['pllp',['../structrcc__clock__scale.html#a584ebe494b799187784b8fa2daac0378',1,'rcc_clock_scale']]],
   ['pllq',['pllq',['../structrcc__clock__scale.html#a2161bf15792f7d00b9943837680b9029',1,'rcc_clock_scale']]],
+  ['pllr',['pllr',['../structrcc__clock__scale.html#aafe0681bc8266d636302d1a24faee77b',1,'rcc_clock_scale']]],
   ['power_5fcontrol_5fbase',['POWER_CONTROL_BASE',['../memorymap_8h.html#abe53be146f06a961f5fcf569f99a916e',1,'memorymap.h']]],
   ['power_5fsave',['power_save',['../structrcc__clock__scale.html#a7adcf19ff4ad3fb9a7c72d5711bbd363',1,'rcc_clock_scale']]],
   ['ppre1',['ppre1',['../structrcc__clock__scale.html#a048213f39f44ac722aa64a67b3a2d24c',1,'rcc_clock_scale']]],
@@ -84,5 +85,6 @@ var searchData=
   ['pwr_5fvoltage_5fhigh',['pwr_voltage_high',['../group__pwr__defines.html#gadf5ec836f6a94f6ea6fb99b16e9efe1b',1,'pwr_voltage_high(void):&#160;pwr_common_all.c'],['../group__pwr__file.html#gadf5ec836f6a94f6ea6fb99b16e9efe1b',1,'pwr_voltage_high(void):&#160;pwr_common_all.c']]],
   ['pwr_5fvoltage_5fregulator_5flow_5fpower_5fin_5fstop',['pwr_voltage_regulator_low_power_in_stop',['../group__pwr__defines.html#gaa985590fc7eadc3a93a41fb59a85c9e1',1,'pwr_voltage_regulator_low_power_in_stop(void):&#160;pwr_common_all.c'],['../group__pwr__file.html#gaa985590fc7eadc3a93a41fb59a85c9e1',1,'pwr_voltage_regulator_low_power_in_stop(void):&#160;pwr_common_all.c']]],
   ['pwr_5fvoltage_5fregulator_5fon_5fin_5fstop',['pwr_voltage_regulator_on_in_stop',['../group__pwr__defines.html#ga2f84386ff3dc643ecd18a2d23d7e5cbd',1,'pwr_voltage_regulator_on_in_stop(void):&#160;pwr_common_all.c'],['../group__pwr__file.html#ga2f84386ff3dc643ecd18a2d23d7e5cbd',1,'pwr_voltage_regulator_on_in_stop(void):&#160;pwr_common_all.c']]],
-  ['pwr_5fvos_5fscale',['pwr_vos_scale',['../pwr_8h.html#a763ebcf54b3996fea95742ecf772f19f',1,'pwr_vos_scale():&#160;pwr.h'],['../pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19f',1,'pwr_vos_scale():&#160;pwr_common_l01.h']]]
+  ['pwr_5fvos_5fscale',['pwr_vos_scale',['../pwr_8h.html#a763ebcf54b3996fea95742ecf772f19f',1,'pwr_vos_scale():&#160;pwr.h'],['../pwr__common__l01_8h.html#a763ebcf54b3996fea95742ecf772f19f',1,'pwr_vos_scale():&#160;pwr_common_l01.h']]],
+  ['pllsaicfgr_20pllsaip_20values',['PLLSAICFGR PLLSAIP values',['../group__rcc__pllsaicfgr__pllsaip.html',1,'']]]
 ];
